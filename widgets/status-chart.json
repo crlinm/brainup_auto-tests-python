@@ -1,0 +1,81 @@
+[ {
+  "uid" : "af8889dfae7da1d3",
+  "name" : "test_mp_01_verify_redirection_to_description_page",
+  "time" : {
+    "start" : 1701681955223,
+    "stop" : 1701681955389,
+    "duration" : 166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ed9f43757e5c3cb",
+  "name" : "test_mp_06_verify_redirection_to_github",
+  "time" : {
+    "start" : 1701681985328,
+    "stop" : 1701681986359,
+    "duration" : 1031
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e988bcc7bdb977f6",
+  "name" : "test_mp_07_verify_redirection_to_contributors_page",
+  "time" : {
+    "start" : 1701681989664,
+    "stop" : 1701681989796,
+    "duration" : 132
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "243acfb026470c3d",
+  "name" : "test_mp_04_verify_redirection_to_contacts_page",
+  "time" : {
+    "start" : 1701681968155,
+    "stop" : 1701681968297,
+    "duration" : 142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f4fde90e0896e70",
+  "name" : "test_mp_08_verify_redirection_to_used_resources_page",
+  "time" : {
+    "start" : 1701681993178,
+    "stop" : 1701681993316,
+    "duration" : 138
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c36dd6e0dbd1e26",
+  "name" : "test_mp_02_verify_redirection_to_telegram_page",
+  "time" : {
+    "start" : 1701681958686,
+    "stop" : 1701681959944,
+    "duration" : 1258
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45b6da37348d36a7",
+  "name" : "test_mp_05_verify_redirection_to_specialists_page",
+  "time" : {
+    "start" : 1701681971670,
+    "stop" : 1701681981869,
+    "duration" : 10199
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "4d47056adc881a5b",
+  "name" : "test_mp_03_verify_redirection_to_donate_page",
+  "time" : {
+    "start" : 1701681963365,
+    "stop" : 1701681964688,
+    "duration" : 1323
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,156 @@
+{
+  "3c31b28278473c09e9802cf34a761fb2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "45b6da37348d36a7",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nselenium.common.exceptions.TimeoutException: Message: Can't find element by locator https://brainup.site/specialists",
+      "time" : {
+        "start" : 1701681971670,
+        "stop" : 1701681981869,
+        "duration" : 10199
+      }
+    } ]
+  },
+  "9b714ca45645375fd8223c62615c0a31" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "af8889dfae7da1d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701681955223,
+        "stop" : 1701681955389,
+        "duration" : 166
+      }
+    } ]
+  },
+  "226c874842c4733da064a7b34924af4e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "243acfb026470c3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701681968155,
+        "stop" : 1701681968297,
+        "duration" : 142
+      }
+    } ]
+  },
+  "c4a3f1b8056e7b9c512fd0eaa956691d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4d47056adc881a5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701681963365,
+        "stop" : 1701681964688,
+        "duration" : 1323
+      }
+    } ]
+  },
+  "6215605f7f9a95b5329b94248980024e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ed9f43757e5c3cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701681985328,
+        "stop" : 1701681986359,
+        "duration" : 1031
+      }
+    } ]
+  },
+  "43df35c0ef3ab6719310f8b9b9ee7530" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f4fde90e0896e70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701681993178,
+        "stop" : 1701681993316,
+        "duration" : 138
+      }
+    } ]
+  },
+  "d786a1c87c257d847f81151257654bfc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8c36dd6e0dbd1e26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701681958686,
+        "stop" : 1701681959944,
+        "duration" : 1258
+      }
+    } ]
+  },
+  "7f35157222d4ee10ae03453b93f8fb17" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e988bcc7bdb977f6",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: The link leads to an incorrect page",
+      "time" : {
+        "start" : 1701681989664,
+        "stop" : 1701681989796,
+        "duration" : 132
+      }
+    } ]
+  }
+}

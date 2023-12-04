@@ -1,0 +1,19 @@
+[ {
+  "values" : [ "main" ],
+  "name" : "GIT_BRANCH"
+}, {
+  "values" : [ "71c1576227f57587c813ccf0cc67a373560682c3" ],
+  "name" : "GIT_COMMIT_ID"
+}, {
+  "values" : [ "Merge pull request #24 from Brain-up/lambotik-patch-1" ],
+  "name" : "GIT_COMMIT_MESSAGE"
+}, {
+  "values" : [ "91555504+lambotik@users.noreply.github.com" ],
+  "name" : "GIT_COMMIT_AUTHOR_NAME"
+}, {
+  "values" : [ "2023-12-03 15:11:53 +0300" ],
+  "name" : "GIT_COMMIT_TIME"
+}, {
+  "values" : [ "119.0.6045.159" ],
+  "name" : "CHROME_VERSION"
+} ]
