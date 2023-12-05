@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 1,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "d14f6f06874fc7a1",
+      "status" : "passed",
+      "statusDetails" : "XPASS",
+      "time" : {
+        "start" : 1701807228666,
+        "stop" : 1701807229818,
+        "duration" : 1152
+      }
+    }, {
       "uid" : "7b70dbcbb2db7c0a",
       "status" : "passed",
       "statusDetails" : "XPASS",
@@ -33,11 +42,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "ee119982aed4d33b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701807211709,
+        "stop" : 1701807211870,
+        "duration" : 161
+      }
+    }, {
       "uid" : "9ab66a27429ab35d",
       "status" : "passed",
       "time" : {
@@ -60,11 +77,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "9a0a7d3a2ee99af6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701807225178,
+        "stop" : 1701807225318,
+        "duration" : 140
+      }
+    }, {
       "uid" : "adc3156e552a8af8",
       "status" : "passed",
       "time" : {
@@ -87,11 +112,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "394bc9a01df91cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701807220433,
+        "stop" : 1701807221739,
+        "duration" : 1306
+      }
+    }, {
       "uid" : "56863e75209da7b6",
       "status" : "passed",
       "time" : {
@@ -114,11 +147,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "d810db6987cd2bb4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701807233286,
+        "stop" : 1701807234462,
+        "duration" : 1176
+      }
+    }, {
       "uid" : "e99ba044ee2561e2",
       "status" : "passed",
       "time" : {
@@ -141,11 +182,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "d5253dd4411b9c00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701807241658,
+        "stop" : 1701807241792,
+        "duration" : 134
+      }
+    }, {
       "uid" : "1e6d9eb60813078d",
       "status" : "passed",
       "time" : {
@@ -168,11 +217,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "d38eaf6224aa67a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701807215346,
+        "stop" : 1701807216820,
+        "duration" : 1474
+      }
+    }, {
       "uid" : "79f5ee161ff1d985",
       "status" : "passed",
       "time" : {
@@ -194,12 +251,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 2,
+      "skipped" : 3,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "e37a16c4900f9728",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: The link leads to an incorrect page",
+      "time" : {
+        "start" : 1701807238030,
+        "stop" : 1701807238158,
+        "duration" : 128
+      }
+    }, {
       "uid" : "d17c239005b903d2",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nAssertionError: The link leads to an incorrect page",
