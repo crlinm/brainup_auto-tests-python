@@ -1,12 +1,12 @@
 {
-  "uid" : "d14f6f06874fc7a1",
+  "uid" : "25ee2694227baef2",
   "name" : "test_mp_05_verify_redirection_to_specialists_page",
   "fullName" : "tests.main_page_test.TestMainPage#test_mp_05_verify_redirection_to_specialists_page",
   "historyId" : "3c31b28278473c09e9802cf34a761fb2",
   "time" : {
-    "start" : 1701807228666,
-    "stop" : 1701807229818,
-    "duration" : 1152
+    "start" : 1701808405634,
+    "stop" : 1701808406306,
+    "duration" : 672
   },
   "status" : "passed",
   "statusMessage" : "XPASS",
@@ -15,9 +15,9 @@
   "beforeStages" : [ {
     "name" : "main_page_open",
     "time" : {
-      "start" : 1701807226151,
-      "stop" : 1701807228665,
-      "duration" : 2514
+      "start" : 1701808402794,
+      "stop" : 1701808405633,
+      "duration" : 2839
     },
     "status" : "passed",
     "steps" : [ ],
@@ -30,9 +30,9 @@
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1701807225379,
-      "stop" : 1701807226150,
-      "duration" : 771
+      "start" : 1701808401998,
+      "stop" : 1701808402794,
+      "duration" : 796
     },
     "status" : "passed",
     "steps" : [ ],
@@ -49,33 +49,33 @@
     "steps" : [ {
       "name" : "Click button \"MORE\".",
       "time" : {
-        "start" : 1701807228666,
-        "stop" : 1701807228742,
-        "duration" : 76
+        "start" : 1701808405634,
+        "stop" : 1701808405715,
+        "duration" : 81
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable: ('css selector', '#other-menu')",
         "time" : {
-          "start" : 1701807228666,
-          "stop" : 1701807228714,
-          "duration" : 48
+          "start" : 1701808405634,
+          "stop" : 1701808405680,
+          "duration" : 46
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1701807228695,
-            "stop" : 1701807228714,
-            "duration" : 19
+            "start" : 1701808405657,
+            "stop" : 1701808405680,
+            "duration" : 23
           },
           "status" : "passed",
           "steps" : [ {
             "name" : "Check elements are clickable: ('css selector', '#other-menu')",
             "time" : {
-              "start" : 1701807228695,
-              "stop" : 1701807228714,
-              "duration" : 19
+              "start" : 1701808405657,
+              "stop" : 1701808405680,
+              "duration" : 23
             },
             "status" : "passed",
             "steps" : [ ],
@@ -112,33 +112,33 @@
     }, {
       "name" : "Click button \"SPECIALISTS\".",
       "time" : {
-        "start" : 1701807228742,
-        "stop" : 1701807228804,
-        "duration" : 62
+        "start" : 1701808405715,
+        "stop" : 1701808405791,
+        "duration" : 76
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable: ('id', 'ember7')",
         "time" : {
-          "start" : 1701807228742,
-          "stop" : 1701807228773,
-          "duration" : 31
+          "start" : 1701808405715,
+          "stop" : 1701808405751,
+          "duration" : 36
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1701807228757,
-            "stop" : 1701807228773,
-            "duration" : 16
+            "start" : 1701808405732,
+            "stop" : 1701808405751,
+            "duration" : 19
           },
           "status" : "passed",
           "steps" : [ {
             "name" : "Check elements are clickable: ('id', 'ember7')",
             "time" : {
-              "start" : 1701807228757,
-              "stop" : 1701807228773,
-              "duration" : 16
+              "start" : 1701808405732,
+              "stop" : 1701808405751,
+              "duration" : 19
             },
             "status" : "passed",
             "steps" : [ ],
@@ -175,17 +175,17 @@
     }, {
       "name" : "Check page URL.",
       "time" : {
-        "start" : 1701807228804,
-        "stop" : 1701807229813,
-        "duration" : 1009
+        "start" : 1701808405791,
+        "stop" : 1701808406299,
+        "duration" : 508
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check url is presence: https://brainup.site/specialists",
         "time" : {
-          "start" : 1701807228804,
-          "stop" : 1701807229813,
-          "duration" : 1009
+          "start" : 1701808405791,
+          "stop" : 1701808406299,
+          "duration" : 508
         },
         "status" : "passed",
         "steps" : [ ],
@@ -213,9 +213,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1701807229819,
-      "stop" : 1701807229877,
-      "duration" : 58
+      "start" : 1701808406307,
+      "stop" : 1701808406368,
+      "duration" : 61
     },
     "status" : "passed",
     "steps" : [ ],
@@ -240,10 +240,10 @@
     "value" : "TestMainPage"
   }, {
     "name" : "host",
-    "value" : "fv-az661-801"
+    "value" : "fv-az520-882"
   }, {
     "name" : "thread",
-    "value" : "1904-MainThread"
+    "value" : "1913-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -270,11 +270,20 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 1,
-        "passed" : 2,
+        "passed" : 3,
         "unknown" : 0,
-        "total" : 3
+        "total" : 4
       },
       "items" : [ {
+        "uid" : "d14f6f06874fc7a1",
+        "status" : "passed",
+        "statusDetails" : "XPASS",
+        "time" : {
+          "start" : 1701807228666,
+          "stop" : 1701807229818,
+          "duration" : 1152
+        }
+      }, {
         "uid" : "7b70dbcbb2db7c0a",
         "status" : "passed",
         "statusDetails" : "XPASS",
@@ -296,6 +305,6 @@
     },
     "tags" : [ "@pytest.mark.xfail" ]
   },
-  "source" : "d14f6f06874fc7a1.json",
+  "source" : "25ee2694227baef2.json",
   "parameterValues" : [ ]
 }

@@ -1,22 +1,22 @@
 {
-  "uid" : "ee119982aed4d33b",
+  "uid" : "f377bf31c47b998d",
   "name" : "test_mp_01_verify_redirection_to_description_page",
   "fullName" : "tests.main_page_test.TestMainPage#test_mp_01_verify_redirection_to_description_page",
   "historyId" : "9b714ca45645375fd8223c62615c0a31",
   "time" : {
-    "start" : 1701807211709,
-    "stop" : 1701807211870,
-    "duration" : 161
+    "start" : 1701808387527,
+    "stop" : 1701808387662,
+    "duration" : 135
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "driver",
+    "name" : "main_page_open",
     "time" : {
-      "start" : 1701807199263,
-      "stop" : 1701807207753,
-      "duration" : 8490
+      "start" : 1701808383873,
+      "stop" : 1701808387527,
+      "duration" : 3654
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "main_page_open",
+    "name" : "driver",
     "time" : {
-      "start" : 1701807207753,
-      "stop" : 1701807211708,
-      "duration" : 3955
+      "start" : 1701808382672,
+      "stop" : 1701808383873,
+      "duration" : 1201
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,25 +47,25 @@
     "steps" : [ {
       "name" : "Check element is visible and clickable: ('id', 'ember5')",
       "time" : {
-        "start" : 1701807211709,
-        "stop" : 1701807211757,
+        "start" : 1701808387527,
+        "stop" : 1701808387575,
         "duration" : 48
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is clickable",
         "time" : {
-          "start" : 1701807211739,
-          "stop" : 1701807211757,
-          "duration" : 18
+          "start" : 1701808387552,
+          "stop" : 1701808387575,
+          "duration" : 23
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check elements are clickable: ('id', 'ember5')",
           "time" : {
-            "start" : 1701807211739,
-            "stop" : 1701807211757,
-            "duration" : 18
+            "start" : 1701808387552,
+            "stop" : 1701808387575,
+            "duration" : 23
           },
           "status" : "passed",
           "steps" : [ ],
@@ -103,9 +103,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1701807211871,
-      "stop" : 1701807211929,
-      "duration" : 58
+      "start" : 1701808387664,
+      "stop" : 1701808387727,
+      "duration" : 63
     },
     "status" : "passed",
     "steps" : [ ],
@@ -127,10 +127,10 @@
     "value" : "TestMainPage"
   }, {
     "name" : "host",
-    "value" : "fv-az661-801"
+    "value" : "fv-az520-882"
   }, {
     "name" : "thread",
-    "value" : "1904-MainThread"
+    "value" : "1913-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -157,11 +157,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 3,
+        "passed" : 4,
         "unknown" : 0,
-        "total" : 3
+        "total" : 4
       },
       "items" : [ {
+        "uid" : "ee119982aed4d33b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1701807211709,
+          "stop" : 1701807211870,
+          "duration" : 161
+        }
+      }, {
         "uid" : "9ab66a27429ab35d",
         "status" : "passed",
         "time" : {
@@ -181,6 +189,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "ee119982aed4d33b.json",
+  "source" : "f377bf31c47b998d.json",
   "parameterValues" : [ ]
 }

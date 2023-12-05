@@ -1,12 +1,12 @@
 {
-  "uid" : "9a0a7d3a2ee99af6",
+  "uid" : "1e01ce52d74dc6c",
   "name" : "test_mp_04_verify_redirection_to_contacts_page",
   "fullName" : "tests.main_page_test.TestMainPage#test_mp_04_verify_redirection_to_contacts_page",
   "historyId" : "226c874842c4733da064a7b34924af4e",
   "time" : {
-    "start" : 1701807225178,
-    "stop" : 1701807225318,
-    "duration" : 140
+    "start" : 1701808401760,
+    "stop" : 1701808401935,
+    "duration" : 175
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "main_page_open",
     "time" : {
-      "start" : 1701807222576,
-      "stop" : 1701807225178,
-      "duration" : 2602
+      "start" : 1701808398851,
+      "stop" : 1701808401760,
+      "duration" : 2909
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,9 +29,9 @@
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1701807221803,
-      "stop" : 1701807222576,
-      "duration" : 773
+      "start" : 1701808398054,
+      "stop" : 1701808398850,
+      "duration" : 796
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,25 +47,25 @@
     "steps" : [ {
       "name" : "Check element is visible and clickable: ('css selector', '#other-menu')",
       "time" : {
-        "start" : 1701807225179,
-        "stop" : 1701807225214,
-        "duration" : 35
+        "start" : 1701808401760,
+        "stop" : 1701808401808,
+        "duration" : 48
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is clickable",
         "time" : {
-          "start" : 1701807225196,
-          "stop" : 1701807225214,
-          "duration" : 18
+          "start" : 1701808401784,
+          "stop" : 1701808401808,
+          "duration" : 24
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check elements are clickable: ('css selector', '#other-menu')",
           "time" : {
-            "start" : 1701807225196,
-            "stop" : 1701807225214,
-            "duration" : 18
+            "start" : 1701808401784,
+            "stop" : 1701808401808,
+            "duration" : 24
           },
           "status" : "passed",
           "steps" : [ ],
@@ -95,25 +95,25 @@
     }, {
       "name" : "Check element is visible and clickable: ('id', 'ember6')",
       "time" : {
-        "start" : 1701807225242,
-        "stop" : 1701807225273,
-        "duration" : 31
+        "start" : 1701808401843,
+        "stop" : 1701808401880,
+        "duration" : 37
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is clickable",
         "time" : {
-          "start" : 1701807225257,
-          "stop" : 1701807225273,
-          "duration" : 16
+          "start" : 1701808401860,
+          "stop" : 1701808401880,
+          "duration" : 20
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check elements are clickable: ('id', 'ember6')",
           "time" : {
-            "start" : 1701807225257,
-            "stop" : 1701807225273,
-            "duration" : 16
+            "start" : 1701808401860,
+            "stop" : 1701808401880,
+            "duration" : 20
           },
           "status" : "passed",
           "steps" : [ ],
@@ -151,9 +151,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1701807225319,
-      "stop" : 1701807225377,
-      "duration" : 58
+      "start" : 1701808401936,
+      "stop" : 1701808401996,
+      "duration" : 60
     },
     "status" : "passed",
     "steps" : [ ],
@@ -175,10 +175,10 @@
     "value" : "TestMainPage"
   }, {
     "name" : "host",
-    "value" : "fv-az661-801"
+    "value" : "fv-az520-882"
   }, {
     "name" : "thread",
-    "value" : "1904-MainThread"
+    "value" : "1913-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -205,11 +205,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 3,
+        "passed" : 4,
         "unknown" : 0,
-        "total" : 3
+        "total" : 4
       },
       "items" : [ {
+        "uid" : "9a0a7d3a2ee99af6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1701807225178,
+          "stop" : 1701807225318,
+          "duration" : 140
+        }
+      }, {
         "uid" : "adc3156e552a8af8",
         "status" : "passed",
         "time" : {
@@ -229,6 +237,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "9a0a7d3a2ee99af6.json",
+  "source" : "1e01ce52d74dc6c.json",
   "parameterValues" : [ ]
 }

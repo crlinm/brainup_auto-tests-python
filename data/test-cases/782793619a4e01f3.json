@@ -1,24 +1,24 @@
 {
-  "uid" : "e37a16c4900f9728",
+  "uid" : "782793619a4e01f3",
   "name" : "test_mp_07_verify_redirection_to_contributors_page",
   "fullName" : "tests.main_page_test.TestMainPage#test_mp_07_verify_redirection_to_contributors_page",
   "historyId" : "7f35157222d4ee10ae03453b93f8fb17",
   "time" : {
-    "start" : 1701807238030,
-    "stop" : 1701807238158,
-    "duration" : 128
+    "start" : 1701808415167,
+    "stop" : 1701808415326,
+    "duration" : 159
   },
   "status" : "skipped",
   "statusMessage" : "XFAIL\n\nAssertionError: The link leads to an incorrect page",
-  "statusTrace" : "self = <tests.main_page_test.TestMainPage object at 0x7f5bc6b20ce0>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"7d89aa02382fdbe8305427ef91f3eab6\")>\nmain_page_open = None\n\n    @pytest.mark.xfail\n    def test_mp_07_verify_redirection_to_contributors_page(self, driver, main_page_open):\n        page = MainPage(driver)\n>       page.open_contributors_page()\n\ntests/main_page_test.py:41: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.main_page.MainPage object at 0x7f5bc6b6a5d0>\n\n    def open_contributors_page(self):\n        self.element_is_presence_and_clickable(self.locators.MORE_MENU).click()\n        self.element_is_presence_and_clickable(self.locators.CONTRIBUTORS_PAGE).click()\n>       assert self.driver.current_url == MainPageLinks.URL_CONTRIBUTORS_PAGE, \\\n            \"The link leads to an incorrect page\"\nE       AssertionError: The link leads to an incorrect page\n\npages/main_page.py:55: AssertionError",
+  "statusTrace" : "self = <tests.main_page_test.TestMainPage object at 0x7f6c722e0e00>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"5ec28faef6beb56b5914c7f8b3a9672f\")>\nmain_page_open = None\n\n    @pytest.mark.xfail\n    def test_mp_07_verify_redirection_to_contributors_page(self, driver, main_page_open):\n        page = MainPage(driver)\n>       page.open_contributors_page()\n\ntests/main_page_test.py:41: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.main_page.MainPage object at 0x7f6c72329ee0>\n\n    def open_contributors_page(self):\n        self.element_is_presence_and_clickable(self.locators.MORE_MENU).click()\n        self.element_is_presence_and_clickable(self.locators.CONTRIBUTORS_PAGE).click()\n>       assert self.driver.current_url == MainPageLinks.URL_CONTRIBUTORS_PAGE, \\\n            \"The link leads to an incorrect page\"\nE       AssertionError: The link leads to an incorrect page\n\npages/main_page.py:55: AssertionError",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "main_page_open",
     "time" : {
-      "start" : 1701807235297,
-      "stop" : 1701807238029,
-      "duration" : 2732
+      "start" : 1701808412167,
+      "stop" : 1701808415167,
+      "duration" : 3000
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,9 +31,9 @@
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1701807234526,
-      "stop" : 1701807235296,
-      "duration" : 770
+      "start" : 1701808411373,
+      "stop" : 1701808412167,
+      "duration" : 794
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,29 +47,29 @@
   "testStage" : {
     "status" : "skipped",
     "statusMessage" : "XFAIL\n\nAssertionError: The link leads to an incorrect page",
-    "statusTrace" : "self = <tests.main_page_test.TestMainPage object at 0x7f5bc6b20ce0>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"7d89aa02382fdbe8305427ef91f3eab6\")>\nmain_page_open = None\n\n    @pytest.mark.xfail\n    def test_mp_07_verify_redirection_to_contributors_page(self, driver, main_page_open):\n        page = MainPage(driver)\n>       page.open_contributors_page()\n\ntests/main_page_test.py:41: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.main_page.MainPage object at 0x7f5bc6b6a5d0>\n\n    def open_contributors_page(self):\n        self.element_is_presence_and_clickable(self.locators.MORE_MENU).click()\n        self.element_is_presence_and_clickable(self.locators.CONTRIBUTORS_PAGE).click()\n>       assert self.driver.current_url == MainPageLinks.URL_CONTRIBUTORS_PAGE, \\\n            \"The link leads to an incorrect page\"\nE       AssertionError: The link leads to an incorrect page\n\npages/main_page.py:55: AssertionError",
+    "statusTrace" : "self = <tests.main_page_test.TestMainPage object at 0x7f6c722e0e00>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"5ec28faef6beb56b5914c7f8b3a9672f\")>\nmain_page_open = None\n\n    @pytest.mark.xfail\n    def test_mp_07_verify_redirection_to_contributors_page(self, driver, main_page_open):\n        page = MainPage(driver)\n>       page.open_contributors_page()\n\ntests/main_page_test.py:41: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.main_page.MainPage object at 0x7f6c72329ee0>\n\n    def open_contributors_page(self):\n        self.element_is_presence_and_clickable(self.locators.MORE_MENU).click()\n        self.element_is_presence_and_clickable(self.locators.CONTRIBUTORS_PAGE).click()\n>       assert self.driver.current_url == MainPageLinks.URL_CONTRIBUTORS_PAGE, \\\n            \"The link leads to an incorrect page\"\nE       AssertionError: The link leads to an incorrect page\n\npages/main_page.py:55: AssertionError",
     "steps" : [ {
       "name" : "Check element is visible and clickable: ('css selector', '#other-menu')",
       "time" : {
-        "start" : 1701807238030,
-        "stop" : 1701807238066,
-        "duration" : 36
+        "start" : 1701808415167,
+        "stop" : 1701808415214,
+        "duration" : 47
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is clickable",
         "time" : {
-          "start" : 1701807238047,
-          "stop" : 1701807238066,
-          "duration" : 19
+          "start" : 1701808415191,
+          "stop" : 1701808415214,
+          "duration" : 23
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check elements are clickable: ('css selector', '#other-menu')",
           "time" : {
-            "start" : 1701807238047,
-            "stop" : 1701807238066,
-            "duration" : 19
+            "start" : 1701808415191,
+            "stop" : 1701808415214,
+            "duration" : 23
           },
           "status" : "passed",
           "steps" : [ ],
@@ -99,25 +99,25 @@
     }, {
       "name" : "Check element is visible and clickable: ('xpath', \"//div[@id='other-menu']//a[6]\")",
       "time" : {
-        "start" : 1701807238094,
-        "stop" : 1701807238124,
-        "duration" : 30
+        "start" : 1701808415248,
+        "stop" : 1701808415285,
+        "duration" : 37
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is clickable",
         "time" : {
-          "start" : 1701807238109,
-          "stop" : 1701807238124,
-          "duration" : 15
+          "start" : 1701808415265,
+          "stop" : 1701808415285,
+          "duration" : 20
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check elements are clickable: ('xpath', \"//div[@id='other-menu']//a[6]\")",
           "time" : {
-            "start" : 1701807238109,
-            "stop" : 1701807238124,
-            "duration" : 15
+            "start" : 1701808415265,
+            "stop" : 1701808415285,
+            "duration" : 20
           },
           "status" : "passed",
           "steps" : [ ],
@@ -155,9 +155,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1701807238188,
-      "stop" : 1701807238246,
-      "duration" : 58
+      "start" : 1701808415361,
+      "stop" : 1701808415423,
+      "duration" : 62
     },
     "status" : "passed",
     "steps" : [ ],
@@ -182,10 +182,10 @@
     "value" : "TestMainPage"
   }, {
     "name" : "host",
-    "value" : "fv-az661-801"
+    "value" : "fv-az520-882"
   }, {
     "name" : "thread",
-    "value" : "1904-MainThread"
+    "value" : "1913-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -211,12 +211,21 @@
       "statistic" : {
         "failed" : 0,
         "broken" : 0,
-        "skipped" : 3,
+        "skipped" : 4,
         "passed" : 0,
         "unknown" : 0,
-        "total" : 3
+        "total" : 4
       },
       "items" : [ {
+        "uid" : "e37a16c4900f9728",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL\n\nAssertionError: The link leads to an incorrect page",
+        "time" : {
+          "start" : 1701807238030,
+          "stop" : 1701807238158,
+          "duration" : 128
+        }
+      }, {
         "uid" : "d17c239005b903d2",
         "status" : "skipped",
         "statusDetails" : "XFAIL\n\nAssertionError: The link leads to an incorrect page",
@@ -238,6 +247,6 @@
     },
     "tags" : [ "@pytest.mark.xfail" ]
   },
-  "source" : "e37a16c4900f9728.json",
+  "source" : "782793619a4e01f3.json",
   "parameterValues" : [ ]
 }
