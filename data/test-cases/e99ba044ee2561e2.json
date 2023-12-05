@@ -1,22 +1,22 @@
 {
-  "uid" : "243acfb026470c3d",
-  "name" : "test_mp_04_verify_redirection_to_contacts_page",
-  "fullName" : "tests.main_page_test.TestMainPage#test_mp_04_verify_redirection_to_contacts_page",
-  "historyId" : "226c874842c4733da064a7b34924af4e",
+  "uid" : "e99ba044ee2561e2",
+  "name" : "test_mp_06_verify_redirection_to_github",
+  "fullName" : "tests.main_page_test.TestMainPage#test_mp_06_verify_redirection_to_github",
+  "historyId" : "6215605f7f9a95b5329b94248980024e",
   "time" : {
-    "start" : 1701681968155,
-    "stop" : 1701681968297,
-    "duration" : 142
+    "start" : 1701799202430,
+    "stop" : 1701799203769,
+    "duration" : 1339
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "main_page_open",
+    "name" : "driver",
     "time" : {
-      "start" : 1701681965530,
-      "stop" : 1701681968155,
-      "duration" : 2625
+      "start" : 1701799197650,
+      "stop" : 1701799198426,
+      "duration" : 776
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "driver",
+    "name" : "main_page_open",
     "time" : {
-      "start" : 1701681964751,
-      "stop" : 1701681965530,
-      "duration" : 779
+      "start" : 1701799198426,
+      "stop" : 1701799202430,
+      "duration" : 4004
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,25 +47,25 @@
     "steps" : [ {
       "name" : "Check element is visible and clickable: ('css selector', '#other-menu')",
       "time" : {
-        "start" : 1701681968156,
-        "stop" : 1701681968192,
-        "duration" : 36
+        "start" : 1701799202430,
+        "stop" : 1701799202469,
+        "duration" : 39
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is clickable",
         "time" : {
-          "start" : 1701681968173,
-          "stop" : 1701681968192,
-          "duration" : 19
+          "start" : 1701799202449,
+          "stop" : 1701799202469,
+          "duration" : 20
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check elements are clickable: ('css selector', '#other-menu')",
           "time" : {
-            "start" : 1701681968173,
-            "stop" : 1701681968192,
-            "duration" : 19
+            "start" : 1701799202449,
+            "stop" : 1701799202469,
+            "duration" : 20
           },
           "status" : "passed",
           "steps" : [ ],
@@ -93,27 +93,27 @@
       "stepsCount" : 2,
       "hasContent" : true
     }, {
-      "name" : "Check element is visible and clickable: ('id', 'ember6')",
+      "name" : "Check element is visible and clickable: ('xpath', \"//div[@id='other-menu']//a[2]\")",
       "time" : {
-        "start" : 1701681968221,
-        "stop" : 1701681968251,
-        "duration" : 30
+        "start" : 1701799202500,
+        "stop" : 1701799202533,
+        "duration" : 33
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is clickable",
         "time" : {
-          "start" : 1701681968235,
-          "stop" : 1701681968251,
-          "duration" : 16
+          "start" : 1701799202516,
+          "stop" : 1701799202533,
+          "duration" : 17
         },
         "status" : "passed",
         "steps" : [ {
-          "name" : "Check elements are clickable: ('id', 'ember6')",
+          "name" : "Check elements are clickable: ('xpath', \"//div[@id='other-menu']//a[2]\")",
           "time" : {
-            "start" : 1701681968235,
-            "stop" : 1701681968251,
-            "duration" : 16
+            "start" : 1701799202516,
+            "stop" : 1701799202533,
+            "duration" : 17
           },
           "status" : "passed",
           "steps" : [ ],
@@ -127,7 +127,7 @@
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "locator",
-          "value" : "('id', 'ember6')"
+          "value" : "('xpath', \"//div[@id='other-menu']//a[2]\")"
         } ],
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
@@ -151,9 +151,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1701681968298,
-      "stop" : 1701681968357,
-      "duration" : 59
+      "start" : 1701799203770,
+      "stop" : 1701799203832,
+      "duration" : 62
     },
     "status" : "passed",
     "steps" : [ ],
@@ -175,10 +175,10 @@
     "value" : "TestMainPage"
   }, {
     "name" : "host",
-    "value" : "fv-az1433-65"
+    "value" : "fv-az711-256"
   }, {
     "name" : "thread",
-    "value" : "1943-MainThread"
+    "value" : "1936-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -200,8 +200,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6ed9f43757e5c3cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1701681985328,
+          "stop" : 1701681986359,
+          "duration" : 1031
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "243acfb026470c3d.json",
+  "source" : "e99ba044ee2561e2.json",
   "parameterValues" : [ ]
 }

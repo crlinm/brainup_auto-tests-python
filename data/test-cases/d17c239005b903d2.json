@@ -1,0 +1,234 @@
+{
+  "uid" : "d17c239005b903d2",
+  "name" : "test_mp_07_verify_redirection_to_contributors_page",
+  "fullName" : "tests.main_page_test.TestMainPage#test_mp_07_verify_redirection_to_contributors_page",
+  "historyId" : "7f35157222d4ee10ae03453b93f8fb17",
+  "time" : {
+    "start" : 1701799211281,
+    "stop" : 1701799211427,
+    "duration" : 146
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL\n\nAssertionError: The link leads to an incorrect page",
+  "statusTrace" : "self = <tests.main_page_test.TestMainPage object at 0x7f69a4740e60>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"3a7bfb3e3c817299e8de39c4e43b4f05\")>\nmain_page_open = None\n\n    @pytest.mark.xfail\n    def test_mp_07_verify_redirection_to_contributors_page(self, driver, main_page_open):\n        page = MainPage(driver)\n>       page.open_contributors_page()\n\ntests/main_page_test.py:41: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.main_page.MainPage object at 0x7f69a4789d00>\n\n    def open_contributors_page(self):\n        self.element_is_presence_and_clickable(self.locators.MORE_MENU).click()\n        self.element_is_presence_and_clickable(self.locators.CONTRIBUTORS_PAGE).click()\n>       assert self.driver.current_url == MainPageLinks.URL_CONTRIBUTORS_PAGE, \\\n            \"The link leads to an incorrect page\"\nE       AssertionError: The link leads to an incorrect page\n\npages/main_page.py:55: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "main_page_open",
+    "time" : {
+      "start" : 1701799204611,
+      "stop" : 1701799211281,
+      "duration" : 6670
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1701799203834,
+      "stop" : 1701799204610,
+      "duration" : 776
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "XFAIL\n\nAssertionError: The link leads to an incorrect page",
+    "statusTrace" : "self = <tests.main_page_test.TestMainPage object at 0x7f69a4740e60>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"3a7bfb3e3c817299e8de39c4e43b4f05\")>\nmain_page_open = None\n\n    @pytest.mark.xfail\n    def test_mp_07_verify_redirection_to_contributors_page(self, driver, main_page_open):\n        page = MainPage(driver)\n>       page.open_contributors_page()\n\ntests/main_page_test.py:41: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.main_page.MainPage object at 0x7f69a4789d00>\n\n    def open_contributors_page(self):\n        self.element_is_presence_and_clickable(self.locators.MORE_MENU).click()\n        self.element_is_presence_and_clickable(self.locators.CONTRIBUTORS_PAGE).click()\n>       assert self.driver.current_url == MainPageLinks.URL_CONTRIBUTORS_PAGE, \\\n            \"The link leads to an incorrect page\"\nE       AssertionError: The link leads to an incorrect page\n\npages/main_page.py:55: AssertionError",
+    "steps" : [ {
+      "name" : "Check element is visible and clickable: ('css selector', '#other-menu')",
+      "time" : {
+        "start" : 1701799211282,
+        "stop" : 1701799211323,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check element is clickable",
+        "time" : {
+          "start" : 1701799211301,
+          "stop" : 1701799211323,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check elements are clickable: ('css selector', '#other-menu')",
+          "time" : {
+            "start" : 1701799211301,
+            "stop" : 1701799211323,
+            "duration" : 22
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('css selector', '#other-menu')"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Check element is visible and clickable: ('xpath', \"//div[@id='other-menu']//a[6]\")",
+      "time" : {
+        "start" : 1701799211354,
+        "stop" : 1701799211389,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check element is clickable",
+        "time" : {
+          "start" : 1701799211371,
+          "stop" : 1701799211389,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check elements are clickable: ('xpath', \"//div[@id='other-menu']//a[6]\")",
+          "time" : {
+            "start" : 1701799211371,
+            "stop" : 1701799211389,
+            "duration" : 18
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', \"//div[@id='other-menu']//a[6]\")"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1701799211457,
+      "stop" : 1701799211516,
+      "duration" : 59
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "main_page_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMainPage"
+  }, {
+    "name" : "host",
+    "value" : "fv-az711-256"
+  }, {
+    "name" : "thread",
+    "value" : "1936-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.main_page_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e988bcc7bdb977f6",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL\n\nAssertionError: The link leads to an incorrect page",
+        "time" : {
+          "start" : 1701681989664,
+          "stop" : 1701681989796,
+          "duration" : 132
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.xfail" ]
+  },
+  "source" : "d17c239005b903d2.json",
+  "parameterValues" : [ ]
+}

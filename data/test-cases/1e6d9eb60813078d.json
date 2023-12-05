@@ -1,22 +1,22 @@
 {
-  "uid" : "6ed9f43757e5c3cb",
-  "name" : "test_mp_06_verify_redirection_to_github",
-  "fullName" : "tests.main_page_test.TestMainPage#test_mp_06_verify_redirection_to_github",
-  "historyId" : "6215605f7f9a95b5329b94248980024e",
+  "uid" : "1e6d9eb60813078d",
+  "name" : "test_mp_08_verify_redirection_to_used_resources_page",
+  "fullName" : "tests.main_page_test.TestMainPage#test_mp_08_verify_redirection_to_used_resources_page",
+  "historyId" : "43df35c0ef3ab6719310f8b9b9ee7530",
   "time" : {
-    "start" : 1701681985328,
-    "stop" : 1701681986359,
-    "duration" : 1031
+    "start" : 1701799219086,
+    "stop" : 1701799219233,
+    "duration" : 147
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "driver",
+    "name" : "main_page_open",
     "time" : {
-      "start" : 1701681981961,
-      "stop" : 1701681982734,
-      "duration" : 773
+      "start" : 1701799212296,
+      "stop" : 1701799219085,
+      "duration" : 6789
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "main_page_open",
+    "name" : "driver",
     "time" : {
-      "start" : 1701681982734,
-      "stop" : 1701681985328,
-      "duration" : 2594
+      "start" : 1701799211518,
+      "stop" : 1701799212295,
+      "duration" : 777
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,25 +47,25 @@
     "steps" : [ {
       "name" : "Check element is visible and clickable: ('css selector', '#other-menu')",
       "time" : {
-        "start" : 1701681985328,
-        "stop" : 1701681985364,
-        "duration" : 36
+        "start" : 1701799219086,
+        "stop" : 1701799219126,
+        "duration" : 40
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is clickable",
         "time" : {
-          "start" : 1701681985345,
-          "stop" : 1701681985364,
-          "duration" : 19
+          "start" : 1701799219105,
+          "stop" : 1701799219126,
+          "duration" : 21
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check elements are clickable: ('css selector', '#other-menu')",
           "time" : {
-            "start" : 1701681985345,
-            "stop" : 1701681985364,
-            "duration" : 19
+            "start" : 1701799219105,
+            "stop" : 1701799219126,
+            "duration" : 21
           },
           "status" : "passed",
           "steps" : [ ],
@@ -93,27 +93,27 @@
       "stepsCount" : 2,
       "hasContent" : true
     }, {
-      "name" : "Check element is visible and clickable: ('xpath', \"//div[@id='other-menu']//a[2]\")",
+      "name" : "Check element is visible and clickable: ('xpath', \"//div[@id='other-menu']//a[7]\")",
       "time" : {
-        "start" : 1701681985393,
-        "stop" : 1701681985425,
-        "duration" : 32
+        "start" : 1701799219156,
+        "stop" : 1701799219191,
+        "duration" : 35
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is clickable",
         "time" : {
-          "start" : 1701681985409,
-          "stop" : 1701681985425,
-          "duration" : 16
+          "start" : 1701799219172,
+          "stop" : 1701799219191,
+          "duration" : 19
         },
         "status" : "passed",
         "steps" : [ {
-          "name" : "Check elements are clickable: ('xpath', \"//div[@id='other-menu']//a[2]\")",
+          "name" : "Check elements are clickable: ('xpath', \"//div[@id='other-menu']//a[7]\")",
           "time" : {
-            "start" : 1701681985409,
-            "stop" : 1701681985425,
-            "duration" : 16
+            "start" : 1701799219172,
+            "stop" : 1701799219191,
+            "duration" : 19
           },
           "status" : "passed",
           "steps" : [ ],
@@ -127,7 +127,7 @@
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "locator",
-          "value" : "('xpath', \"//div[@id='other-menu']//a[2]\")"
+          "value" : "('xpath', \"//div[@id='other-menu']//a[7]\")"
         } ],
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
@@ -151,9 +151,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1701681986360,
-      "stop" : 1701681986421,
-      "duration" : 61
+      "start" : 1701799219235,
+      "stop" : 1701799219294,
+      "duration" : 59
     },
     "status" : "passed",
     "steps" : [ ],
@@ -175,10 +175,10 @@
     "value" : "TestMainPage"
   }, {
     "name" : "host",
-    "value" : "fv-az1433-65"
+    "value" : "fv-az711-256"
   }, {
     "name" : "thread",
-    "value" : "1943-MainThread"
+    "value" : "1936-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -200,8 +200,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8f4fde90e0896e70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1701681993178,
+          "stop" : 1701681993316,
+          "duration" : 138
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "6ed9f43757e5c3cb.json",
+  "source" : "1e6d9eb60813078d.json",
   "parameterValues" : [ ]
 }

@@ -1,117 +1,117 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az1433-65",
+    "name" : "fv-az711-256",
     "children" : [ {
-      "name" : "1943-MainThread",
+      "name" : "1936-MainThread",
       "children" : [ {
-        "name" : "test_mp_07_verify_redirection_to_contributors_page",
-        "uid" : "e988bcc7bdb977f6",
-        "parentUid" : "b82857694dc9e92e89bc1546643143ab",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1701681989664,
-          "stop" : 1701681989796,
-          "duration" : 132
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_mp_08_verify_redirection_to_used_resources_page",
-        "uid" : "8f4fde90e0896e70",
-        "parentUid" : "b82857694dc9e92e89bc1546643143ab",
+        "name" : "test_mp_01_verify_redirection_to_description_page",
+        "uid" : "9ab66a27429ab35d",
+        "parentUid" : "8fc530dd2e97e0228f7366da1fef3b03",
         "status" : "passed",
         "time" : {
-          "start" : 1701681993178,
-          "stop" : 1701681993316,
-          "duration" : 138
+          "start" : 1701799174965,
+          "stop" : 1701799175079,
+          "duration" : 114
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_mp_04_verify_redirection_to_contacts_page",
-        "uid" : "243acfb026470c3d",
-        "parentUid" : "b82857694dc9e92e89bc1546643143ab",
+        "uid" : "adc3156e552a8af8",
+        "parentUid" : "8fc530dd2e97e0228f7366da1fef3b03",
         "status" : "passed",
         "time" : {
-          "start" : 1701681968155,
-          "stop" : 1701681968297,
-          "duration" : 142
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_mp_01_verify_redirection_to_description_page",
-        "uid" : "af8889dfae7da1d3",
-        "parentUid" : "b82857694dc9e92e89bc1546643143ab",
-        "status" : "passed",
-        "time" : {
-          "start" : 1701681955223,
-          "stop" : 1701681955389,
-          "duration" : 166
+          "start" : 1701799192520,
+          "stop" : 1701799192666,
+          "duration" : 146
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_mp_03_verify_redirection_to_donate_page",
-        "uid" : "4d47056adc881a5b",
-        "parentUid" : "b82857694dc9e92e89bc1546643143ab",
+        "uid" : "56863e75209da7b6",
+        "parentUid" : "8fc530dd2e97e0228f7366da1fef3b03",
         "status" : "passed",
         "time" : {
-          "start" : 1701681963365,
-          "stop" : 1701681964688,
-          "duration" : 1323
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_mp_05_verify_redirection_to_specialists_page",
-        "uid" : "45b6da37348d36a7",
-        "parentUid" : "b82857694dc9e92e89bc1546643143ab",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1701681971670,
-          "stop" : 1701681981869,
-          "duration" : 10199
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_mp_06_verify_redirection_to_github",
-        "uid" : "6ed9f43757e5c3cb",
-        "parentUid" : "b82857694dc9e92e89bc1546643143ab",
-        "status" : "passed",
-        "time" : {
-          "start" : 1701681985328,
-          "stop" : 1701681986359,
-          "duration" : 1031
+          "start" : 1701799185713,
+          "stop" : 1701799187576,
+          "duration" : 1863
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_mp_02_verify_redirection_to_telegram_page",
-        "uid" : "8c36dd6e0dbd1e26",
-        "parentUid" : "b82857694dc9e92e89bc1546643143ab",
+        "uid" : "79f5ee161ff1d985",
+        "parentUid" : "8fc530dd2e97e0228f7366da1fef3b03",
         "status" : "passed",
         "time" : {
-          "start" : 1701681958686,
-          "stop" : 1701681959944,
-          "duration" : 1258
+          "start" : 1701799179611,
+          "stop" : 1701799181481,
+          "duration" : 1870
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_mp_08_verify_redirection_to_used_resources_page",
+        "uid" : "1e6d9eb60813078d",
+        "parentUid" : "8fc530dd2e97e0228f7366da1fef3b03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1701799219086,
+          "stop" : 1701799219233,
+          "duration" : 147
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_mp_07_verify_redirection_to_contributors_page",
+        "uid" : "d17c239005b903d2",
+        "parentUid" : "8fc530dd2e97e0228f7366da1fef3b03",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1701799211281,
+          "stop" : 1701799211427,
+          "duration" : 146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_mp_06_verify_redirection_to_github",
+        "uid" : "e99ba044ee2561e2",
+        "parentUid" : "8fc530dd2e97e0228f7366da1fef3b03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1701799202430,
+          "stop" : 1701799203769,
+          "duration" : 1339
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_mp_05_verify_redirection_to_specialists_page",
+        "uid" : "7b70dbcbb2db7c0a",
+        "parentUid" : "8fc530dd2e97e0228f7366da1fef3b03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1701799196927,
+          "stop" : 1701799197588,
+          "duration" : 661
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "b82857694dc9e92e89bc1546643143ab"
+      "uid" : "8fc530dd2e97e0228f7366da1fef3b03"
     } ],
-    "uid" : "55516308099b91389877cbb2e5446347"
+    "uid" : "6b79611142ba6727796b0edc2f587367"
   } ],
   "name" : "timeline"
 }

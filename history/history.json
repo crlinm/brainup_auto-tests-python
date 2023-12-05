@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 1,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "7b70dbcbb2db7c0a",
+      "status" : "passed",
+      "statusDetails" : "XPASS",
+      "time" : {
+        "start" : 1701799196927,
+        "stop" : 1701799197588,
+        "duration" : 661
+      }
+    }, {
       "uid" : "45b6da37348d36a7",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nselenium.common.exceptions.TimeoutException: Message: Can't find element by locator https://brainup.site/specialists",
@@ -24,11 +33,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "9ab66a27429ab35d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701799174965,
+        "stop" : 1701799175079,
+        "duration" : 114
+      }
+    }, {
       "uid" : "af8889dfae7da1d3",
       "status" : "passed",
       "time" : {
@@ -43,11 +60,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "adc3156e552a8af8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701799192520,
+        "stop" : 1701799192666,
+        "duration" : 146
+      }
+    }, {
       "uid" : "243acfb026470c3d",
       "status" : "passed",
       "time" : {
@@ -62,11 +87,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "56863e75209da7b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701799185713,
+        "stop" : 1701799187576,
+        "duration" : 1863
+      }
+    }, {
       "uid" : "4d47056adc881a5b",
       "status" : "passed",
       "time" : {
@@ -81,11 +114,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "e99ba044ee2561e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701799202430,
+        "stop" : 1701799203769,
+        "duration" : 1339
+      }
+    }, {
       "uid" : "6ed9f43757e5c3cb",
       "status" : "passed",
       "time" : {
@@ -100,11 +141,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "1e6d9eb60813078d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701799219086,
+        "stop" : 1701799219233,
+        "duration" : 147
+      }
+    }, {
       "uid" : "8f4fde90e0896e70",
       "status" : "passed",
       "time" : {
@@ -119,11 +168,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "79f5ee161ff1d985",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701799179611,
+        "stop" : 1701799181481,
+        "duration" : 1870
+      }
+    }, {
       "uid" : "8c36dd6e0dbd1e26",
       "status" : "passed",
       "time" : {
@@ -137,12 +194,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
+      "skipped" : 2,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d17c239005b903d2",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: The link leads to an incorrect page",
+      "time" : {
+        "start" : 1701799211281,
+        "stop" : 1701799211427,
+        "duration" : 146
+      }
+    }, {
       "uid" : "e988bcc7bdb977f6",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nAssertionError: The link leads to an incorrect page",
