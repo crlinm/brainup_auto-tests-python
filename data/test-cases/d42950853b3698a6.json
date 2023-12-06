@@ -1,23 +1,23 @@
 {
-  "uid" : "25ee2694227baef2",
+  "uid" : "d42950853b3698a6",
   "name" : "test_mp_05_verify_redirection_to_specialists_page",
   "fullName" : "tests.main_page_test.TestMainPage#test_mp_05_verify_redirection_to_specialists_page",
   "historyId" : "3c31b28278473c09e9802cf34a761fb2",
   "time" : {
-    "start" : 1701808405634,
-    "stop" : 1701808406306,
-    "duration" : 672
+    "start" : 1701873001503,
+    "stop" : 1701873002683,
+    "duration" : 1180
   },
   "status" : "passed",
   "statusMessage" : "XPASS",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "main_page_open",
+    "name" : "driver",
     "time" : {
-      "start" : 1701808402794,
-      "stop" : 1701808405633,
-      "duration" : 2839
+      "start" : 1701872998245,
+      "stop" : 1701872999019,
+      "duration" : 774
     },
     "status" : "passed",
     "steps" : [ ],
@@ -28,11 +28,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "driver",
+    "name" : "main_page_open",
     "time" : {
-      "start" : 1701808401998,
-      "stop" : 1701808402794,
-      "duration" : 796
+      "start" : 1701872999019,
+      "stop" : 1701873001502,
+      "duration" : 2483
     },
     "status" : "passed",
     "steps" : [ ],
@@ -49,33 +49,33 @@
     "steps" : [ {
       "name" : "Click button \"MORE\".",
       "time" : {
-        "start" : 1701808405634,
-        "stop" : 1701808405715,
-        "duration" : 81
+        "start" : 1701873001503,
+        "stop" : 1701873001570,
+        "duration" : 67
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable: ('css selector', '#other-menu')",
         "time" : {
-          "start" : 1701808405634,
-          "stop" : 1701808405680,
-          "duration" : 46
+          "start" : 1701873001503,
+          "stop" : 1701873001540,
+          "duration" : 37
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1701808405657,
-            "stop" : 1701808405680,
-            "duration" : 23
+            "start" : 1701873001521,
+            "stop" : 1701873001540,
+            "duration" : 19
           },
           "status" : "passed",
           "steps" : [ {
             "name" : "Check elements are clickable: ('css selector', '#other-menu')",
             "time" : {
-              "start" : 1701808405657,
-              "stop" : 1701808405680,
-              "duration" : 23
+              "start" : 1701873001521,
+              "stop" : 1701873001540,
+              "duration" : 19
             },
             "status" : "passed",
             "steps" : [ ],
@@ -112,33 +112,33 @@
     }, {
       "name" : "Click button \"SPECIALISTS\".",
       "time" : {
-        "start" : 1701808405715,
-        "stop" : 1701808405791,
-        "duration" : 76
+        "start" : 1701873001570,
+        "stop" : 1701873001636,
+        "duration" : 66
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable: ('id', 'ember7')",
         "time" : {
-          "start" : 1701808405715,
-          "stop" : 1701808405751,
-          "duration" : 36
+          "start" : 1701873001570,
+          "stop" : 1701873001602,
+          "duration" : 32
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1701808405732,
-            "stop" : 1701808405751,
-            "duration" : 19
+            "start" : 1701873001585,
+            "stop" : 1701873001602,
+            "duration" : 17
           },
           "status" : "passed",
           "steps" : [ {
             "name" : "Check elements are clickable: ('id', 'ember7')",
             "time" : {
-              "start" : 1701808405732,
-              "stop" : 1701808405751,
-              "duration" : 19
+              "start" : 1701873001585,
+              "stop" : 1701873001602,
+              "duration" : 17
             },
             "status" : "passed",
             "steps" : [ ],
@@ -175,17 +175,17 @@
     }, {
       "name" : "Check page URL.",
       "time" : {
-        "start" : 1701808405791,
-        "stop" : 1701808406299,
-        "duration" : 508
+        "start" : 1701873001636,
+        "stop" : 1701873002678,
+        "duration" : 1042
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check url is presence: https://brainup.site/specialists",
         "time" : {
-          "start" : 1701808405791,
-          "stop" : 1701808406299,
-          "duration" : 508
+          "start" : 1701873001636,
+          "stop" : 1701873002678,
+          "duration" : 1042
         },
         "status" : "passed",
         "steps" : [ ],
@@ -213,9 +213,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1701808406307,
-      "stop" : 1701808406368,
-      "duration" : 61
+      "start" : 1701873002684,
+      "stop" : 1701873002742,
+      "duration" : 58
     },
     "status" : "passed",
     "steps" : [ ],
@@ -240,10 +240,10 @@
     "value" : "TestMainPage"
   }, {
     "name" : "host",
-    "value" : "fv-az520-882"
+    "value" : "fv-az740-515"
   }, {
     "name" : "thread",
-    "value" : "1913-MainThread"
+    "value" : "2035-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -270,11 +270,20 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 1,
-        "passed" : 3,
+        "passed" : 4,
         "unknown" : 0,
-        "total" : 4
+        "total" : 5
       },
       "items" : [ {
+        "uid" : "25ee2694227baef2",
+        "status" : "passed",
+        "statusDetails" : "XPASS",
+        "time" : {
+          "start" : 1701808405634,
+          "stop" : 1701808406306,
+          "duration" : 672
+        }
+      }, {
         "uid" : "d14f6f06874fc7a1",
         "status" : "passed",
         "statusDetails" : "XPASS",
@@ -305,6 +314,6 @@
     },
     "tags" : [ "@pytest.mark.xfail" ]
   },
-  "source" : "25ee2694227baef2.json",
+  "source" : "d42950853b3698a6.json",
   "parameterValues" : [ ]
 }

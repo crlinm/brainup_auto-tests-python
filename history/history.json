@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 1,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "d42950853b3698a6",
+      "status" : "passed",
+      "statusDetails" : "XPASS",
+      "time" : {
+        "start" : 1701873001503,
+        "stop" : 1701873002683,
+        "duration" : 1180
+      }
+    }, {
       "uid" : "25ee2694227baef2",
       "status" : "passed",
       "statusDetails" : "XPASS",
@@ -51,11 +60,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "9a450eb04fa588f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701872985469,
+        "stop" : 1701872985584,
+        "duration" : 115
+      }
+    }, {
       "uid" : "f377bf31c47b998d",
       "status" : "passed",
       "time" : {
@@ -94,11 +111,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "1db1d6b0f242062c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701872998043,
+        "stop" : 1701872998185,
+        "duration" : 142
+      }
+    }, {
       "uid" : "1e01ce52d74dc6c",
       "status" : "passed",
       "time" : {
@@ -137,11 +162,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "bf059f13e4e4e6dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701872993590,
+        "stop" : 1701872994618,
+        "duration" : 1028
+      }
+    }, {
       "uid" : "3b6249ba6d2cfd4b",
       "status" : "passed",
       "time" : {
@@ -180,11 +213,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "75e041bc246559",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701873006190,
+        "stop" : 1701873007149,
+        "duration" : 959
+      }
+    }, {
       "uid" : "214ba08215a6e034",
       "status" : "passed",
       "time" : {
@@ -223,11 +264,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "2af9df6dfd90eb6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701873014199,
+        "stop" : 1701873014335,
+        "duration" : 136
+      }
+    }, {
       "uid" : "a567b508a756f87",
       "status" : "passed",
       "time" : {
@@ -266,11 +315,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "19935d6072b6bfbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701872989056,
+        "stop" : 1701872990247,
+        "duration" : 1191
+      }
+    }, {
       "uid" : "67c8f0e499a3f9d9",
       "status" : "passed",
       "time" : {
@@ -308,12 +365,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 4,
+      "skipped" : 5,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "5b6ee5ed0cda0a17",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: The link leads to an incorrect page",
+      "time" : {
+        "start" : 1701873010501,
+        "stop" : 1701873010634,
+        "duration" : 133
+      }
+    }, {
       "uid" : "782793619a4e01f3",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nAssertionError: The link leads to an incorrect page",
