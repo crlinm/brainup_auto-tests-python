@@ -2,18 +2,18 @@
   "values" : [ "main" ],
   "name" : "GIT_BRANCH"
 }, {
-  "values" : [ "9eafa0b8752ddc32afa63df114ae62fa7dbf98c8" ],
+  "values" : [ "6f82d65e65be7f59f6c54fc2b4d9daf5849d5fca" ],
   "name" : "GIT_COMMIT_ID"
 }, {
-  "values" : [ "allure history" ],
+  "values" : [ "feat: allure hierarchy" ],
   "name" : "GIT_COMMIT_MESSAGE"
 }, {
   "values" : [ "crlin.m@gmail.com" ],
   "name" : "GIT_COMMIT_AUTHOR_NAME"
 }, {
-  "values" : [ "2023-12-06 20:28:43 +0600" ],
+  "values" : [ "2023-12-06 21:32:13 +0600" ],
   "name" : "GIT_COMMIT_TIME"
 }, {
-  "values" : [ "119.0.6045.159" ],
+  "values" : [ "119.0.6045.199" ],
   "name" : "CHROME_VERSION"
 } ]
