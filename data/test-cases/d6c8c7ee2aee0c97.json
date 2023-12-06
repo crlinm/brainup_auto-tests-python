@@ -1,22 +1,37 @@
 {
-  "uid" : "7b44af929f450dc1",
-  "name" : "verify redirection to contacts page not authorized user",
-  "fullName" : "tests.main_page_test.TestMainPage#test_mp_04_verify_redirection_to_contacts_page",
-  "historyId" : "226c874842c4733da064a7b34924af4e",
+  "uid" : "d6c8c7ee2aee0c97",
+  "name" : "verify redirection to telegram page not authorized user",
+  "fullName" : "tests.main_page_test.TestMainPage#test_mp_02_verify_redirection_to_telegram_page",
+  "historyId" : "d786a1c87c257d847f81151257654bfc",
   "time" : {
-    "start" : 1701876838441,
-    "stop" : 1701876838580,
-    "duration" : 139
+    "start" : 1701877969408,
+    "stop" : 1701877971123,
+    "duration" : 1715
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "clear_allure_results_folder",
+    "time" : {
+      "start" : 1701877922286,
+      "stop" : 1701877922286,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
     "name" : "driver",
     "time" : {
-      "start" : 1701876834607,
-      "stop" : 1701876835379,
-      "duration" : 772
+      "start" : 1701877965590,
+      "stop" : 1701877966422,
+      "duration" : 832
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,24 +44,9 @@
   }, {
     "name" : "main_page_open",
     "time" : {
-      "start" : 1701876835379,
-      "stop" : 1701876838440,
-      "duration" : 3061
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "clear_allure_results_folder",
-    "time" : {
-      "start" : 1701876786134,
-      "stop" : 1701876786134,
-      "duration" : 0
+      "start" : 1701877966423,
+      "stop" : 1701877969408,
+      "duration" : 2985
     },
     "status" : "passed",
     "steps" : [ ],
@@ -61,33 +61,33 @@
     "status" : "passed",
     "steps" : [ {
       "time" : {
-        "start" : 1701876838441,
-        "stop" : 1701876838580,
-        "duration" : 139
+        "start" : 1701877969408,
+        "stop" : 1701877971123,
+        "duration" : 1715
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Check element is visible and clickable: ('css selector', '#other-menu')",
+        "name" : "Check element is visible and clickable: ('xpath', \"//*[contains(text(),'Telegram')]\")",
         "time" : {
-          "start" : 1701876838441,
-          "stop" : 1701876838477,
-          "duration" : 36
+          "start" : 1701877969408,
+          "stop" : 1701877969482,
+          "duration" : 74
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1701876838458,
-            "stop" : 1701876838477,
+            "start" : 1701877969463,
+            "stop" : 1701877969482,
             "duration" : 19
           },
           "status" : "passed",
           "steps" : [ {
-            "name" : "Check elements are clickable: ('css selector', '#other-menu')",
+            "name" : "Check elements are clickable: ('xpath', \"//*[contains(text(),'Telegram')]\")",
             "time" : {
-              "start" : 1701876838459,
-              "stop" : 1701876838477,
-              "duration" : 18
+              "start" : 1701877969463,
+              "stop" : 1701877969482,
+              "duration" : 19
             },
             "status" : "passed",
             "steps" : [ ],
@@ -101,55 +101,7 @@
           "attachments" : [ ],
           "parameters" : [ {
             "name" : "locator",
-            "value" : "('css selector', '#other-menu')"
-          } ],
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false,
-          "stepsCount" : 1,
-          "hasContent" : true
-        } ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "stepsCount" : 2,
-        "hasContent" : true
-      }, {
-        "name" : "Check element is visible and clickable: ('id', 'ember6')",
-        "time" : {
-          "start" : 1701876838506,
-          "stop" : 1701876838536,
-          "duration" : 30
-        },
-        "status" : "passed",
-        "steps" : [ {
-          "name" : "Check element is clickable",
-          "time" : {
-            "start" : 1701876838521,
-            "stop" : 1701876838536,
-            "duration" : 15
-          },
-          "status" : "passed",
-          "steps" : [ {
-            "name" : "Check elements are clickable: ('id', 'ember6')",
-            "time" : {
-              "start" : 1701876838521,
-              "stop" : 1701876838536,
-              "duration" : 15
-            },
-            "status" : "passed",
-            "steps" : [ ],
-            "attachments" : [ ],
-            "parameters" : [ ],
-            "attachmentsCount" : 0,
-            "shouldDisplayMessage" : false,
-            "stepsCount" : 0,
-            "hasContent" : false
-          } ],
-          "attachments" : [ ],
-          "parameters" : [ {
-            "name" : "locator",
-            "value" : "('id', 'ember6')"
+            "value" : "('xpath', \"//*[contains(text(),'Telegram')]\")"
           } ],
           "attachmentsCount" : 0,
           "shouldDisplayMessage" : false,
@@ -167,22 +119,22 @@
       "parameters" : [ ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 6,
+      "stepsCount" : 3,
       "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 7,
+    "stepsCount" : 4,
     "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1701876838581,
-      "stop" : 1701876838639,
-      "duration" : 58
+      "start" : 1701877971124,
+      "stop" : 1701877971185,
+      "duration" : 61
     },
     "status" : "passed",
     "steps" : [ ],
@@ -207,10 +159,10 @@
     "value" : "TestMainPage"
   }, {
     "name" : "host",
-    "value" : "fv-az883-466"
+    "value" : "fv-az840-726"
   }, {
     "name" : "thread",
-    "value" : "1895-MainThread"
+    "value" : "1918-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -237,54 +189,62 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 6,
+        "passed" : 7,
         "unknown" : 0,
-        "total" : 6
+        "total" : 7
       },
       "items" : [ {
-        "uid" : "1db1d6b0f242062c",
+        "uid" : "df751534804d0d65",
         "status" : "passed",
         "time" : {
-          "start" : 1701872998043,
-          "stop" : 1701872998185,
-          "duration" : 142
+          "start" : 1701876816524,
+          "stop" : 1701876818244,
+          "duration" : 1720
         }
       }, {
-        "uid" : "1e01ce52d74dc6c",
+        "uid" : "19935d6072b6bfbe",
         "status" : "passed",
         "time" : {
-          "start" : 1701808401760,
-          "stop" : 1701808401935,
-          "duration" : 175
+          "start" : 1701872989056,
+          "stop" : 1701872990247,
+          "duration" : 1191
         }
       }, {
-        "uid" : "9a0a7d3a2ee99af6",
+        "uid" : "67c8f0e499a3f9d9",
         "status" : "passed",
         "time" : {
-          "start" : 1701807225178,
-          "stop" : 1701807225318,
-          "duration" : 140
+          "start" : 1701808391496,
+          "stop" : 1701808392862,
+          "duration" : 1366
         }
       }, {
-        "uid" : "adc3156e552a8af8",
+        "uid" : "d38eaf6224aa67a4",
         "status" : "passed",
         "time" : {
-          "start" : 1701799192520,
-          "stop" : 1701799192666,
-          "duration" : 146
+          "start" : 1701807215346,
+          "stop" : 1701807216820,
+          "duration" : 1474
         }
       }, {
-        "uid" : "243acfb026470c3d",
+        "uid" : "79f5ee161ff1d985",
         "status" : "passed",
         "time" : {
-          "start" : 1701681968155,
-          "stop" : 1701681968297,
-          "duration" : 142
+          "start" : 1701799179611,
+          "stop" : 1701799181481,
+          "duration" : 1870
+        }
+      }, {
+        "uid" : "8c36dd6e0dbd1e26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1701681958686,
+          "stop" : 1701681959944,
+          "duration" : 1258
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "7b44af929f450dc1.json",
+  "source" : "d6c8c7ee2aee0c97.json",
   "parameterValues" : [ ]
 }

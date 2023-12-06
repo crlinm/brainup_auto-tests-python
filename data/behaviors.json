@@ -4,103 +4,103 @@
     "name" : "Main Page",
     "children" : [ {
       "name" : "verify redirection to description page not authorized user",
-      "uid" : "faca4c1dddfa35b0",
+      "uid" : "c1dbaecd374784da",
       "parentUid" : "79f1a1b5086897e862723d640242384c",
       "status" : "passed",
       "time" : {
-        "start" : 1701876812457,
-        "stop" : 1701876812656,
-        "duration" : 199
+        "start" : 1701877965200,
+        "stop" : 1701877965529,
+        "duration" : 329
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "verify redirection to telegram page not authorized user",
-      "uid" : "df751534804d0d65",
+      "uid" : "d6c8c7ee2aee0c97",
       "parentUid" : "79f1a1b5086897e862723d640242384c",
       "status" : "passed",
       "time" : {
-        "start" : 1701876816524,
-        "stop" : 1701876818244,
-        "duration" : 1720
+        "start" : 1701877969408,
+        "stop" : 1701877971123,
+        "duration" : 1715
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "verify redirection to donate page not authorized user",
-      "uid" : "fba7ae569e3b3bd1",
+      "uid" : "f07cb1c3516ceae6",
       "parentUid" : "79f1a1b5086897e862723d640242384c",
       "status" : "passed",
       "time" : {
-        "start" : 1701876822155,
-        "stop" : 1701876834544,
-        "duration" : 12389
+        "start" : 1701877974865,
+        "stop" : 1701877977649,
+        "duration" : 2784
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "verify redirection to contacts page not authorized user",
-      "uid" : "7b44af929f450dc1",
+      "uid" : "b47e0278af40bafa",
       "parentUid" : "79f1a1b5086897e862723d640242384c",
       "status" : "passed",
       "time" : {
-        "start" : 1701876838441,
-        "stop" : 1701876838580,
-        "duration" : 139
+        "start" : 1701877981529,
+        "stop" : 1701877981667,
+        "duration" : 138
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "verify redirection to specialists page not authorized user",
-      "uid" : "b94f650f3278ad75",
+      "uid" : "fad0fa9865006710",
       "parentUid" : "79f1a1b5086897e862723d640242384c",
       "status" : "passed",
       "time" : {
-        "start" : 1701876842456,
-        "stop" : 1701876843093,
-        "duration" : 637
+        "start" : 1701877985388,
+        "stop" : 1701877986027,
+        "duration" : 639
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "verify redirection to github not authorized user",
-      "uid" : "2c7cf9cb9c951569",
+      "uid" : "da3ba79a0ef1c39a",
       "parentUid" : "79f1a1b5086897e862723d640242384c",
       "status" : "passed",
       "time" : {
-        "start" : 1701876846857,
-        "stop" : 1701876848189,
-        "duration" : 1332
+        "start" : 1701877989497,
+        "stop" : 1701877990769,
+        "duration" : 1272
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "verify redirection to contributors page not authorized user",
-      "uid" : "7c8e87ec96ee98a3",
+      "uid" : "63027d0d4ce2deb1",
       "parentUid" : "79f1a1b5086897e862723d640242384c",
       "status" : "skipped",
       "time" : {
-        "start" : 1701876852028,
-        "stop" : 1701876852157,
-        "duration" : 129
+        "start" : 1701877994506,
+        "stop" : 1701877994637,
+        "duration" : 131
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "verify redirection to used resources page not authorized user",
-      "uid" : "36f1b680d87cde36",
+      "uid" : "4b8a9a24ebfa2124",
       "parentUid" : "79f1a1b5086897e862723d640242384c",
       "status" : "passed",
       "time" : {
-        "start" : 1701876856410,
-        "stop" : 1701876856545,
+        "start" : 1701877998807,
+        "stop" : 1701877998942,
         "duration" : 135
       },
       "flaky" : false,

@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 1,
-      "passed" : 5,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "fad0fa9865006710",
+      "status" : "passed",
+      "statusDetails" : "XPASS",
+      "time" : {
+        "start" : 1701877985388,
+        "stop" : 1701877986027,
+        "duration" : 639
+      }
+    }, {
       "uid" : "b94f650f3278ad75",
       "status" : "passed",
       "statusDetails" : "XPASS",
@@ -69,11 +78,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "c1dbaecd374784da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701877965200,
+        "stop" : 1701877965529,
+        "duration" : 329
+      }
+    }, {
       "uid" : "faca4c1dddfa35b0",
       "status" : "passed",
       "time" : {
@@ -128,11 +145,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "b47e0278af40bafa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701877981529,
+        "stop" : 1701877981667,
+        "duration" : 138
+      }
+    }, {
       "uid" : "7b44af929f450dc1",
       "status" : "passed",
       "time" : {
@@ -187,11 +212,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "f07cb1c3516ceae6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701877974865,
+        "stop" : 1701877977649,
+        "duration" : 2784
+      }
+    }, {
       "uid" : "fba7ae569e3b3bd1",
       "status" : "passed",
       "time" : {
@@ -246,11 +279,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "da3ba79a0ef1c39a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701877989497,
+        "stop" : 1701877990769,
+        "duration" : 1272
+      }
+    }, {
       "uid" : "2c7cf9cb9c951569",
       "status" : "passed",
       "time" : {
@@ -305,11 +346,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "4b8a9a24ebfa2124",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701877998807,
+        "stop" : 1701877998942,
+        "duration" : 135
+      }
+    }, {
       "uid" : "36f1b680d87cde36",
       "status" : "passed",
       "time" : {
@@ -364,11 +413,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "d6c8c7ee2aee0c97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701877969408,
+        "stop" : 1701877971123,
+        "duration" : 1715
+      }
+    }, {
       "uid" : "df751534804d0d65",
       "status" : "passed",
       "time" : {
@@ -422,12 +479,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 6,
+      "skipped" : 7,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "63027d0d4ce2deb1",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: The link leads to an incorrect page",
+      "time" : {
+        "start" : 1701877994506,
+        "stop" : 1701877994637,
+        "duration" : 131
+      }
+    }, {
       "uid" : "7c8e87ec96ee98a3",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nAssertionError: The link leads to an incorrect page",

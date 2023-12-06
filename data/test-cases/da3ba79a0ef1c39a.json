@@ -1,22 +1,22 @@
 {
-  "uid" : "faca4c1dddfa35b0",
-  "name" : "verify redirection to description page not authorized user",
-  "fullName" : "tests.main_page_test.TestMainPage#test_mp_01_verify_redirection_to_description_page",
-  "historyId" : "9b714ca45645375fd8223c62615c0a31",
+  "uid" : "da3ba79a0ef1c39a",
+  "name" : "verify redirection to github not authorized user",
+  "fullName" : "tests.main_page_test.TestMainPage#test_mp_06_verify_redirection_to_github",
+  "historyId" : "6215605f7f9a95b5329b94248980024e",
   "time" : {
-    "start" : 1701876812457,
-    "stop" : 1701876812656,
-    "duration" : 199
+    "start" : 1701877989497,
+    "stop" : 1701877990769,
+    "duration" : 1272
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "main_page_open",
+    "name" : "driver",
     "time" : {
-      "start" : 1701876802319,
-      "stop" : 1701876812457,
-      "duration" : 10138
+      "start" : 1701877986088,
+      "stop" : 1701877986861,
+      "duration" : 773
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "driver",
+    "name" : "main_page_open",
     "time" : {
-      "start" : 1701876786134,
-      "stop" : 1701876802319,
-      "duration" : 16185
+      "start" : 1701877986861,
+      "stop" : 1701877989496,
+      "duration" : 2635
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,8 +44,8 @@
   }, {
     "name" : "clear_allure_results_folder",
     "time" : {
-      "start" : 1701876786134,
-      "stop" : 1701876786134,
+      "start" : 1701877922286,
+      "stop" : 1701877922286,
       "duration" : 0
     },
     "status" : "passed",
@@ -61,32 +61,32 @@
     "status" : "passed",
     "steps" : [ {
       "time" : {
-        "start" : 1701876812457,
-        "stop" : 1701876812656,
-        "duration" : 199
+        "start" : 1701877989497,
+        "stop" : 1701877990769,
+        "duration" : 1272
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Check element is visible and clickable: ('id', 'ember5')",
+        "name" : "Check element is visible and clickable: ('css selector', '#other-menu')",
         "time" : {
-          "start" : 1701876812458,
-          "stop" : 1701876812509,
-          "duration" : 51
+          "start" : 1701877989497,
+          "stop" : 1701877989533,
+          "duration" : 36
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1701876812490,
-            "stop" : 1701876812509,
+            "start" : 1701877989514,
+            "stop" : 1701877989533,
             "duration" : 19
           },
           "status" : "passed",
           "steps" : [ {
-            "name" : "Check elements are clickable: ('id', 'ember5')",
+            "name" : "Check elements are clickable: ('css selector', '#other-menu')",
             "time" : {
-              "start" : 1701876812490,
-              "stop" : 1701876812509,
+              "start" : 1701877989514,
+              "stop" : 1701877989533,
               "duration" : 19
             },
             "status" : "passed",
@@ -101,7 +101,55 @@
           "attachments" : [ ],
           "parameters" : [ {
             "name" : "locator",
-            "value" : "('id', 'ember5')"
+            "value" : "('css selector', '#other-menu')"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 1,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 2,
+        "hasContent" : true
+      }, {
+        "name" : "Check element is visible and clickable: ('xpath', \"//div[@id='other-menu']//a[2]\")",
+        "time" : {
+          "start" : 1701877989563,
+          "stop" : 1701877989594,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check element is clickable",
+          "time" : {
+            "start" : 1701877989579,
+            "stop" : 1701877989594,
+            "duration" : 15
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Check elements are clickable: ('xpath', \"//div[@id='other-menu']//a[2]\")",
+            "time" : {
+              "start" : 1701877989579,
+              "stop" : 1701877989594,
+              "duration" : 15
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', \"//div[@id='other-menu']//a[2]\")"
           } ],
           "attachmentsCount" : 0,
           "shouldDisplayMessage" : false,
@@ -119,22 +167,22 @@
       "parameters" : [ ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 3,
+      "stepsCount" : 6,
       "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 4,
+    "stepsCount" : 7,
     "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1701876812657,
-      "stop" : 1701876812727,
-      "duration" : 70
+      "start" : 1701877990770,
+      "stop" : 1701877990831,
+      "duration" : 61
     },
     "status" : "passed",
     "steps" : [ ],
@@ -159,10 +207,10 @@
     "value" : "TestMainPage"
   }, {
     "name" : "host",
-    "value" : "fv-az883-466"
+    "value" : "fv-az840-726"
   }, {
     "name" : "thread",
-    "value" : "1895-MainThread"
+    "value" : "1918-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -189,54 +237,62 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 6,
+        "passed" : 7,
         "unknown" : 0,
-        "total" : 6
+        "total" : 7
       },
       "items" : [ {
-        "uid" : "9a450eb04fa588f5",
+        "uid" : "2c7cf9cb9c951569",
         "status" : "passed",
         "time" : {
-          "start" : 1701872985469,
-          "stop" : 1701872985584,
-          "duration" : 115
+          "start" : 1701876846857,
+          "stop" : 1701876848189,
+          "duration" : 1332
         }
       }, {
-        "uid" : "f377bf31c47b998d",
+        "uid" : "75e041bc246559",
         "status" : "passed",
         "time" : {
-          "start" : 1701808387527,
-          "stop" : 1701808387662,
-          "duration" : 135
+          "start" : 1701873006190,
+          "stop" : 1701873007149,
+          "duration" : 959
         }
       }, {
-        "uid" : "ee119982aed4d33b",
+        "uid" : "214ba08215a6e034",
         "status" : "passed",
         "time" : {
-          "start" : 1701807211709,
-          "stop" : 1701807211870,
-          "duration" : 161
+          "start" : 1701808410051,
+          "stop" : 1701808411304,
+          "duration" : 1253
         }
       }, {
-        "uid" : "9ab66a27429ab35d",
+        "uid" : "d810db6987cd2bb4",
         "status" : "passed",
         "time" : {
-          "start" : 1701799174965,
-          "stop" : 1701799175079,
-          "duration" : 114
+          "start" : 1701807233286,
+          "stop" : 1701807234462,
+          "duration" : 1176
         }
       }, {
-        "uid" : "af8889dfae7da1d3",
+        "uid" : "e99ba044ee2561e2",
         "status" : "passed",
         "time" : {
-          "start" : 1701681955223,
-          "stop" : 1701681955389,
-          "duration" : 166
+          "start" : 1701799202430,
+          "stop" : 1701799203769,
+          "duration" : 1339
+        }
+      }, {
+        "uid" : "6ed9f43757e5c3cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1701681985328,
+          "stop" : 1701681986359,
+          "duration" : 1031
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "faca4c1dddfa35b0.json",
+  "source" : "da3ba79a0ef1c39a.json",
   "parameterValues" : [ ]
 }
