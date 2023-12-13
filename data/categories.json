@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//a[@title=\"Речевые упражнения\"]')\nStacktrace:\n#0 0x557867f435e3 <unknown>\n#1 0x557867c060b7 <unknown>\n#2 0x557867c53f53 <unknown>\n#3 0x557867c54051 <unknown>\n#4 0x557867c999c4 <unknown>\n#5 0x557867c7af1d <unknown>\n#6 0x557867c96b3d <unknown>\n#7 0x557867c7acc3 <unknown>\n#8 0x557867c460e4 <unknown>\n#9 0x557867c470ae <unknown>\n#10 0x557867f09ce1 <unknown>\n#11 0x557867f0db7e <unknown>\n#12 0x557867ef74b5 <unknown>\n#13 0x557867f0e7d6 <unknown>\n#14 0x557867edadbf <unknown>\n#15 0x557867f31748 <unknown>\n#16 0x557867f31917 <unknown>\n#17 0x557867f42773 <unknown>\n#18 0x7fdec8a94ac3 <unknown>",
-      "children" : [ {
-        "name" : "test_task",
-        "uid" : "7bcc5623655ba67f",
-        "parentUid" : "d8f53d0c5934b440b279925a6e58c16b",
-        "status" : "broken",
-        "time" : {
-          "start" : 1702502276645,
-          "stop" : 1702502289170,
-          "duration" : 12525
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d8f53d0c5934b440b279925a6e58c16b"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }
