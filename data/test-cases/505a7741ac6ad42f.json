@@ -1,22 +1,22 @@
 {
-  "uid" : "25b630b7cb2bd641",
-  "name" : "verify redirection to used resources page not authorized user",
-  "fullName" : "tests.main_page_test.TestMainPage#test_mp_08_verify_redirection_to_used_resources_page",
-  "historyId" : "43df35c0ef3ab6719310f8b9b9ee7530",
+  "uid" : "505a7741ac6ad42f",
+  "name" : "verify redirection to donate page not authorized user",
+  "fullName" : "tests.main_page_test.TestMainPage#test_mp_03_verify_redirection_to_donate_page",
+  "historyId" : "c4a3f1b8056e7b9c512fd0eaa956691d",
   "time" : {
-    "start" : 1702500508995,
-    "stop" : 1702500509130,
-    "duration" : 135
+    "start" : 1702502301353,
+    "stop" : 1702502302394,
+    "duration" : 1041
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "driver",
+    "name" : "clear_allure_results_folder",
     "time" : {
-      "start" : 1702500504789,
-      "stop" : 1702500505560,
-      "duration" : 771
+      "start" : 1702502265935,
+      "stop" : 1702502265935,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,9 +29,9 @@
   }, {
     "name" : "main_page_open",
     "time" : {
-      "start" : 1702500505560,
-      "stop" : 1702500508995,
-      "duration" : 3435
+      "start" : 1702502298790,
+      "stop" : 1702502301352,
+      "duration" : 2562
     },
     "status" : "passed",
     "steps" : [ ],
@@ -42,11 +42,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "clear_allure_results_folder",
+    "name" : "driver",
     "time" : {
-      "start" : 1702500441209,
-      "stop" : 1702500441209,
-      "duration" : 0
+      "start" : 1702502298016,
+      "stop" : 1702502298789,
+      "duration" : 773
     },
     "status" : "passed",
     "steps" : [ ],
@@ -60,34 +60,34 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Open used resources page",
+      "name" : "Open donate page",
       "time" : {
-        "start" : 1702500508996,
-        "stop" : 1702500509130,
-        "duration" : 134
+        "start" : 1702502301353,
+        "stop" : 1702502302393,
+        "duration" : 1040
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable: ('css selector', '#other-menu')",
         "time" : {
-          "start" : 1702500508996,
-          "stop" : 1702500509031,
-          "duration" : 35
+          "start" : 1702502301353,
+          "stop" : 1702502301389,
+          "duration" : 36
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1702500509013,
-            "stop" : 1702500509031,
+            "start" : 1702502301371,
+            "stop" : 1702502301389,
             "duration" : 18
           },
           "status" : "passed",
           "steps" : [ {
             "name" : "Check elements are clickable: ('css selector', '#other-menu')",
             "time" : {
-              "start" : 1702500509013,
-              "stop" : 1702500509031,
+              "start" : 1702502301371,
+              "stop" : 1702502301389,
               "duration" : 18
             },
             "status" : "passed",
@@ -116,27 +116,27 @@
         "stepsCount" : 2,
         "hasContent" : true
       }, {
-        "name" : "Check element is visible and clickable: ('xpath', \"//div[@id='other-menu']//a[7]\")",
+        "name" : "Check element is visible and clickable: ('xpath', \"//div[@id='other-menu']//a[1]\")",
         "time" : {
-          "start" : 1702500509059,
-          "stop" : 1702500509089,
-          "duration" : 30
+          "start" : 1702502301418,
+          "stop" : 1702502301450,
+          "duration" : 32
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1702500509074,
-            "stop" : 1702500509089,
-            "duration" : 15
+            "start" : 1702502301434,
+            "stop" : 1702502301450,
+            "duration" : 16
           },
           "status" : "passed",
           "steps" : [ {
-            "name" : "Check elements are clickable: ('xpath', \"//div[@id='other-menu']//a[7]\")",
+            "name" : "Check elements are clickable: ('xpath', \"//div[@id='other-menu']//a[1]\")",
             "time" : {
-              "start" : 1702500509074,
-              "stop" : 1702500509089,
-              "duration" : 15
+              "start" : 1702502301434,
+              "stop" : 1702502301450,
+              "duration" : 16
             },
             "status" : "passed",
             "steps" : [ ],
@@ -150,7 +150,7 @@
           "attachments" : [ ],
           "parameters" : [ {
             "name" : "locator",
-            "value" : "('xpath', \"//div[@id='other-menu']//a[7]\")"
+            "value" : "('xpath', \"//div[@id='other-menu']//a[1]\")"
           } ],
           "attachmentsCount" : 0,
           "shouldDisplayMessage" : false,
@@ -164,11 +164,11 @@
         "stepsCount" : 2,
         "hasContent" : true
       }, {
-        "name" : "Check url is presence: https://brainup.site/used-resources",
+        "name" : "Check url is presence: https://opencollective.com/brainup",
         "time" : {
-          "start" : 1702500509122,
-          "stop" : 1702500509127,
-          "duration" : 5
+          "start" : 1702502301808,
+          "stop" : 1702502302391,
+          "duration" : 583
         },
         "status" : "passed",
         "steps" : [ ],
@@ -196,18 +196,18 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1702500509131,
-      "stop" : 1702500509322,
-      "duration" : 191
+      "start" : 1702502302395,
+      "stop" : 1702502302563,
+      "duration" : 168
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "93a22fedfc571f6c",
-      "name" : "Screenshot 2023-12-13 20:48:29.264177",
-      "source" : "93a22fedfc571f6c.png",
+      "uid" : "f445894b59d0c159",
+      "name" : "Screenshot 2023-12-13 21:18:22.501740",
+      "source" : "f445894b59d0c159.png",
       "type" : "image/png",
-      "size" : 59533
+      "size" : 120055
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -229,10 +229,10 @@
     "value" : "TestMainPage"
   }, {
     "name" : "host",
-    "value" : "fv-az1567-786"
+    "value" : "fv-az529-850"
   }, {
     "name" : "thread",
-    "value" : "1914-MainThread"
+    "value" : "1911-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -259,78 +259,86 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 9,
+        "passed" : 10,
         "unknown" : 0,
-        "total" : 9
+        "total" : 10
       },
       "items" : [ {
-        "uid" : "2a995937806e54b3",
+        "uid" : "44b7df077f173285",
         "status" : "passed",
         "time" : {
-          "start" : 1702478758128,
-          "stop" : 1702478758266,
-          "duration" : 138
+          "start" : 1702500481666,
+          "stop" : 1702500483498,
+          "duration" : 1832
         }
       }, {
-        "uid" : "4b8a9a24ebfa2124",
+        "uid" : "64686fbccabcc32a",
         "status" : "passed",
         "time" : {
-          "start" : 1701877998807,
-          "stop" : 1701877998942,
-          "duration" : 135
+          "start" : 1702478719718,
+          "stop" : 1702478721795,
+          "duration" : 2077
         }
       }, {
-        "uid" : "36f1b680d87cde36",
+        "uid" : "f07cb1c3516ceae6",
         "status" : "passed",
         "time" : {
-          "start" : 1701876856410,
-          "stop" : 1701876856545,
-          "duration" : 135
+          "start" : 1701877974865,
+          "stop" : 1701877977649,
+          "duration" : 2784
         }
       }, {
-        "uid" : "2af9df6dfd90eb6c",
+        "uid" : "fba7ae569e3b3bd1",
         "status" : "passed",
         "time" : {
-          "start" : 1701873014199,
-          "stop" : 1701873014335,
-          "duration" : 136
+          "start" : 1701876822155,
+          "stop" : 1701876834544,
+          "duration" : 12389
         }
       }, {
-        "uid" : "a567b508a756f87",
+        "uid" : "bf059f13e4e4e6dc",
         "status" : "passed",
         "time" : {
-          "start" : 1701808419276,
-          "stop" : 1701808419443,
-          "duration" : 167
+          "start" : 1701872993590,
+          "stop" : 1701872994618,
+          "duration" : 1028
         }
       }, {
-        "uid" : "d5253dd4411b9c00",
+        "uid" : "3b6249ba6d2cfd4b",
         "status" : "passed",
         "time" : {
-          "start" : 1701807241658,
-          "stop" : 1701807241792,
-          "duration" : 134
+          "start" : 1701808396586,
+          "stop" : 1701808397985,
+          "duration" : 1399
         }
       }, {
-        "uid" : "1e6d9eb60813078d",
+        "uid" : "394bc9a01df91cf",
         "status" : "passed",
         "time" : {
-          "start" : 1701799219086,
-          "stop" : 1701799219233,
-          "duration" : 147
+          "start" : 1701807220433,
+          "stop" : 1701807221739,
+          "duration" : 1306
         }
       }, {
-        "uid" : "8f4fde90e0896e70",
+        "uid" : "56863e75209da7b6",
         "status" : "passed",
         "time" : {
-          "start" : 1701681993178,
-          "stop" : 1701681993316,
-          "duration" : 138
+          "start" : 1701799185713,
+          "stop" : 1701799187576,
+          "duration" : 1863
+        }
+      }, {
+        "uid" : "4d47056adc881a5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1701681963365,
+          "stop" : 1701681964688,
+          "duration" : 1323
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "25b630b7cb2bd641.json",
+  "source" : "505a7741ac6ad42f.json",
   "parameterValues" : [ ]
 }

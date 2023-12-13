@@ -1,143 +1,143 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az1567-786",
+    "name" : "fv-az529-850",
     "children" : [ {
-      "name" : "1914-MainThread",
+      "name" : "1911-MainThread",
       "children" : [ {
-        "name" : "verify redirection to description page not authorized user",
-        "uid" : "7f8f54b9be278165",
-        "parentUid" : "5c7c891f3d7d5dcdf9af12b99bfb4657",
+        "name" : "verify redirection to contributors page not authorized user",
+        "uid" : "fc4f6aabdbd5b9c7",
+        "parentUid" : "9aa5e8ef095c1a4358ecf308c0c0705a",
         "status" : "passed",
         "time" : {
-          "start" : 1702500470844,
-          "stop" : 1702500470959,
-          "duration" : 115
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_task",
-        "uid" : "687be2f4a9fb8d3b",
-        "parentUid" : "5c7c891f3d7d5dcdf9af12b99bfb4657",
-        "status" : "broken",
-        "time" : {
-          "start" : 1702500453750,
-          "stop" : 1702500466235,
-          "duration" : 12485
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "verify redirection to github not authorized user",
-        "uid" : "8dd61e0da8f34a0a",
-        "parentUid" : "5c7c891f3d7d5dcdf9af12b99bfb4657",
-        "status" : "passed",
-        "time" : {
-          "start" : 1702500498042,
-          "stop" : 1702500499316,
-          "duration" : 1274
+          "start" : 1702502318568,
+          "stop" : 1702502319206,
+          "duration" : 638
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "verify redirection to telegram page not authorized user",
-        "uid" : "eda75007e3fe3fc3",
-        "parentUid" : "5c7c891f3d7d5dcdf9af12b99bfb4657",
+        "uid" : "a6fe3c43b235dec7",
+        "parentUid" : "9aa5e8ef095c1a4358ecf308c0c0705a",
         "status" : "passed",
         "time" : {
-          "start" : 1702500475393,
-          "stop" : 1702500477247,
-          "duration" : 1854
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "verify redirection to specialists page not authorized user",
-        "uid" : "211c7d9104bbd508",
-        "parentUid" : "5c7c891f3d7d5dcdf9af12b99bfb4657",
-        "status" : "passed",
-        "time" : {
-          "start" : 1702500492468,
-          "stop" : 1702500493608,
-          "duration" : 1140
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "verify redirection to used resources page not authorized user",
-        "uid" : "25b630b7cb2bd641",
-        "parentUid" : "5c7c891f3d7d5dcdf9af12b99bfb4657",
-        "status" : "passed",
-        "time" : {
-          "start" : 1702500508995,
-          "stop" : 1702500509130,
-          "duration" : 135
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "verify redirection to contributors page not authorized user",
-        "uid" : "6aaca1c3d0ebbba0",
-        "parentUid" : "5c7c891f3d7d5dcdf9af12b99bfb4657",
-        "status" : "passed",
-        "time" : {
-          "start" : 1702500503785,
-          "stop" : 1702500504427,
-          "duration" : 642
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_logining_user",
-        "uid" : "70ca1ccab78e70dc",
-        "parentUid" : "5c7c891f3d7d5dcdf9af12b99bfb4657",
-        "status" : "passed",
-        "time" : {
-          "start" : 1702500446472,
-          "stop" : 1702500449275,
-          "duration" : 2803
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "verify redirection to contacts page not authorized user",
-        "uid" : "eaa71b5a746098d7",
-        "parentUid" : "5c7c891f3d7d5dcdf9af12b99bfb4657",
-        "status" : "passed",
-        "time" : {
-          "start" : 1702500487871,
-          "stop" : 1702500488011,
-          "duration" : 140
+          "start" : 1702502296578,
+          "stop" : 1702502297822,
+          "duration" : 1244
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "verify redirection to donate page not authorized user",
-        "uid" : "44b7df077f173285",
-        "parentUid" : "5c7c891f3d7d5dcdf9af12b99bfb4657",
+        "uid" : "505a7741ac6ad42f",
+        "parentUid" : "9aa5e8ef095c1a4358ecf308c0c0705a",
         "status" : "passed",
         "time" : {
-          "start" : 1702500481666,
-          "stop" : 1702500483498,
-          "duration" : 1832
+          "start" : 1702502301353,
+          "stop" : 1702502302394,
+          "duration" : 1041
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verify redirection to specialists page not authorized user",
+        "uid" : "96fe13340a700460",
+        "parentUid" : "9aa5e8ef095c1a4358ecf308c0c0705a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1702502309743,
+          "stop" : 1702502310379,
+          "duration" : 636
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verify redirection to contacts page not authorized user",
+        "uid" : "9f75c2f7d52d809c",
+        "parentUid" : "9aa5e8ef095c1a4358ecf308c0c0705a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1702502306021,
+          "stop" : 1702502306162,
+          "duration" : 141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verify redirection to used resources page not authorized user",
+        "uid" : "5ffbe88969897226",
+        "parentUid" : "9aa5e8ef095c1a4358ecf308c0c0705a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1702502322963,
+          "stop" : 1702502323112,
+          "duration" : 149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_task",
+        "uid" : "7bcc5623655ba67f",
+        "parentUid" : "9aa5e8ef095c1a4358ecf308c0c0705a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702502276645,
+          "stop" : 1702502289170,
+          "duration" : 12525
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verify redirection to description page not authorized user",
+        "uid" : "22ea2dc51d2360b1",
+        "parentUid" : "9aa5e8ef095c1a4358ecf308c0c0705a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1702502292948,
+          "stop" : 1702502293059,
+          "duration" : 111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verify redirection to github not authorized user",
+        "uid" : "ef296dee638de7fb",
+        "parentUid" : "9aa5e8ef095c1a4358ecf308c0c0705a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1702502313992,
+          "stop" : 1702502315071,
+          "duration" : 1079
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_logining_user",
+        "uid" : "c454bb79ef5275c4",
+        "parentUid" : "9aa5e8ef095c1a4358ecf308c0c0705a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1702502270807,
+          "stop" : 1702502273128,
+          "duration" : 2321
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "5c7c891f3d7d5dcdf9af12b99bfb4657"
+      "uid" : "9aa5e8ef095c1a4358ecf308c0c0705a"
     } ],
-    "uid" : "87bb88ff7b1d1f9f48b93172bb69f473"
+    "uid" : "6be5571642c25216fc9e1cfebae49784"
   } ],
   "name" : "timeline"
 }
