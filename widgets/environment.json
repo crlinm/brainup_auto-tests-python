@@ -2,16 +2,16 @@
   "values" : [ "main" ],
   "name" : "GIT_BRANCH"
 }, {
-  "values" : [ "63bbe6f564b4b91a2e65115e8450b6482a536d74" ],
+  "values" : [ "4dfaec5a8788c3625942341be8d61cb88c94bb5e" ],
   "name" : "GIT_COMMIT_ID"
 }, {
-  "values" : [ "feat: allure hierarchy" ],
+  "values" : [ "Merge pull request #1 from crlinm/issue_5_integrate_allure_report" ],
   "name" : "GIT_COMMIT_MESSAGE"
 }, {
-  "values" : [ "crlin.m@gmail.com" ],
+  "values" : [ "74147284+crlinm@users.noreply.github.com" ],
   "name" : "GIT_COMMIT_AUTHOR_NAME"
 }, {
-  "values" : [ "2023-12-13 20:42:36 +0600" ],
+  "values" : [ "2023-12-14 02:46:30 +0600" ],
   "name" : "GIT_COMMIT_TIME"
 }, {
   "values" : [ "119.0.6045.199" ],
