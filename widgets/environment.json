@@ -2,7 +2,7 @@
   "values" : [ "main" ],
   "name" : "GIT_BRANCH"
 }, {
-  "values" : [ "6f82d65e65be7f59f6c54fc2b4d9daf5849d5fca" ],
+  "values" : [ "63bbe6f564b4b91a2e65115e8450b6482a536d74" ],
   "name" : "GIT_COMMIT_ID"
 }, {
   "values" : [ "feat: allure hierarchy" ],
@@ -11,7 +11,7 @@
   "values" : [ "crlin.m@gmail.com" ],
   "name" : "GIT_COMMIT_AUTHOR_NAME"
 }, {
-  "values" : [ "2023-12-06 21:32:13 +0600" ],
+  "values" : [ "2023-12-13 20:42:36 +0600" ],
   "name" : "GIT_COMMIT_TIME"
 }, {
   "values" : [ "119.0.6045.199" ],
