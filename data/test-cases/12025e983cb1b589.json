@@ -1,12 +1,12 @@
 {
-  "uid" : "793991592a8d600f",
+  "uid" : "12025e983cb1b589",
   "name" : "verify redirection to description page not authorized user",
   "fullName" : "tests.main_page_test.TestMainPage#test_mp_01_verify_redirection_to_description_page",
   "historyId" : "9b714ca45645375fd8223c62615c0a31",
   "time" : {
-    "start" : 1702776214960,
-    "stop" : 1702776215068,
-    "duration" : 108
+    "start" : 1702862391217,
+    "stop" : 1702862391338,
+    "duration" : 121
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,158 +14,158 @@
   "beforeStages" : [ {
     "name" : "driver",
     "time" : {
-      "start" : 1702776211534,
-      "stop" : 1702776212303,
-      "duration" : 769
+      "start" : 1702862387261,
+      "stop" : 1702862388035,
+      "duration" : 774
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   }, {
     "name" : "main_page_open",
     "time" : {
-      "start" : 1702776212303,
-      "stop" : 1702776214960,
-      "duration" : 2657
+      "start" : 1702862388035,
+      "stop" : 1702862391216,
+      "duration" : 3181
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   }, {
     "name" : "clear_allure_results_folder",
     "time" : {
-      "start" : 1702776188143,
-      "stop" : 1702776188143,
+      "start" : 1702862354058,
+      "stop" : 1702862354058,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "Open description page",
       "time" : {
-        "start" : 1702776214960,
-        "stop" : 1702776215068,
-        "duration" : 108
+        "start" : 1702862391217,
+        "stop" : 1702862391338,
+        "duration" : 121
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable: ('id', 'ember5')",
         "time" : {
-          "start" : 1702776214960,
-          "stop" : 1702776214996,
-          "duration" : 36
+          "start" : 1702862391217,
+          "stop" : 1702862391252,
+          "duration" : 35
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1702776214978,
-            "stop" : 1702776214996,
+            "start" : 1702862391234,
+            "stop" : 1702862391252,
             "duration" : 18
           },
           "status" : "passed",
           "steps" : [ {
             "name" : "Check elements are clickable: ('id', 'ember5')",
             "time" : {
-              "start" : 1702776214978,
-              "stop" : 1702776214996,
+              "start" : 1702862391234,
+              "stop" : 1702862391252,
               "duration" : 18
             },
             "status" : "passed",
             "steps" : [ ],
             "attachments" : [ ],
             "parameters" : [ ],
-            "attachmentsCount" : 0,
-            "shouldDisplayMessage" : false,
             "stepsCount" : 0,
-            "hasContent" : false
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
           } ],
           "attachments" : [ ],
           "parameters" : [ {
             "name" : "locator",
             "value" : "('id', 'ember5')"
           } ],
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false,
           "stepsCount" : 1,
-          "hasContent" : true
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
         } ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 2,
-        "hasContent" : true
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Check url is presence: https://brainup.site/description",
         "time" : {
-          "start" : 1702776215061,
-          "stop" : 1702776215065,
+          "start" : 1702862391331,
+          "stop" : 1702862391335,
           "duration" : 4
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 4,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 5,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1702776215069,
-      "stop" : 1702776215266,
-      "duration" : 197
+      "start" : 1702862391339,
+      "stop" : 1702862391548,
+      "duration" : 209
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "2c003ec7a669ec16",
-      "name" : "Screenshot 2023-12-17 01:23:35.207820",
-      "source" : "2c003ec7a669ec16.png",
+      "uid" : "ff511d6eb87ec0df",
+      "name" : "Screenshot 2023-12-18 01:19:51.488848",
+      "source" : "ff511d6eb87ec0df.png",
       "type" : "image/png",
       "size" : 157022
     } ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "epic",
@@ -181,10 +181,10 @@
     "value" : "TestMainPage"
   }, {
     "name" : "host",
-    "value" : "fv-az842-590"
+    "value" : "fv-az1200-373"
   }, {
     "name" : "thread",
-    "value" : "1921-MainThread"
+    "value" : "1927-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -211,11 +211,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 15,
+        "passed" : 16,
         "unknown" : 0,
-        "total" : 15
+        "total" : 16
       },
       "items" : [ {
+        "uid" : "793991592a8d600f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1702776214960,
+          "stop" : 1702776215068,
+          "duration" : 108
+        }
+      }, {
         "uid" : "eaed1bd540df9",
         "status" : "passed",
         "time" : {
@@ -331,6 +339,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "793991592a8d600f.json",
+  "source" : "12025e983cb1b589.json",
   "parameterValues" : [ ]
 }
