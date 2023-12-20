@@ -64,6 +64,15 @@
 }, {
   "data" : {
     "failed" : 0,
+    "broken" : 0,
+    "skipped" : 1,
+    "passed" : 9,
+    "unknown" : 0,
+    "total" : 10
+  }
+}, {
+  "data" : {
+    "failed" : 0,
     "broken" : 1,
     "skipped" : 0,
     "passed" : 9,
