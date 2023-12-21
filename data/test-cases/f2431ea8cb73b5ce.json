@@ -1,219 +1,219 @@
 {
-  "uid" : "d4687f1e3e9b6a4c",
+  "uid" : "f2431ea8cb73b5ce",
   "name" : "verify redirection to github not authorized user",
   "fullName" : "tests.main_page_test.TestMainPage#test_mp_06_verify_redirection_to_github",
   "historyId" : "6215605f7f9a95b5329b94248980024e",
   "time" : {
-    "start" : 1703034310706,
-    "stop" : 1703034311809,
-    "duration" : 1103
+    "start" : 1703121489148,
+    "stop" : 1703121490310,
+    "duration" : 1162
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "clear_allure_results_folder",
-    "time" : {
-      "start" : 1703034250113,
-      "stop" : 1703034250113,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "main_page_open",
-    "time" : {
-      "start" : 1703034306650,
-      "stop" : 1703034310706,
-      "duration" : 4056
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
     "name" : "driver",
     "time" : {
-      "start" : 1703034305881,
-      "stop" : 1703034306650,
+      "start" : 1703121484537,
+      "stop" : 1703121485306,
       "duration" : 769
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "clear_allure_results_folder",
+    "time" : {
+      "start" : 1703121427672,
+      "stop" : 1703121427672,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "main_page_open",
+    "time" : {
+      "start" : 1703121485306,
+      "stop" : 1703121489148,
+      "duration" : 3842
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "Open github page",
       "time" : {
-        "start" : 1703034310706,
-        "stop" : 1703034311809,
-        "duration" : 1103
+        "start" : 1703121489148,
+        "stop" : 1703121490310,
+        "duration" : 1162
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable: ('css selector', '#other-menu')",
         "time" : {
-          "start" : 1703034310706,
-          "stop" : 1703034310742,
+          "start" : 1703121489148,
+          "stop" : 1703121489184,
           "duration" : 36
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1703034310724,
-            "stop" : 1703034310742,
-            "duration" : 18
+            "start" : 1703121489165,
+            "stop" : 1703121489184,
+            "duration" : 19
           },
           "status" : "passed",
           "steps" : [ {
             "name" : "Check elements are clickable: ('css selector', '#other-menu')",
             "time" : {
-              "start" : 1703034310724,
-              "stop" : 1703034310742,
-              "duration" : 18
+              "start" : 1703121489165,
+              "stop" : 1703121489184,
+              "duration" : 19
             },
             "status" : "passed",
             "steps" : [ ],
             "attachments" : [ ],
             "parameters" : [ ],
-            "attachmentsCount" : 0,
-            "shouldDisplayMessage" : false,
             "stepsCount" : 0,
-            "hasContent" : false
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
           } ],
           "attachments" : [ ],
           "parameters" : [ {
             "name" : "locator",
             "value" : "('css selector', '#other-menu')"
           } ],
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false,
           "stepsCount" : 1,
-          "hasContent" : true
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
         } ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 2,
-        "hasContent" : true
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Check element is visible and clickable: ('xpath', \"//div[@id='other-menu']//a[2]\")",
         "time" : {
-          "start" : 1703034310770,
-          "stop" : 1703034310800,
+          "start" : 1703121489213,
+          "stop" : 1703121489243,
           "duration" : 30
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1703034310785,
-            "stop" : 1703034310800,
+            "start" : 1703121489228,
+            "stop" : 1703121489243,
             "duration" : 15
           },
           "status" : "passed",
           "steps" : [ {
             "name" : "Check elements are clickable: ('xpath', \"//div[@id='other-menu']//a[2]\")",
             "time" : {
-              "start" : 1703034310785,
-              "stop" : 1703034310800,
+              "start" : 1703121489228,
+              "stop" : 1703121489243,
               "duration" : 15
             },
             "status" : "passed",
             "steps" : [ ],
             "attachments" : [ ],
             "parameters" : [ ],
-            "attachmentsCount" : 0,
-            "shouldDisplayMessage" : false,
             "stepsCount" : 0,
-            "hasContent" : false
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
           } ],
           "attachments" : [ ],
           "parameters" : [ {
             "name" : "locator",
             "value" : "('xpath', \"//div[@id='other-menu']//a[2]\")"
           } ],
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false,
           "stepsCount" : 1,
-          "hasContent" : true
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
         } ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 2,
-        "hasContent" : true
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Check url is presence: https://github.com/Brain-up/brn",
         "time" : {
-          "start" : 1703034311382,
-          "stop" : 1703034311803,
-          "duration" : 421
+          "start" : 1703121489678,
+          "stop" : 1703121490307,
+          "duration" : 629
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 7,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 8,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1703034311810,
-      "stop" : 1703034311968,
-      "duration" : 158
+      "start" : 1703121490311,
+      "stop" : 1703121490425,
+      "duration" : 114
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "3c352e07b802ac83",
-      "name" : "Screenshot 2023-12-20 01:05:11.906793",
-      "source" : "3c352e07b802ac83.png",
+      "uid" : "eae7a6b9dde2c955",
+      "name" : "Screenshot 2023-12-21 01:18:10.363116",
+      "source" : "eae7a6b9dde2c955.png",
       "type" : "image/png",
-      "size" : 88135
+      "size" : 125990
     } ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "epic",
@@ -229,10 +229,10 @@
     "value" : "TestMainPage"
   }, {
     "name" : "host",
-    "value" : "fv-az1019-640"
+    "value" : "fv-az698-733"
   }, {
     "name" : "thread",
-    "value" : "1995-MainThread"
+    "value" : "1811-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -259,11 +259,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 18,
+        "passed" : 19,
         "unknown" : 0,
-        "total" : 18
+        "total" : 19
       },
       "items" : [ {
+        "uid" : "d4687f1e3e9b6a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703034310706,
+          "stop" : 1703034311809,
+          "duration" : 1103
+        }
+      }, {
         "uid" : "dbf20d40f7bde8b5",
         "status" : "passed",
         "time" : {
@@ -403,6 +411,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "d4687f1e3e9b6a4c.json",
+  "source" : "f2431ea8cb73b5ce.json",
   "parameterValues" : [ ]
 }

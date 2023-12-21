@@ -1,100 +1,100 @@
 [ {
-  "uid" : "c97c534d0f76e201",
-  "name" : "verify redirection to contributors page not authorized user",
-  "time" : {
-    "start" : 1703034316699,
-    "stop" : 1703034317337,
-    "duration" : 638
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d4687f1e3e9b6a4c",
-  "name" : "verify redirection to github not authorized user",
-  "time" : {
-    "start" : 1703034310706,
-    "stop" : 1703034311809,
-    "duration" : 1103
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6be45a52eb8e784c",
-  "name" : "test_task",
-  "time" : {
-    "start" : 1703034263410,
-    "stop" : 1703034276903,
-    "duration" : 13493
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "61c7f8b6fde1c067",
-  "name" : "verify redirection to description page not authorized user",
-  "time" : {
-    "start" : 1703034281873,
-    "stop" : 1703034281983,
-    "duration" : 110
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "abbd3853b210a192",
-  "name" : "verify redirection to specialists page not authorized user",
-  "time" : {
-    "start" : 1703034305025,
-    "stop" : 1703034305671,
-    "duration" : 646
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6c2b336d9dbac9dc",
-  "name" : "verify redirection to telegram page not authorized user",
-  "time" : {
-    "start" : 1703034286703,
-    "stop" : 1703034288697,
-    "duration" : 1994
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a07c127722d3fc43",
-  "name" : "verify redirection to donate page not authorized user",
-  "time" : {
-    "start" : 1703034293690,
-    "stop" : 1703034295273,
-    "duration" : 1583
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5f6382cad2087522",
-  "name" : "test_logining_user",
-  "time" : {
-    "start" : 1703034255709,
-    "stop" : 1703034258510,
-    "duration" : 2801
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d3805da3baf2547f",
+  "uid" : "6fb74e9f150a5f5d",
   "name" : "verify redirection to contacts page not authorized user",
   "time" : {
-    "start" : 1703034299961,
-    "stop" : 1703034300100,
+    "start" : 1703121478571,
+    "stop" : 1703121478710,
     "duration" : 139
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "39fed0b948341944",
+  "uid" : "db88d89658f2406d",
+  "name" : "verify redirection to specialists page not authorized user",
+  "time" : {
+    "start" : 1703121483674,
+    "stop" : 1703121484341,
+    "duration" : 667
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d1c35bf8227ef90",
+  "name" : "verify redirection to description page not authorized user",
+  "time" : {
+    "start" : 1703121460116,
+    "stop" : 1703121460226,
+    "duration" : 110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9022b8f111bf78aa",
+  "name" : "test_task",
+  "time" : {
+    "start" : 1703121441948,
+    "stop" : 1703121455094,
+    "duration" : 13146
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "82005f048dbbb931",
+  "name" : "verify redirection to donate page not authorized user",
+  "time" : {
+    "start" : 1703121471791,
+    "stop" : 1703121473608,
+    "duration" : 1817
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2431ea8cb73b5ce",
+  "name" : "verify redirection to github not authorized user",
+  "time" : {
+    "start" : 1703121489148,
+    "stop" : 1703121490310,
+    "duration" : 1162
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29193a7450ab918a",
+  "name" : "verify redirection to telegram page not authorized user",
+  "time" : {
+    "start" : 1703121464950,
+    "stop" : 1703121466985,
+    "duration" : 2035
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58dd48f060438866",
   "name" : "verify redirection to used resources page not authorized user",
   "time" : {
-    "start" : 1703034322545,
-    "stop" : 1703034322679,
-    "duration" : 134
+    "start" : 1703121500591,
+    "stop" : 1703121500731,
+    "duration" : 140
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f319de7c283a0f8",
+  "name" : "test_logining_user",
+  "time" : {
+    "start" : 1703121433837,
+    "stop" : 1703121437145,
+    "duration" : 3308
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33bceb25f2fbe7fd",
+  "name" : "verify redirection to contributors page not authorized user",
+  "time" : {
+    "start" : 1703121494970,
+    "stop" : 1703121495606,
+    "duration" : 636
   },
   "status" : "passed",
   "severity" : "normal"
