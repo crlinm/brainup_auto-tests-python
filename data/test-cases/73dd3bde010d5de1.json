@@ -1,24 +1,24 @@
 {
-  "uid" : "ed064be5bbee54d8",
+  "uid" : "73dd3bde010d5de1",
   "name" : "test_task",
   "fullName" : "tests.login_page_test.TestTask#test_task",
   "historyId" : "a5aee721d258482e20909245f826af9a",
   "time" : {
-    "start" : 1703294059485,
-    "stop" : 1703294072221,
-    "duration" : 12736
+    "start" : 1703380910387,
+    "stop" : 1703380923064,
+    "duration" : 12677
   },
   "status" : "skipped",
-  "statusMessage" : "XFAIL Can't find element by locator ('xpath', '//a[@title='Речевые упражнения']')\n\nselenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//a[@title=\"Речевые упражнения\"]')\nStacktrace:\n#0 0x5590e855ed33 <unknown>\n#1 0x5590e821bf87 <unknown>\n#2 0x5590e826bc0e <unknown>\n#3 0x5590e826bd11 <unknown>\n#4 0x5590e82b7004 <unknown>\n#5 0x5590e829536d <unknown>\n#6 0x5590e82b4297 <unknown>\n#7 0x5590e82950e3 <unknown>\n#8 0x5590e825d044 <unknown>\n#9 0x5590e825e44e <unknown>\n#10 0x5590e8523861 <unknown>\n#11 0x5590e8527785 <unknown>\n#12 0x5590e8511285 <unknown>\n#13 0x5590e852841f <unknown>\n#14 0x5590e84f520f <unknown>\n#15 0x5590e854c028 <unknown>\n#16 0x5590e854c1f7 <unknown>\n#17 0x5590e855ded4 <unknown>\n#18 0x7fa36e094ac3 <unknown>",
-  "statusTrace" : "self = <tests.login_page_test.TestTask object at 0x7f0b2432b5f0>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"1251f21655f87f771b76fb11f4882410\")>\nmain_page_open = None\n\n    @pytest.mark.xfail(reason=\"Can't find element by locator ('xpath', '//a[@title='Речевые упражнения']')\")\n    def test_task(self, driver, main_page_open):\n        page = LoginPage(driver)\n        page.login_user()\n    \n        page = AuthorizedUserHomePage(driver)\n>       page.click_speech_exercises()\n\ntests/login_page_test.py:29: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/autorized_user_home_page.py:9: in click_speech_exercises\n    self.element_is_presence_and_clickable(self.locators.SPEECH_EXERCISES).click()\npages/base_page.py:29: in element_is_presence_and_clickable\n    return (Wait(self.driver, self.timeout).until(ec.visibility_of_element_located(locator),\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"1251f21655f87f771b76fb11f4882410\")>\nmethod = <function visibility_of_element_located.<locals>._predicate at 0x7f0b23665940>\nmessage = 'Can\\'t find element by locator (\\'xpath\\', \\'//a[@title=\"Речевые упражнения\"]\\')'\n\n    def until(self, method, message: str = \"\"):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//a[@title=\"Речевые упражнения\"]')\nE       Stacktrace:\nE       #0 0x5590e855ed33 <unknown>\nE       #1 0x5590e821bf87 <unknown>\nE       #2 0x5590e826bc0e <unknown>\nE       #3 0x5590e826bd11 <unknown>\nE       #4 0x5590e82b7004 <unknown>\nE       #5 0x5590e829536d <unknown>\nE       #6 0x5590e82b4297 <unknown>\nE       #7 0x5590e82950e3 <unknown>\nE       #8 0x5590e825d044 <unknown>\nE       #9 0x5590e825e44e <unknown>\nE       #10 0x5590e8523861 <unknown>\nE       #11 0x5590e8527785 <unknown>\nE       #12 0x5590e8511285 <unknown>\nE       #13 0x5590e852841f <unknown>\nE       #14 0x5590e84f520f <unknown>\nE       #15 0x5590e854c028 <unknown>\nE       #16 0x5590e854c1f7 <unknown>\nE       #17 0x5590e855ded4 <unknown>\nE       #18 0x7fa36e094ac3 <unknown>\n\n/opt/hostedtoolcache/Python/3.12.1/x64/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:95: TimeoutException",
+  "statusMessage" : "XFAIL Can't find element by locator ('xpath', '//a[@title='Речевые упражнения']')\n\nselenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//a[@title=\"Речевые упражнения\"]')\nStacktrace:\n#0 0x560d4aa8dd33 <unknown>\n#1 0x560d4a74af87 <unknown>\n#2 0x560d4a79ac0e <unknown>\n#3 0x560d4a79ad11 <unknown>\n#4 0x560d4a7e6004 <unknown>\n#5 0x560d4a7c436d <unknown>\n#6 0x560d4a7e3297 <unknown>\n#7 0x560d4a7c40e3 <unknown>\n#8 0x560d4a78c044 <unknown>\n#9 0x560d4a78d44e <unknown>\n#10 0x560d4aa52861 <unknown>\n#11 0x560d4aa56785 <unknown>\n#12 0x560d4aa40285 <unknown>\n#13 0x560d4aa5741f <unknown>\n#14 0x560d4aa2420f <unknown>\n#15 0x560d4aa7b028 <unknown>\n#16 0x560d4aa7b1f7 <unknown>\n#17 0x560d4aa8ced4 <unknown>\n#18 0x7f626ca94ac3 <unknown>",
+  "statusTrace" : "self = <tests.login_page_test.TestTask object at 0x7f21755235f0>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"5de4dac54f8933bf50eec7028aded564\")>\nmain_page_open = None\n\n    @pytest.mark.xfail(reason=\"Can't find element by locator ('xpath', '//a[@title='Речевые упражнения']')\")\n    def test_task(self, driver, main_page_open):\n        page = LoginPage(driver)\n        page.login_user()\n    \n        page = AuthorizedUserHomePage(driver)\n>       page.click_speech_exercises()\n\ntests/login_page_test.py:29: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/autorized_user_home_page.py:9: in click_speech_exercises\n    self.element_is_presence_and_clickable(self.locators.SPEECH_EXERCISES).click()\npages/base_page.py:29: in element_is_presence_and_clickable\n    return (Wait(self.driver, self.timeout).until(ec.visibility_of_element_located(locator),\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"5de4dac54f8933bf50eec7028aded564\")>\nmethod = <function visibility_of_element_located.<locals>._predicate at 0x7f2174865940>\nmessage = 'Can\\'t find element by locator (\\'xpath\\', \\'//a[@title=\"Речевые упражнения\"]\\')'\n\n    def until(self, method, message: str = \"\"):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//a[@title=\"Речевые упражнения\"]')\nE       Stacktrace:\nE       #0 0x560d4aa8dd33 <unknown>\nE       #1 0x560d4a74af87 <unknown>\nE       #2 0x560d4a79ac0e <unknown>\nE       #3 0x560d4a79ad11 <unknown>\nE       #4 0x560d4a7e6004 <unknown>\nE       #5 0x560d4a7c436d <unknown>\nE       #6 0x560d4a7e3297 <unknown>\nE       #7 0x560d4a7c40e3 <unknown>\nE       #8 0x560d4a78c044 <unknown>\nE       #9 0x560d4a78d44e <unknown>\nE       #10 0x560d4aa52861 <unknown>\nE       #11 0x560d4aa56785 <unknown>\nE       #12 0x560d4aa40285 <unknown>\nE       #13 0x560d4aa5741f <unknown>\nE       #14 0x560d4aa2420f <unknown>\nE       #15 0x560d4aa7b028 <unknown>\nE       #16 0x560d4aa7b1f7 <unknown>\nE       #17 0x560d4aa8ced4 <unknown>\nE       #18 0x7f626ca94ac3 <unknown>\n\n/opt/hostedtoolcache/Python/3.12.1/x64/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:95: TimeoutException",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "driver",
     "time" : {
-      "start" : 1703294056039,
-      "stop" : 1703294056808,
-      "duration" : 769
+      "start" : 1703380907079,
+      "stop" : 1703380907849,
+      "duration" : 770
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,8 +31,8 @@
   }, {
     "name" : "clear_allure_results_folder",
     "time" : {
-      "start" : 1703294049133,
-      "stop" : 1703294049133,
+      "start" : 1703380894944,
+      "stop" : 1703380894944,
       "duration" : 0
     },
     "status" : "passed",
@@ -46,9 +46,9 @@
   }, {
     "name" : "main_page_open",
     "time" : {
-      "start" : 1703294056809,
-      "stop" : 1703294059485,
-      "duration" : 2676
+      "start" : 1703380907849,
+      "stop" : 1703380910386,
+      "duration" : 2537
     },
     "status" : "passed",
     "steps" : [ ],
@@ -61,30 +61,30 @@
   } ],
   "testStage" : {
     "status" : "skipped",
-    "statusMessage" : "XFAIL Can't find element by locator ('xpath', '//a[@title='Речевые упражнения']')\n\nselenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//a[@title=\"Речевые упражнения\"]')\nStacktrace:\n#0 0x5590e855ed33 <unknown>\n#1 0x5590e821bf87 <unknown>\n#2 0x5590e826bc0e <unknown>\n#3 0x5590e826bd11 <unknown>\n#4 0x5590e82b7004 <unknown>\n#5 0x5590e829536d <unknown>\n#6 0x5590e82b4297 <unknown>\n#7 0x5590e82950e3 <unknown>\n#8 0x5590e825d044 <unknown>\n#9 0x5590e825e44e <unknown>\n#10 0x5590e8523861 <unknown>\n#11 0x5590e8527785 <unknown>\n#12 0x5590e8511285 <unknown>\n#13 0x5590e852841f <unknown>\n#14 0x5590e84f520f <unknown>\n#15 0x5590e854c028 <unknown>\n#16 0x5590e854c1f7 <unknown>\n#17 0x5590e855ded4 <unknown>\n#18 0x7fa36e094ac3 <unknown>",
-    "statusTrace" : "self = <tests.login_page_test.TestTask object at 0x7f0b2432b5f0>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"1251f21655f87f771b76fb11f4882410\")>\nmain_page_open = None\n\n    @pytest.mark.xfail(reason=\"Can't find element by locator ('xpath', '//a[@title='Речевые упражнения']')\")\n    def test_task(self, driver, main_page_open):\n        page = LoginPage(driver)\n        page.login_user()\n    \n        page = AuthorizedUserHomePage(driver)\n>       page.click_speech_exercises()\n\ntests/login_page_test.py:29: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/autorized_user_home_page.py:9: in click_speech_exercises\n    self.element_is_presence_and_clickable(self.locators.SPEECH_EXERCISES).click()\npages/base_page.py:29: in element_is_presence_and_clickable\n    return (Wait(self.driver, self.timeout).until(ec.visibility_of_element_located(locator),\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"1251f21655f87f771b76fb11f4882410\")>\nmethod = <function visibility_of_element_located.<locals>._predicate at 0x7f0b23665940>\nmessage = 'Can\\'t find element by locator (\\'xpath\\', \\'//a[@title=\"Речевые упражнения\"]\\')'\n\n    def until(self, method, message: str = \"\"):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//a[@title=\"Речевые упражнения\"]')\nE       Stacktrace:\nE       #0 0x5590e855ed33 <unknown>\nE       #1 0x5590e821bf87 <unknown>\nE       #2 0x5590e826bc0e <unknown>\nE       #3 0x5590e826bd11 <unknown>\nE       #4 0x5590e82b7004 <unknown>\nE       #5 0x5590e829536d <unknown>\nE       #6 0x5590e82b4297 <unknown>\nE       #7 0x5590e82950e3 <unknown>\nE       #8 0x5590e825d044 <unknown>\nE       #9 0x5590e825e44e <unknown>\nE       #10 0x5590e8523861 <unknown>\nE       #11 0x5590e8527785 <unknown>\nE       #12 0x5590e8511285 <unknown>\nE       #13 0x5590e852841f <unknown>\nE       #14 0x5590e84f520f <unknown>\nE       #15 0x5590e854c028 <unknown>\nE       #16 0x5590e854c1f7 <unknown>\nE       #17 0x5590e855ded4 <unknown>\nE       #18 0x7fa36e094ac3 <unknown>\n\n/opt/hostedtoolcache/Python/3.12.1/x64/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:95: TimeoutException",
+    "statusMessage" : "XFAIL Can't find element by locator ('xpath', '//a[@title='Речевые упражнения']')\n\nselenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//a[@title=\"Речевые упражнения\"]')\nStacktrace:\n#0 0x560d4aa8dd33 <unknown>\n#1 0x560d4a74af87 <unknown>\n#2 0x560d4a79ac0e <unknown>\n#3 0x560d4a79ad11 <unknown>\n#4 0x560d4a7e6004 <unknown>\n#5 0x560d4a7c436d <unknown>\n#6 0x560d4a7e3297 <unknown>\n#7 0x560d4a7c40e3 <unknown>\n#8 0x560d4a78c044 <unknown>\n#9 0x560d4a78d44e <unknown>\n#10 0x560d4aa52861 <unknown>\n#11 0x560d4aa56785 <unknown>\n#12 0x560d4aa40285 <unknown>\n#13 0x560d4aa5741f <unknown>\n#14 0x560d4aa2420f <unknown>\n#15 0x560d4aa7b028 <unknown>\n#16 0x560d4aa7b1f7 <unknown>\n#17 0x560d4aa8ced4 <unknown>\n#18 0x7f626ca94ac3 <unknown>",
+    "statusTrace" : "self = <tests.login_page_test.TestTask object at 0x7f21755235f0>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"5de4dac54f8933bf50eec7028aded564\")>\nmain_page_open = None\n\n    @pytest.mark.xfail(reason=\"Can't find element by locator ('xpath', '//a[@title='Речевые упражнения']')\")\n    def test_task(self, driver, main_page_open):\n        page = LoginPage(driver)\n        page.login_user()\n    \n        page = AuthorizedUserHomePage(driver)\n>       page.click_speech_exercises()\n\ntests/login_page_test.py:29: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/autorized_user_home_page.py:9: in click_speech_exercises\n    self.element_is_presence_and_clickable(self.locators.SPEECH_EXERCISES).click()\npages/base_page.py:29: in element_is_presence_and_clickable\n    return (Wait(self.driver, self.timeout).until(ec.visibility_of_element_located(locator),\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"5de4dac54f8933bf50eec7028aded564\")>\nmethod = <function visibility_of_element_located.<locals>._predicate at 0x7f2174865940>\nmessage = 'Can\\'t find element by locator (\\'xpath\\', \\'//a[@title=\"Речевые упражнения\"]\\')'\n\n    def until(self, method, message: str = \"\"):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//a[@title=\"Речевые упражнения\"]')\nE       Stacktrace:\nE       #0 0x560d4aa8dd33 <unknown>\nE       #1 0x560d4a74af87 <unknown>\nE       #2 0x560d4a79ac0e <unknown>\nE       #3 0x560d4a79ad11 <unknown>\nE       #4 0x560d4a7e6004 <unknown>\nE       #5 0x560d4a7c436d <unknown>\nE       #6 0x560d4a7e3297 <unknown>\nE       #7 0x560d4a7c40e3 <unknown>\nE       #8 0x560d4a78c044 <unknown>\nE       #9 0x560d4a78d44e <unknown>\nE       #10 0x560d4aa52861 <unknown>\nE       #11 0x560d4aa56785 <unknown>\nE       #12 0x560d4aa40285 <unknown>\nE       #13 0x560d4aa5741f <unknown>\nE       #14 0x560d4aa2420f <unknown>\nE       #15 0x560d4aa7b028 <unknown>\nE       #16 0x560d4aa7b1f7 <unknown>\nE       #17 0x560d4aa8ced4 <unknown>\nE       #18 0x7f626ca94ac3 <unknown>\n\n/opt/hostedtoolcache/Python/3.12.1/x64/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:95: TimeoutException",
     "steps" : [ {
       "name" : "Check element is visible and clickable: ('xpath', '//a[@id=\"ember11\"]')",
       "time" : {
-        "start" : 1703294059485,
-        "stop" : 1703294059522,
-        "duration" : 37
+        "start" : 1703380910387,
+        "stop" : 1703380910423,
+        "duration" : 36
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is clickable",
         "time" : {
-          "start" : 1703294059503,
-          "stop" : 1703294059521,
-          "duration" : 18
+          "start" : 1703380910404,
+          "stop" : 1703380910423,
+          "duration" : 19
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check elements are clickable: ('xpath', '//a[@id=\"ember11\"]')",
           "time" : {
-            "start" : 1703294059503,
-            "stop" : 1703294059521,
-            "duration" : 18
+            "start" : 1703380910404,
+            "stop" : 1703380910423,
+            "duration" : 19
           },
           "status" : "passed",
           "steps" : [ ],
@@ -114,8 +114,8 @@
     }, {
       "name" : "Check url is presence: https://brainup.site/login",
       "time" : {
-        "start" : 1703294059568,
-        "stop" : 1703294059573,
+        "start" : 1703380910469,
+        "stop" : 1703380910474,
         "duration" : 5
       },
       "status" : "passed",
@@ -129,9 +129,9 @@
     }, {
       "name" : "Check element is presence: ('xpath', '//input[@id=\"login\"]')",
       "time" : {
-        "start" : 1703294059573,
-        "stop" : 1703294059582,
-        "duration" : 9
+        "start" : 1703380910474,
+        "stop" : 1703380910484,
+        "duration" : 10
       },
       "status" : "passed",
       "steps" : [ ],
@@ -144,9 +144,9 @@
     }, {
       "name" : "Check element is presence: ('xpath', '//input[@id=\"password\"]')",
       "time" : {
-        "start" : 1703294059637,
-        "stop" : 1703294059646,
-        "duration" : 9
+        "start" : 1703380910538,
+        "stop" : 1703380910548,
+        "duration" : 10
       },
       "status" : "passed",
       "steps" : [ ],
@@ -159,24 +159,24 @@
     }, {
       "name" : "Check element is visible and clickable: ('xpath', '//*[@type=\"submit\"]')",
       "time" : {
-        "start" : 1703294059690,
-        "stop" : 1703294059719,
+        "start" : 1703380910590,
+        "stop" : 1703380910619,
         "duration" : 29
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is clickable",
         "time" : {
-          "start" : 1703294059704,
-          "stop" : 1703294059719,
+          "start" : 1703380910604,
+          "stop" : 1703380910619,
           "duration" : 15
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check elements are clickable: ('xpath', '//*[@type=\"submit\"]')",
           "time" : {
-            "start" : 1703294059704,
-            "stop" : 1703294059719,
+            "start" : 1703380910604,
+            "stop" : 1703380910619,
             "duration" : 15
           },
           "status" : "passed",
@@ -207,9 +207,9 @@
     }, {
       "name" : "Check url is presence: https://brainup.site/groups",
       "time" : {
-        "start" : 1703294059756,
-        "stop" : 1703294061774,
-        "duration" : 2018
+        "start" : 1703380910653,
+        "stop" : 1703380912672,
+        "duration" : 2019
       },
       "status" : "passed",
       "steps" : [ ],
@@ -222,12 +222,12 @@
     }, {
       "name" : "Check element is visible and clickable: ('xpath', '//a[@title=\"Речевые упражнения\"]')",
       "time" : {
-        "start" : 1703294061777,
-        "stop" : 1703294072220,
-        "duration" : 10443
+        "start" : 1703380912675,
+        "stop" : 1703380923063,
+        "duration" : 10388
       },
       "status" : "broken",
-      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//a[@title=\"Речевые упражнения\"]')\nStacktrace:\n#0 0x5590e855ed33 <unknown>\n#1 0x5590e821bf87 <unknown>\n#2 0x5590e826bc0e <unknown>\n#3 0x5590e826bd11 <unknown>\n#4 0x5590e82b7004 <unknown>\n#5 0x5590e829536d <unknown>\n#6 0x5590e82b4297 <unknown>\n#7 0x5590e82950e3 <unknown>\n#8 0x5590e825d044 <unknown>\n#9 0x5590e825e44e <unknown>\n#10 0x5590e8523861 <unknown>\n#11 0x5590e8527785 <unknown>\n#12 0x5590e8511285 <unknown>\n#13 0x5590e852841f <unknown>\n#14 0x5590e84f520f <unknown>\n#15 0x5590e854c028 <unknown>\n#16 0x5590e854c1f7 <unknown>\n#17 0x5590e855ded4 <unknown>\n#18 0x7fa36e094ac3 <unknown>\n\n",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//a[@title=\"Речевые упражнения\"]')\nStacktrace:\n#0 0x560d4aa8dd33 <unknown>\n#1 0x560d4a74af87 <unknown>\n#2 0x560d4a79ac0e <unknown>\n#3 0x560d4a79ad11 <unknown>\n#4 0x560d4a7e6004 <unknown>\n#5 0x560d4a7c436d <unknown>\n#6 0x560d4a7e3297 <unknown>\n#7 0x560d4a7c40e3 <unknown>\n#8 0x560d4a78c044 <unknown>\n#9 0x560d4a78d44e <unknown>\n#10 0x560d4aa52861 <unknown>\n#11 0x560d4aa56785 <unknown>\n#12 0x560d4aa40285 <unknown>\n#13 0x560d4aa5741f <unknown>\n#14 0x560d4aa2420f <unknown>\n#15 0x560d4aa7b028 <unknown>\n#16 0x560d4aa7b1f7 <unknown>\n#17 0x560d4aa8ced4 <unknown>\n#18 0x7f626ca94ac3 <unknown>\n\n",
       "statusTrace" : "  File \"/home/runner/work/brainup_auto-tests-python/brainup_auto-tests-python/pages/base_page.py\", line 29, in element_is_presence_and_clickable\n    return (Wait(self.driver, self.timeout).until(ec.visibility_of_element_located(locator),\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.1/x64/lib/python3.12/site-packages/selenium/webdriver/support/wait.py\", line 95, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
       "steps" : [ ],
       "attachments" : [ ],
@@ -238,15 +238,15 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "d390d38da9767d44",
+      "uid" : "77437ae09c7cfb36",
       "name" : "Screenshot",
-      "source" : "d390d38da9767d44.png",
+      "source" : "77437ae09c7cfb36.png",
       "type" : "image/png",
       "size" : 117850
     }, {
-      "uid" : "a20bf4f006becf86",
+      "uid" : "5bb37773698bf6cb",
       "name" : "HTML source",
-      "source" : "a20bf4f006becf86.html",
+      "source" : "5bb37773698bf6cb.html",
       "type" : "text/html",
       "size" : 33594
     } ],
@@ -259,16 +259,16 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1703294072383,
-      "stop" : 1703294072576,
-      "duration" : 193
+      "start" : 1703380923230,
+      "stop" : 1703380923426,
+      "duration" : 196
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "ef2c030b42037ee6",
-      "name" : "Screenshot 2023-12-23 01:14:32.514698",
-      "source" : "ef2c030b42037ee6.png",
+      "uid" : "58e756a96a466f4a",
+      "name" : "Screenshot 2023-12-24 01:22:03.362676",
+      "source" : "58e756a96a466f4a.png",
       "type" : "image/png",
       "size" : 117850
     } ],
@@ -295,10 +295,10 @@
     "value" : "TestTask"
   }, {
     "name" : "host",
-    "value" : "fv-az738-229"
+    "value" : "fv-az1208-450"
   }, {
     "name" : "thread",
-    "value" : "1793-MainThread"
+    "value" : "1819-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -324,12 +324,21 @@
       "statistic" : {
         "failed" : 0,
         "broken" : 2,
-        "skipped" : 11,
+        "skipped" : 12,
         "passed" : 0,
         "unknown" : 0,
-        "total" : 13
+        "total" : 14
       },
       "items" : [ {
+        "uid" : "ed064be5bbee54d8",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL Can't find element by locator ('xpath', '//a[@title='Речевые упражнения']')\n\nselenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//a[@title=\"Речевые упражнения\"]')\nStacktrace:\n#0 0x5590e855ed33 <unknown>\n#1 0x5590e821bf87 <unknown>\n#2 0x5590e826bc0e <unknown>\n#3 0x5590e826bd11 <unknown>\n#4 0x5590e82b7004 <unknown>\n#5 0x5590e829536d <unknown>\n#6 0x5590e82b4297 <unknown>\n#7 0x5590e82950e3 <unknown>\n#8 0x5590e825d044 <unknown>\n#9 0x5590e825e44e <unknown>\n#10 0x5590e8523861 <unknown>\n#11 0x5590e8527785 <unknown>\n#12 0x5590e8511285 <unknown>\n#13 0x5590e852841f <unknown>\n#14 0x5590e84f520f <unknown>\n#15 0x5590e854c028 <unknown>\n#16 0x5590e854c1f7 <unknown>\n#17 0x5590e855ded4 <unknown>\n#18 0x7fa36e094ac3 <unknown>",
+        "time" : {
+          "start" : 1703294059485,
+          "stop" : 1703294072221,
+          "duration" : 12736
+        }
+      }, {
         "uid" : "da6d5edb4e13d287",
         "status" : "skipped",
         "statusDetails" : "XFAIL Can't find element by locator ('xpath', '//a[@title='Речевые упражнения']')\n\nselenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//a[@title=\"Речевые упражнения\"]')\nStacktrace:\n#0 0x55a60dbfbd33 <unknown>\n#1 0x55a60d8b8f87 <unknown>\n#2 0x55a60d908c0e <unknown>\n#3 0x55a60d908d11 <unknown>\n#4 0x55a60d954004 <unknown>\n#5 0x55a60d93236d <unknown>\n#6 0x55a60d951297 <unknown>\n#7 0x55a60d9320e3 <unknown>\n#8 0x55a60d8fa044 <unknown>\n#9 0x55a60d8fb44e <unknown>\n#10 0x55a60dbc0861 <unknown>\n#11 0x55a60dbc4785 <unknown>\n#12 0x55a60dbae285 <unknown>\n#13 0x55a60dbc541f <unknown>\n#14 0x55a60db9220f <unknown>\n#15 0x55a60dbe9028 <unknown>\n#16 0x55a60dbe91f7 <unknown>\n#17 0x55a60dbfaed4 <unknown>\n#18 0x7fc5fcc94ac3 <unknown>",
@@ -441,6 +450,6 @@
     },
     "tags" : [ "@pytest.mark.xfail(reason='Can't find element by locator ('xpath', '//a[@title='Речевые упражнения']')')" ]
   },
-  "source" : "ed064be5bbee54d8.json",
+  "source" : "73dd3bde010d5de1.json",
   "parameterValues" : [ ]
 }
