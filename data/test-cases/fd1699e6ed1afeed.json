@@ -1,22 +1,37 @@
 {
-  "uid" : "60ba2db814f109ef",
+  "uid" : "fd1699e6ed1afeed",
   "name" : "verify redirection to telegram page not authorized user",
   "fullName" : "tests.main_page_test.TestMainPage#test_mp_02_verify_redirection_to_telegram_page",
   "historyId" : "d786a1c87c257d847f81151257654bfc",
   "time" : {
-    "start" : 1703639766656,
-    "stop" : 1703639768562,
-    "duration" : 1906
+    "start" : 1703726170509,
+    "stop" : 1703726172418,
+    "duration" : 1909
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "main_page_open",
+    "time" : {
+      "start" : 1703726166841,
+      "stop" : 1703726170509,
+      "duration" : 3668
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
     "name" : "driver",
     "time" : {
-      "start" : 1703639762188,
-      "stop" : 1703639762957,
-      "duration" : 769
+      "start" : 1703726166075,
+      "stop" : 1703726166841,
+      "duration" : 766
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,24 +44,9 @@
   }, {
     "name" : "clear_allure_results_folder",
     "time" : {
-      "start" : 1703639722926,
-      "stop" : 1703639722926,
+      "start" : 1703726124370,
+      "stop" : 1703726124370,
       "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "main_page_open",
-    "time" : {
-      "start" : 1703639762957,
-      "stop" : 1703639766655,
-      "duration" : 3698
     },
     "status" : "passed",
     "steps" : [ ],
@@ -62,33 +62,33 @@
     "steps" : [ {
       "name" : "Open telegram page",
       "time" : {
-        "start" : 1703639766656,
-        "stop" : 1703639768562,
-        "duration" : 1906
+        "start" : 1703726170509,
+        "stop" : 1703726172418,
+        "duration" : 1909
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable: ('xpath', \"//*[contains(text(),'Telegram')]\")",
         "time" : {
-          "start" : 1703639766656,
-          "stop" : 1703639766692,
+          "start" : 1703726170509,
+          "stop" : 1703726170545,
           "duration" : 36
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1703639766673,
-            "stop" : 1703639766692,
-            "duration" : 19
+            "start" : 1703726170527,
+            "stop" : 1703726170545,
+            "duration" : 18
           },
           "status" : "passed",
           "steps" : [ {
             "name" : "Check elements are clickable: ('xpath', \"//*[contains(text(),'Telegram')]\")",
             "time" : {
-              "start" : 1703639766673,
-              "stop" : 1703639766692,
-              "duration" : 19
+              "start" : 1703726170527,
+              "stop" : 1703726170545,
+              "duration" : 18
             },
             "status" : "passed",
             "steps" : [ ],
@@ -118,9 +118,9 @@
       }, {
         "name" : "Check url is presence: https://t.me/BrainUpUsers",
         "time" : {
-          "start" : 1703639767233,
-          "stop" : 1703639768559,
-          "duration" : 1326
+          "start" : 1703726171080,
+          "stop" : 1703726172416,
+          "duration" : 1336
         },
         "status" : "passed",
         "steps" : [ ],
@@ -148,16 +148,16 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1703639768563,
-      "stop" : 1703639768743,
-      "duration" : 180
+      "start" : 1703726172419,
+      "stop" : 1703726172600,
+      "duration" : 181
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "708b23a0a0d8de86",
-      "name" : "Screenshot 2023-12-27 01:16:08.684185",
-      "source" : "708b23a0a0d8de86.png",
+      "uid" : "3ecb8a704b17cf9d",
+      "name" : "Screenshot 2023-12-28 01:16:12.541333",
+      "source" : "3ecb8a704b17cf9d.png",
       "type" : "image/png",
       "size" : 253429
     } ],
@@ -181,10 +181,10 @@
     "value" : "TestMainPage"
   }, {
     "name" : "host",
-    "value" : "fv-az1567-133"
+    "value" : "fv-az714-545"
   }, {
     "name" : "thread",
-    "value" : "1883-MainThread"
+    "value" : "1816-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -211,11 +211,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 24,
+        "passed" : 25,
         "unknown" : 0,
-        "total" : 24
+        "total" : 25
       },
       "items" : [ {
+        "uid" : "60ba2db814f109ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703639766656,
+          "stop" : 1703639768562,
+          "duration" : 1906
+        }
+      }, {
         "uid" : "508d43d6c1eb37e8",
         "status" : "passed",
         "time" : {
@@ -367,18 +375,10 @@
           "stop" : 1701872990247,
           "duration" : 1191
         }
-      }, {
-        "uid" : "67c8f0e499a3f9d9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1701808391496,
-          "stop" : 1701808392862,
-          "duration" : 1366
-        }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "60ba2db814f109ef.json",
+  "source" : "fd1699e6ed1afeed.json",
   "parameterValues" : [ ]
 }
