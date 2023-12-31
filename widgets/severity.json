@@ -1,100 +1,100 @@
 [ {
-  "uid" : "33e879efc495adb4",
+  "uid" : "f7f76690d385bdc",
+  "name" : "test_task",
+  "time" : {
+    "start" : 1703985748488,
+    "stop" : 1703985760985,
+    "duration" : 12497
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "daf8840cb930d336",
   "name" : "verify redirection to description page not authorized user",
   "time" : {
-    "start" : 1703898917167,
-    "stop" : 1703898917274,
-    "duration" : 107
+    "start" : 1703985765483,
+    "stop" : 1703985765613,
+    "duration" : 130
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "10818c9471013c40",
-  "name" : "verify redirection to donate page not authorized user",
-  "time" : {
-    "start" : 1703898925656,
-    "stop" : 1703898926657,
-    "duration" : 1001
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "63caae4a49c557cc",
-  "name" : "verify redirection to contacts page not authorized user",
-  "time" : {
-    "start" : 1703898930305,
-    "stop" : 1703898930440,
-    "duration" : 135
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cdc7e250745c3a87",
+  "uid" : "346c1cf8ff5a6e3a",
   "name" : "verify redirection to github not authorized user",
   "time" : {
-    "start" : 1703898938361,
-    "stop" : 1703898939407,
-    "duration" : 1046
+    "start" : 1703985788628,
+    "stop" : 1703985789601,
+    "duration" : 973
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "86b1ff36dcae1dac",
-  "name" : "verify redirection to used resources page not authorized user",
-  "time" : {
-    "start" : 1703898947411,
-    "stop" : 1703898947544,
-    "duration" : 133
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "37132d57b8f4e75a",
+  "uid" : "4868ec535afc7a5d",
   "name" : "verify redirection to specialists page not authorized user",
   "time" : {
-    "start" : 1703898934226,
-    "stop" : 1703898934858,
-    "duration" : 632
+    "start" : 1703985784029,
+    "stop" : 1703985784668,
+    "duration" : 639
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3e65ddfd9a64c919",
+  "uid" : "e8886ffb6edc254",
+  "name" : "test_logining_user",
+  "time" : {
+    "start" : 1703985741567,
+    "stop" : 1703985744378,
+    "duration" : 2811
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73b6b0ba45c34a40",
+  "name" : "verify redirection to donate page not authorized user",
+  "time" : {
+    "start" : 1703985774554,
+    "stop" : 1703985775880,
+    "duration" : 1326
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5aa946e22e0d2924",
   "name" : "verify redirection to contributors page not authorized user",
   "time" : {
-    "start" : 1703898943076,
-    "stop" : 1703898943710,
+    "start" : 1703985793569,
+    "stop" : 1703985794203,
     "duration" : 634
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3d1643e08a9cdeaa",
-  "name" : "test_logining_user",
+  "uid" : "a9d5720937379577",
+  "name" : "verify redirection to contacts page not authorized user",
   "time" : {
-    "start" : 1703898892248,
-    "stop" : 1703898896044,
-    "duration" : 3796
+    "start" : 1703985779837,
+    "stop" : 1703985779980,
+    "duration" : 143
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "519edb14a86542fc",
-  "name" : "test_task",
-  "time" : {
-    "start" : 1703898899567,
-    "stop" : 1703898913205,
-    "duration" : 13638
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "30def422cb503bf0",
+  "uid" : "e23a182d358e68ad",
   "name" : "verify redirection to telegram page not authorized user",
   "time" : {
-    "start" : 1703898920966,
-    "stop" : 1703898922170,
-    "duration" : 1204
+    "start" : 1703985769231,
+    "stop" : 1703985770557,
+    "duration" : 1326
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75d928885bf4b956",
+  "name" : "verify redirection to used resources page not authorized user",
+  "time" : {
+    "start" : 1703985798495,
+    "stop" : 1703985798632,
+    "duration" : 137
   },
   "status" : "passed",
   "severity" : "normal"
