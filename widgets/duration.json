@@ -1,100 +1,100 @@
 [ {
-  "uid" : "b5ff78b7e075ecdc",
-  "name" : "verify redirection to telegram page not authorized user",
+  "uid" : "3b51d346a97c905d",
+  "name" : "verify redirection to donate page not authorized user",
   "time" : {
-    "start" : 1704072281640,
-    "stop" : 1704072282844,
-    "duration" : 1204
+    "start" : 1704158254054,
+    "stop" : 1704158255263,
+    "duration" : 1209
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "78c4607f648ddf03",
-  "name" : "verify redirection to github not authorized user",
+  "uid" : "ee245eba48de4070",
+  "name" : "verify redirection to contacts page not authorized user",
   "time" : {
-    "start" : 1704072300595,
-    "stop" : 1704072301881,
-    "duration" : 1286
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "665d58410c5cc26b",
-  "name" : "verify redirection to contributors page not authorized user",
-  "time" : {
-    "start" : 1704072305426,
-    "stop" : 1704072306198,
-    "duration" : 772
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "39bc039cc0a089d5",
-  "name" : "verify redirection to used resources page not authorized user",
-  "time" : {
-    "start" : 1704072309965,
-    "stop" : 1704072310103,
+    "start" : 1704158258843,
+    "stop" : 1704158258981,
     "duration" : 138
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "aba470b691a9002c",
-  "name" : "verify redirection to specialists page not authorized user",
+  "uid" : "eb898079417fcc1a",
+  "name" : "test_logining_user",
   "time" : {
-    "start" : 1704072295000,
-    "stop" : 1704072297145,
-    "duration" : 2145
+    "start" : 1704158222492,
+    "stop" : 1704158224791,
+    "duration" : 2299
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3a6944dcca192339",
-  "name" : "verify redirection to contacts page not authorized user",
-  "time" : {
-    "start" : 1704072291323,
-    "stop" : 1704072291463,
-    "duration" : 140
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bad58943d858eeca",
+  "uid" : "c56059a7e6fd850c",
   "name" : "verify redirection to description page not authorized user",
   "time" : {
-    "start" : 1704072277414,
-    "stop" : 1704072277550,
-    "duration" : 136
+    "start" : 1704158245157,
+    "stop" : 1704158245265,
+    "duration" : 108
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2f7053ce0619c0a3",
+  "uid" : "51ad3335eb441501",
   "name" : "test_task",
   "time" : {
-    "start" : 1704072261160,
-    "stop" : 1704072273684,
-    "duration" : 12524
+    "start" : 1704158228453,
+    "stop" : 1704158241146,
+    "duration" : 12693
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "496b1b750fb8cb3d",
-  "name" : "verify redirection to donate page not authorized user",
+  "uid" : "fa1f298b99196e33",
+  "name" : "verify redirection to specialists page not authorized user",
   "time" : {
-    "start" : 1704072286406,
-    "stop" : 1704072287660,
-    "duration" : 1254
+    "start" : 1704158262454,
+    "stop" : 1704158263089,
+    "duration" : 635
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "945ce854651b30e6",
-  "name" : "test_logining_user",
+  "uid" : "65024ce8bf6d550",
+  "name" : "verify redirection to contributors page not authorized user",
   "time" : {
-    "start" : 1704072254502,
-    "stop" : 1704072257660,
-    "duration" : 3158
+    "start" : 1704158271091,
+    "stop" : 1704158271726,
+    "duration" : 635
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af4bed4f74ce0b8b",
+  "name" : "verify redirection to github not authorized user",
+  "time" : {
+    "start" : 1704158266558,
+    "stop" : 1704158267470,
+    "duration" : 912
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "256741d6bc3dec3e",
+  "name" : "verify redirection to telegram page not authorized user",
+  "time" : {
+    "start" : 1704158249017,
+    "stop" : 1704158250398,
+    "duration" : 1381
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f028040dbd8cce4b",
+  "name" : "verify redirection to used resources page not authorized user",
+  "time" : {
+    "start" : 1704158275434,
+    "stop" : 1704158275570,
+    "duration" : 136
   },
   "status" : "passed",
   "severity" : "normal"
