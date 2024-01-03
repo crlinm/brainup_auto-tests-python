@@ -1,22 +1,22 @@
 {
-  "uid" : "c56059a7e6fd850c",
+  "uid" : "1114c25af937d805",
   "name" : "verify redirection to description page not authorized user",
   "fullName" : "tests.main_page_test.TestMainPage#test_mp_01_verify_redirection_to_description_page",
   "historyId" : "9b714ca45645375fd8223c62615c0a31",
   "time" : {
-    "start" : 1704158245157,
-    "stop" : 1704158245265,
-    "duration" : 108
+    "start" : 1704244672850,
+    "stop" : 1704244672986,
+    "duration" : 136
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "clear_allure_results_folder",
+    "name" : "driver",
     "time" : {
-      "start" : 1704158217842,
-      "stop" : 1704158217842,
-      "duration" : 0
+      "start" : 1704244669046,
+      "stop" : 1704244669819,
+      "duration" : 773
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "driver",
+    "name" : "clear_allure_results_folder",
     "time" : {
-      "start" : 1704158241512,
-      "stop" : 1704158242281,
-      "duration" : 769
+      "start" : 1704244641038,
+      "stop" : 1704244641038,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,9 +44,9 @@
   }, {
     "name" : "main_page_open",
     "time" : {
-      "start" : 1704158242282,
-      "stop" : 1704158245157,
-      "duration" : 2875
+      "start" : 1704244669819,
+      "stop" : 1704244672850,
+      "duration" : 3031
     },
     "status" : "passed",
     "steps" : [ ],
@@ -62,33 +62,33 @@
     "steps" : [ {
       "name" : "Open description page",
       "time" : {
-        "start" : 1704158245157,
-        "stop" : 1704158245265,
-        "duration" : 108
+        "start" : 1704244672851,
+        "stop" : 1704244672986,
+        "duration" : 135
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable: ('id', 'ember5')",
         "time" : {
-          "start" : 1704158245157,
-          "stop" : 1704158245193,
-          "duration" : 36
+          "start" : 1704244672851,
+          "stop" : 1704244672886,
+          "duration" : 35
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1704158245174,
-            "stop" : 1704158245193,
-            "duration" : 19
+            "start" : 1704244672868,
+            "stop" : 1704244672886,
+            "duration" : 18
           },
           "status" : "passed",
           "steps" : [ {
             "name" : "Check elements are clickable: ('id', 'ember5')",
             "time" : {
-              "start" : 1704158245174,
-              "stop" : 1704158245193,
-              "duration" : 19
+              "start" : 1704244672868,
+              "stop" : 1704244672886,
+              "duration" : 18
             },
             "status" : "passed",
             "steps" : [ ],
@@ -118,8 +118,8 @@
       }, {
         "name" : "Check url is presence: https://brainup.site/description",
         "time" : {
-          "start" : 1704158245258,
-          "stop" : 1704158245262,
+          "start" : 1704244672979,
+          "stop" : 1704244672983,
           "duration" : 4
         },
         "status" : "passed",
@@ -148,16 +148,16 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1704158245266,
-      "stop" : 1704158245477,
-      "duration" : 211
+      "start" : 1704244672987,
+      "stop" : 1704244673194,
+      "duration" : 207
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "f01a425fad28792",
-      "name" : "Screenshot 2024-01-02 01:17:25.418017",
-      "source" : "f01a425fad28792.png",
+      "uid" : "3180734da00ea63d",
+      "name" : "Screenshot 2024-01-03 01:17:53.135469",
+      "source" : "3180734da00ea63d.png",
       "type" : "image/png",
       "size" : 157022
     } ],
@@ -181,10 +181,10 @@
     "value" : "TestMainPage"
   }, {
     "name" : "host",
-    "value" : "fv-az1118-740"
+    "value" : "fv-az523-358"
   }, {
     "name" : "thread",
-    "value" : "1853-MainThread"
+    "value" : "1823-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -211,11 +211,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 30,
+        "passed" : 31,
         "unknown" : 0,
-        "total" : 30
+        "total" : 31
       },
       "items" : [ {
+        "uid" : "c56059a7e6fd850c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704158245157,
+          "stop" : 1704158245265,
+          "duration" : 108
+        }
+      }, {
         "uid" : "bad58943d858eeca",
         "status" : "passed",
         "time" : {
@@ -367,18 +375,10 @@
           "stop" : 1702503062522,
           "duration" : 113
         }
-      }, {
-        "uid" : "22ea2dc51d2360b1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1702502292948,
-          "stop" : 1702502293059,
-          "duration" : 111
-        }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "c56059a7e6fd850c.json",
+  "source" : "1114c25af937d805.json",
   "parameterValues" : [ ]
 }
