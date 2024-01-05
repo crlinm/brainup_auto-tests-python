@@ -1,100 +1,100 @@
 [ {
-  "uid" : "994ca6f67e902adc",
-  "name" : "verify redirection to used resources page not authorized user",
-  "time" : {
-    "start" : 1704331130507,
-    "stop" : 1704331130651,
-    "duration" : 144
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "119ad7d595cc6c67",
-  "name" : "test_logining_user",
-  "time" : {
-    "start" : 1704331074444,
-    "stop" : 1704331079281,
-    "duration" : 4837
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5aee9b9d10a79599",
-  "name" : "verify redirection to description page not authorized user",
-  "time" : {
-    "start" : 1704331099741,
-    "stop" : 1704331099858,
-    "duration" : 117
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4fdc378d52f3d6ab",
-  "name" : "verify redirection to donate page not authorized user",
-  "time" : {
-    "start" : 1704331108411,
-    "stop" : 1704331109912,
-    "duration" : 1501
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2a854be1c85021e1",
+  "uid" : "3968c0cb3a17e1ea",
   "name" : "verify redirection to telegram page not authorized user",
   "time" : {
-    "start" : 1704331103360,
-    "stop" : 1704331104829,
-    "duration" : 1469
+    "start" : 1704417529453,
+    "stop" : 1704417532328,
+    "duration" : 2875
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8ec0321430c372ec",
+  "uid" : "1a650089f4efea33",
+  "name" : "verify redirection to donate page not authorized user",
+  "time" : {
+    "start" : 1704417536954,
+    "stop" : 1704417538627,
+    "duration" : 1673
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58f24103e6de759c",
+  "name" : "test_logining_user",
+  "time" : {
+    "start" : 1704417498681,
+    "stop" : 1704417502526,
+    "duration" : 3845
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75c4a95bee3e35d5",
+  "name" : "verify redirection to specialists page not authorized user",
+  "time" : {
+    "start" : 1704417548147,
+    "stop" : 1704417548781,
+    "duration" : 634
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28227432b054d693",
+  "name" : "verify redirection to github not authorized user",
+  "time" : {
+    "start" : 1704417553533,
+    "stop" : 1704417554758,
+    "duration" : 1225
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b2c6dfbb304e8b8",
   "name" : "verify redirection to contributors page not authorized user",
   "time" : {
-    "start" : 1704331126170,
-    "stop" : 1704331126812,
-    "duration" : 642
+    "start" : 1704417559435,
+    "stop" : 1704417560069,
+    "duration" : 634
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ce9dd432211c239e",
+  "uid" : "2775e70890814b7b",
+  "name" : "verify redirection to used resources page not authorized user",
+  "time" : {
+    "start" : 1704417564794,
+    "stop" : 1704417564930,
+    "duration" : 136
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9569404882b18c34",
   "name" : "verify redirection to contacts page not authorized user",
   "time" : {
-    "start" : 1704331113377,
-    "stop" : 1704331113520,
-    "duration" : 143
+    "start" : 1704417543412,
+    "stop" : 1704417543550,
+    "duration" : 138
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "209a54f0154ed9d7",
+  "uid" : "6e76cac00f93954c",
   "name" : "test_task",
   "time" : {
-    "start" : 1704331083063,
-    "stop" : 1704331096213,
-    "duration" : 13150
+    "start" : 1704417507099,
+    "stop" : 1704417519587,
+    "duration" : 12488
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "e860208fc49dfd64",
-  "name" : "verify redirection to github not authorized user",
+  "uid" : "cb1432bf416cc4f5",
+  "name" : "verify redirection to description page not authorized user",
   "time" : {
-    "start" : 1704331121992,
-    "stop" : 1704331122908,
-    "duration" : 916
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a6b2f26d5437621b",
-  "name" : "verify redirection to specialists page not authorized user",
-  "time" : {
-    "start" : 1704331117199,
-    "stop" : 1704331118342,
-    "duration" : 1143
+    "start" : 1704417524580,
+    "stop" : 1704417524692,
+    "duration" : 112
   },
   "status" : "passed",
   "severity" : "normal"
