@@ -1,37 +1,22 @@
 {
-  "uid" : "7b35d0c65578ce9f",
+  "uid" : "7767c58d6aaaf9f7",
   "name" : "test_logining_user",
   "fullName" : "tests.login_page_test.TestLoginPage#test_logining_user",
   "historyId" : "8258fdee58153c5b5e4927cdad00af1a",
   "time" : {
-    "start" : 1704503867248,
-    "stop" : 1704503870843,
-    "duration" : 3595
+    "start" : 1704590686401,
+    "stop" : 1704590690231,
+    "duration" : 3830
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "clear_allure_results_folder",
-    "time" : {
-      "start" : 1704503854555,
-      "stop" : 1704503854555,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
     "name" : "main_page_open",
     "time" : {
-      "start" : 1704503862569,
-      "stop" : 1704503867248,
-      "duration" : 4679
+      "start" : 1704590683139,
+      "stop" : 1704590686400,
+      "duration" : 3261
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,9 +29,24 @@
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1704503854556,
-      "stop" : 1704503862569,
-      "duration" : 8013
+      "start" : 1704590681892,
+      "stop" : 1704590683139,
+      "duration" : 1247
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "clear_allure_results_folder",
+    "time" : {
+      "start" : 1704590681892,
+      "stop" : 1704590681892,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -62,25 +62,25 @@
     "steps" : [ {
       "name" : "Check element is visible and clickable: ('xpath', '//a[@id=\"ember11\"]')",
       "time" : {
-        "start" : 1704503867248,
-        "stop" : 1704503867315,
-        "duration" : 67
+        "start" : 1704590686401,
+        "stop" : 1704590686440,
+        "duration" : 39
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is clickable",
         "time" : {
-          "start" : 1704503867296,
-          "stop" : 1704503867315,
-          "duration" : 19
+          "start" : 1704590686420,
+          "stop" : 1704590686440,
+          "duration" : 20
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check elements are clickable: ('xpath', '//a[@id=\"ember11\"]')",
           "time" : {
-            "start" : 1704503867296,
-            "stop" : 1704503867315,
-            "duration" : 19
+            "start" : 1704590686420,
+            "stop" : 1704590686440,
+            "duration" : 20
           },
           "status" : "passed",
           "steps" : [ ],
@@ -110,9 +110,9 @@
     }, {
       "name" : "Check url is presence: https://brainup.site/login",
       "time" : {
-        "start" : 1704503867413,
-        "stop" : 1704503867416,
-        "duration" : 3
+        "start" : 1704590686490,
+        "stop" : 1704590686496,
+        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
@@ -125,9 +125,9 @@
     }, {
       "name" : "Check element is presence: ('xpath', '//input[@id=\"login\"]')",
       "time" : {
-        "start" : 1704503867416,
-        "stop" : 1704503867424,
-        "duration" : 8
+        "start" : 1704590686496,
+        "stop" : 1704590686505,
+        "duration" : 9
       },
       "status" : "passed",
       "steps" : [ ],
@@ -140,8 +140,8 @@
     }, {
       "name" : "Check element is presence: ('xpath', '//input[@id=\"password\"]')",
       "time" : {
-        "start" : 1704503867547,
-        "stop" : 1704503867556,
+        "start" : 1704590686563,
+        "stop" : 1704590686572,
         "duration" : 9
       },
       "status" : "passed",
@@ -155,25 +155,25 @@
     }, {
       "name" : "Check element is visible and clickable: ('xpath', '//*[@type=\"submit\"]')",
       "time" : {
-        "start" : 1704503867677,
-        "stop" : 1704503867715,
-        "duration" : 38
+        "start" : 1704590686618,
+        "stop" : 1704590686648,
+        "duration" : 30
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is clickable",
         "time" : {
-          "start" : 1704503867692,
-          "stop" : 1704503867715,
-          "duration" : 23
+          "start" : 1704590686632,
+          "stop" : 1704590686648,
+          "duration" : 16
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check elements are clickable: ('xpath', '//*[@type=\"submit\"]')",
           "time" : {
-            "start" : 1704503867692,
-            "stop" : 1704503867715,
-            "duration" : 23
+            "start" : 1704590686632,
+            "stop" : 1704590686648,
+            "duration" : 16
           },
           "status" : "passed",
           "steps" : [ ],
@@ -203,9 +203,9 @@
     }, {
       "name" : "Check url is presence: https://brainup.site/groups",
       "time" : {
-        "start" : 1704503867794,
-        "stop" : 1704503870840,
-        "duration" : 3046
+        "start" : 1704590686688,
+        "stop" : 1704590690228,
+        "duration" : 3540
       },
       "status" : "passed",
       "steps" : [ ],
@@ -226,18 +226,18 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1704503870844,
-      "stop" : 1704503871074,
-      "duration" : 230
+      "start" : 1704590690231,
+      "stop" : 1704590690410,
+      "duration" : 179
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "d124575afa4498b9",
-      "name" : "Screenshot 2024-01-06 01:17:51.012667",
-      "source" : "d124575afa4498b9.png",
+      "uid" : "ac6a6b4851abc038",
+      "name" : "Screenshot 2024-01-07 01:24:50.349845",
+      "source" : "ac6a6b4851abc038.png",
       "type" : "image/png",
-      "size" : 49723
+      "size" : 49718
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -259,10 +259,10 @@
     "value" : "TestLoginPage"
   }, {
     "name" : "host",
-    "value" : "fv-az881-933"
+    "value" : "fv-az984-80"
   }, {
     "name" : "thread",
-    "value" : "1795-MainThread"
+    "value" : "1826-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -289,11 +289,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 26,
+        "passed" : 27,
         "unknown" : 0,
-        "total" : 26
+        "total" : 27
       },
       "items" : [ {
+        "uid" : "7b35d0c65578ce9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704503867248,
+          "stop" : 1704503870843,
+          "duration" : 3595
+        }
+      }, {
         "uid" : "58f24103e6de759c",
         "status" : "passed",
         "time" : {
@@ -445,18 +453,10 @@
           "stop" : 1702776194782,
           "duration" : 2305
         }
-      }, {
-        "uid" : "299ed7efae61a0f5",
-        "status" : "passed",
-        "time" : {
-          "start" : 1702689469364,
-          "stop" : 1702689473478,
-          "duration" : 4114
-        }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "7b35d0c65578ce9f.json",
+  "source" : "7767c58d6aaaf9f7.json",
   "parameterValues" : [ ]
 }
