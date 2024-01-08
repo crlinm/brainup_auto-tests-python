@@ -1,23 +1,23 @@
 {
-  "uid" : "464fd25ee47391ad",
+  "uid" : "bfd177e6f59c5d66",
   "name" : "verify redirection to specialists page not authorized user",
   "fullName" : "tests.main_page_test.TestMainPage#test_mp_05_verify_redirection_to_specialists_page",
   "historyId" : "3c31b28278473c09e9802cf34a761fb2",
   "time" : {
-    "start" : 1704590726768,
-    "stop" : 1704590727403,
-    "duration" : 635
+    "start" : 1704676827988,
+    "stop" : 1704676830134,
+    "duration" : 2146
   },
   "status" : "passed",
   "statusMessage" : "XPASS",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "main_page_open",
+    "name" : "driver",
     "time" : {
-      "start" : 1704590724242,
-      "stop" : 1704590726768,
-      "duration" : 2526
+      "start" : 1704676824549,
+      "stop" : 1704676825318,
+      "duration" : 769
     },
     "status" : "passed",
     "steps" : [ ],
@@ -28,11 +28,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "driver",
+    "name" : "main_page_open",
     "time" : {
-      "start" : 1704590723473,
-      "stop" : 1704590724242,
-      "duration" : 769
+      "start" : 1704676825318,
+      "stop" : 1704676827988,
+      "duration" : 2670
     },
     "status" : "passed",
     "steps" : [ ],
@@ -45,8 +45,8 @@
   }, {
     "name" : "clear_allure_results_folder",
     "time" : {
-      "start" : 1704590681892,
-      "stop" : 1704590681892,
+      "start" : 1704676769318,
+      "stop" : 1704676769318,
       "duration" : 0
     },
     "status" : "passed",
@@ -64,41 +64,41 @@
     "steps" : [ {
       "name" : "Open specialists page",
       "time" : {
-        "start" : 1704590726768,
-        "stop" : 1704590727403,
-        "duration" : 635
+        "start" : 1704676827988,
+        "stop" : 1704676830134,
+        "duration" : 2146
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Click button \"MORE\".",
         "time" : {
-          "start" : 1704590726768,
-          "stop" : 1704590726832,
+          "start" : 1704676827988,
+          "stop" : 1704676828052,
           "duration" : 64
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is visible and clickable: ('css selector', '#other-menu')",
           "time" : {
-            "start" : 1704590726768,
-            "stop" : 1704590726804,
+            "start" : 1704676827988,
+            "stop" : 1704676828024,
             "duration" : 36
           },
           "status" : "passed",
           "steps" : [ {
             "name" : "Check element is clickable",
             "time" : {
-              "start" : 1704590726785,
-              "stop" : 1704590726804,
-              "duration" : 19
+              "start" : 1704676828006,
+              "stop" : 1704676828024,
+              "duration" : 18
             },
             "status" : "passed",
             "steps" : [ {
               "name" : "Check elements are clickable: ('css selector', '#other-menu')",
               "time" : {
-                "start" : 1704590726785,
-                "stop" : 1704590726804,
-                "duration" : 19
+                "start" : 1704676828006,
+                "stop" : 1704676828024,
+                "duration" : 18
               },
               "status" : "passed",
               "steps" : [ ],
@@ -135,32 +135,32 @@
       }, {
         "name" : "Click button \"SPECIALISTS\".",
         "time" : {
-          "start" : 1704590726832,
-          "stop" : 1704590726894,
+          "start" : 1704676828052,
+          "stop" : 1704676828114,
           "duration" : 62
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is visible and clickable: ('id', 'ember7')",
           "time" : {
-            "start" : 1704590726832,
-            "stop" : 1704590726862,
-            "duration" : 30
+            "start" : 1704676828053,
+            "stop" : 1704676828082,
+            "duration" : 29
           },
           "status" : "passed",
           "steps" : [ {
             "name" : "Check element is clickable",
             "time" : {
-              "start" : 1704590726847,
-              "stop" : 1704590726862,
+              "start" : 1704676828067,
+              "stop" : 1704676828082,
               "duration" : 15
             },
             "status" : "passed",
             "steps" : [ {
               "name" : "Check elements are clickable: ('id', 'ember7')",
               "time" : {
-                "start" : 1704590726847,
-                "stop" : 1704590726862,
+                "start" : 1704676828067,
+                "stop" : 1704676828082,
                 "duration" : 15
               },
               "status" : "passed",
@@ -198,17 +198,17 @@
       }, {
         "name" : "Check page URL.",
         "time" : {
-          "start" : 1704590726894,
-          "stop" : 1704590727401,
-          "duration" : 507
+          "start" : 1704676828114,
+          "stop" : 1704676830131,
+          "duration" : 2017
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check url is presence: https://brainup.site/specialists",
           "time" : {
-            "start" : 1704590726894,
-            "stop" : 1704590727401,
-            "duration" : 507
+            "start" : 1704676828114,
+            "stop" : 1704676830131,
+            "duration" : 2017
           },
           "status" : "passed",
           "steps" : [ ],
@@ -243,16 +243,16 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1704590727404,
-      "stop" : 1704590727595,
-      "duration" : 191
+      "start" : 1704676830135,
+      "stop" : 1704676830331,
+      "duration" : 196
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "d4d849b4a9c60f69",
-      "name" : "Screenshot 2024-01-07 01:25:27.536770",
-      "source" : "d4d849b4a9c60f69.png",
+      "uid" : "5cbdfff5970d42f3",
+      "name" : "Screenshot 2024-01-08 01:20:30.272997",
+      "source" : "5cbdfff5970d42f3.png",
       "type" : "image/png",
       "size" : 107972
     } ],
@@ -279,10 +279,10 @@
     "value" : "TestMainPage"
   }, {
     "name" : "host",
-    "value" : "fv-az984-80"
+    "value" : "fv-az847-406"
   }, {
     "name" : "thread",
-    "value" : "1826-MainThread"
+    "value" : "1823-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -309,11 +309,20 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 1,
-        "passed" : 34,
+        "passed" : 35,
         "unknown" : 0,
-        "total" : 35
+        "total" : 36
       },
       "items" : [ {
+        "uid" : "464fd25ee47391ad",
+        "status" : "passed",
+        "statusDetails" : "XPASS",
+        "time" : {
+          "start" : 1704590726768,
+          "stop" : 1704590727403,
+          "duration" : 635
+        }
+      }, {
         "uid" : "33f356a925a7912",
         "status" : "passed",
         "statusDetails" : "XPASS",
@@ -484,19 +493,10 @@
           "stop" : 1702862411265,
           "duration" : 641
         }
-      }, {
-        "uid" : "5bfdc9a157f9b5ab",
-        "status" : "passed",
-        "statusDetails" : "XPASS",
-        "time" : {
-          "start" : 1702776231745,
-          "stop" : 1702776232379,
-          "duration" : 634
-        }
       } ]
     },
     "tags" : [ "@pytest.mark.xfail" ]
   },
-  "source" : "464fd25ee47391ad.json",
+  "source" : "bfd177e6f59c5d66.json",
   "parameterValues" : [ ]
 }
