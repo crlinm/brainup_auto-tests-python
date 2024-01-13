@@ -1,12 +1,12 @@
 {
-  "uid" : "d2cf290665ffe9df",
+  "uid" : "de0383609590ba5d",
   "name" : "verify redirection to telegram page not authorized user",
   "fullName" : "tests.main_page_test.TestMainPage#test_mp_02_verify_redirection_to_telegram_page",
   "historyId" : "d786a1c87c257d847f81151257654bfc",
   "time" : {
-    "start" : 1705022435697,
-    "stop" : 1705022437438,
-    "duration" : 1741
+    "start" : 1705108760587,
+    "stop" : 1705108762713,
+    "duration" : 2126
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,158 +14,158 @@
   "beforeStages" : [ {
     "name" : "driver",
     "time" : {
-      "start" : 1705022431070,
-      "stop" : 1705022431838,
-      "duration" : 768
+      "start" : 1705108756032,
+      "stop" : 1705108756799,
+      "duration" : 767
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "main_page_open",
+    "time" : {
+      "start" : 1705108756799,
+      "stop" : 1705108760587,
+      "duration" : 3788
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   }, {
     "name" : "clear_allure_results_folder",
     "time" : {
-      "start" : 1705022390742,
-      "stop" : 1705022390742,
+      "start" : 1705108719206,
+      "stop" : 1705108719206,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "main_page_open",
-    "time" : {
-      "start" : 1705022431839,
-      "stop" : 1705022435697,
-      "duration" : 3858
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
+    "hasContent" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
+    "shouldDisplayMessage" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "Open telegram page",
       "time" : {
-        "start" : 1705022435698,
-        "stop" : 1705022437438,
-        "duration" : 1740
+        "start" : 1705108760587,
+        "stop" : 1705108762713,
+        "duration" : 2126
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable: ('xpath', \"//*[contains(text(),'Telegram')]\")",
         "time" : {
-          "start" : 1705022435698,
-          "stop" : 1705022435733,
-          "duration" : 35
+          "start" : 1705108760587,
+          "stop" : 1705108760624,
+          "duration" : 37
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1705022435715,
-            "stop" : 1705022435733,
-            "duration" : 18
+            "start" : 1705108760605,
+            "stop" : 1705108760624,
+            "duration" : 19
           },
           "status" : "passed",
           "steps" : [ {
             "name" : "Check elements are clickable: ('xpath', \"//*[contains(text(),'Telegram')]\")",
             "time" : {
-              "start" : 1705022435715,
-              "stop" : 1705022435733,
-              "duration" : 18
+              "start" : 1705108760605,
+              "stop" : 1705108760624,
+              "duration" : 19
             },
             "status" : "passed",
             "steps" : [ ],
             "attachments" : [ ],
             "parameters" : [ ],
-            "attachmentsCount" : 0,
-            "shouldDisplayMessage" : false,
             "stepsCount" : 0,
-            "hasContent" : false
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
           } ],
           "attachments" : [ ],
           "parameters" : [ {
             "name" : "locator",
             "value" : "('xpath', \"//*[contains(text(),'Telegram')]\")"
           } ],
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false,
           "stepsCount" : 1,
-          "hasContent" : true
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
         } ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 2,
-        "hasContent" : true
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Check url is presence: https://t.me/BrainUpUsers",
         "time" : {
-          "start" : 1705022436240,
-          "stop" : 1705022437435,
-          "duration" : 1195
+          "start" : 1705108761438,
+          "stop" : 1705108762710,
+          "duration" : 1272
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 4,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 5,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1705022437439,
-      "stop" : 1705022437613,
-      "duration" : 174
+      "start" : 1705108762714,
+      "stop" : 1705108762874,
+      "duration" : 160
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "71ba72e5df9b46f",
-      "name" : "Screenshot 2024-01-12 01:20:37.554057",
-      "source" : "71ba72e5df9b46f.png",
+      "uid" : "17cdb6e83e900f65",
+      "name" : "Screenshot 2024-01-13 01:19:22.815355",
+      "source" : "17cdb6e83e900f65.png",
       "type" : "image/png",
-      "size" : 253429
+      "size" : 253586
     } ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "epic",
@@ -181,10 +181,10 @@
     "value" : "TestMainPage"
   }, {
     "name" : "host",
-    "value" : "fv-az801-468"
+    "value" : "fv-az1385-640"
   }, {
     "name" : "thread",
-    "value" : "1832-MainThread"
+    "value" : "1801-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -211,11 +211,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 40,
+        "passed" : 41,
         "unknown" : 0,
-        "total" : 40
+        "total" : 41
       },
       "items" : [ {
+        "uid" : "d2cf290665ffe9df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705022435697,
+          "stop" : 1705022437438,
+          "duration" : 1741
+        }
+      }, {
         "uid" : "3e27ab686e1adae7",
         "status" : "passed",
         "time" : {
@@ -367,18 +375,10 @@
           "stop" : 1703294081066,
           "duration" : 1216
         }
-      }, {
-        "uid" : "abf1d53c1fd901d5",
-        "status" : "passed",
-        "time" : {
-          "start" : 1703207819977,
-          "stop" : 1703207821157,
-          "duration" : 1180
-        }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "d2cf290665ffe9df.json",
+  "source" : "de0383609590ba5d.json",
   "parameterValues" : [ ]
 }
