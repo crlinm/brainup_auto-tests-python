@@ -5,9 +5,9 @@
     "name" : "Main Page",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 8,
+      "broken" : 1,
+      "skipped" : 1,
+      "passed" : 6,
       "unknown" : 0,
       "total" : 8
     }
