@@ -3,22 +3,22 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', \"//div[@id='other-menu']//a[7]\")\nStacktrace:\n#0 0x55583361ff83 <unknown>\n#1 0x5558332d8cf7 <unknown>\n#2 0x55583332899e <unknown>\n#3 0x555833328aa1 <unknown>\n#4 0x555833373d64 <unknown>\n#5 0x5558333520dd <unknown>\n#6 0x555833371006 <unknown>\n#7 0x555833351e53 <unknown>\n#8 0x555833319dd4 <unknown>\n#9 0x55583331b1de <unknown>\n#10 0x5558335e4531 <unknown>\n#11 0x5558335e8455 <unknown>\n#12 0x5558335d0f55 <unknown>\n#13 0x5558335e90ef <unknown>\n#14 0x5558335b499f <unknown>\n#15 0x55583360d008 <unknown>\n#16 0x55583360d1d7 <unknown>\n#17 0x55583361f124 <unknown>\n#18 0x7f083a894ac3 <unknown>",
+      "name" : "selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', \"//div[@id='other-menu']//a[7]\")\nStacktrace:\n#0 0x558d01a1bf83 <unknown>\n#1 0x558d016d4cf7 <unknown>\n#2 0x558d0172499e <unknown>\n#3 0x558d01724aa1 <unknown>\n#4 0x558d0176fd64 <unknown>\n#5 0x558d0174e0dd <unknown>\n#6 0x558d0176d006 <unknown>\n#7 0x558d0174de53 <unknown>\n#8 0x558d01715dd4 <unknown>\n#9 0x558d017171de <unknown>\n#10 0x558d019e0531 <unknown>\n#11 0x558d019e4455 <unknown>\n#12 0x558d019ccf55 <unknown>\n#13 0x558d019e50ef <unknown>\n#14 0x558d019b099f <unknown>\n#15 0x558d01a09008 <unknown>\n#16 0x558d01a091d7 <unknown>\n#17 0x558d01a1b124 <unknown>\n#18 0x7f1680694ac3 <unknown>",
       "children" : [ {
         "name" : "verify redirection to used resources page not authorized user",
-        "uid" : "8e13bb7b214887f0",
-        "parentUid" : "4c9bcf06a8a81384f1fb47fd10717750",
+        "uid" : "c670e0bd1ccd6999",
+        "parentUid" : "365648ef9578499bd6297bad97da3b15",
         "status" : "broken",
         "time" : {
-          "start" : 1705886665527,
-          "stop" : 1705886675776,
+          "start" : 1705972926396,
+          "stop" : 1705972936645,
           "duration" : 10249
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "4c9bcf06a8a81384f1fb47fd10717750"
+      "uid" : "365648ef9578499bd6297bad97da3b15"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
