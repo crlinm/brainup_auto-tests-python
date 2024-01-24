@@ -3,22 +3,22 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', \"//div[@id='other-menu']//a[7]\")\nStacktrace:\n#0 0x558d01a1bf83 <unknown>\n#1 0x558d016d4cf7 <unknown>\n#2 0x558d0172499e <unknown>\n#3 0x558d01724aa1 <unknown>\n#4 0x558d0176fd64 <unknown>\n#5 0x558d0174e0dd <unknown>\n#6 0x558d0176d006 <unknown>\n#7 0x558d0174de53 <unknown>\n#8 0x558d01715dd4 <unknown>\n#9 0x558d017171de <unknown>\n#10 0x558d019e0531 <unknown>\n#11 0x558d019e4455 <unknown>\n#12 0x558d019ccf55 <unknown>\n#13 0x558d019e50ef <unknown>\n#14 0x558d019b099f <unknown>\n#15 0x558d01a09008 <unknown>\n#16 0x558d01a091d7 <unknown>\n#17 0x558d01a1b124 <unknown>\n#18 0x7f1680694ac3 <unknown>",
+      "name" : "selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', \"//div[@id='other-menu']//a[7]\")\nStacktrace:\n#0 0x558d545d3f83 <unknown>\n#1 0x558d5428ccf7 <unknown>\n#2 0x558d542dc99e <unknown>\n#3 0x558d542dcaa1 <unknown>\n#4 0x558d54327d64 <unknown>\n#5 0x558d543060dd <unknown>\n#6 0x558d54325006 <unknown>\n#7 0x558d54305e53 <unknown>\n#8 0x558d542cddd4 <unknown>\n#9 0x558d542cf1de <unknown>\n#10 0x558d54598531 <unknown>\n#11 0x558d5459c455 <unknown>\n#12 0x558d54584f55 <unknown>\n#13 0x558d5459d0ef <unknown>\n#14 0x558d5456899f <unknown>\n#15 0x558d545c1008 <unknown>\n#16 0x558d545c11d7 <unknown>\n#17 0x558d545d3124 <unknown>\n#18 0x7fb230494ac3 <unknown>",
       "children" : [ {
         "name" : "verify redirection to used resources page not authorized user",
-        "uid" : "c670e0bd1ccd6999",
-        "parentUid" : "365648ef9578499bd6297bad97da3b15",
+        "uid" : "6fc9ed1b8a434b6b",
+        "parentUid" : "53ec92496d77b87ff6bd8e3602b0e260",
         "status" : "broken",
         "time" : {
-          "start" : 1705972926396,
-          "stop" : 1705972936645,
-          "duration" : 10249
+          "start" : 1706059329458,
+          "stop" : 1706059339708,
+          "duration" : 10250
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "365648ef9578499bd6297bad97da3b15"
+      "uid" : "53ec92496d77b87ff6bd8e3602b0e260"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
