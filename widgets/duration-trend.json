@@ -1,5 +1,9 @@
 [ {
   "data" : {
+    "duration" : 89731
+  }
+}, {
+  "data" : {
     "duration" : 76584
   }
 }, {
@@ -73,9 +77,5 @@
 }, {
   "data" : {
     "duration" : 58412
-  }
-}, {
-  "data" : {
-    "duration" : 66249
   }
 } ]
