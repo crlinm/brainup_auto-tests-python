@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 1,
-      "passed" : 52,
+      "passed" : 53,
       "unknown" : 0,
-      "total" : 53
+      "total" : 54
     },
     "items" : [ {
+      "uid" : "fd64324d177aca71",
+      "status" : "passed",
+      "statusDetails" : "XPASS",
+      "time" : {
+        "start" : 1706231760727,
+        "stop" : 1706231761868,
+        "duration" : 1141
+      }
+    }, {
       "uid" : "af58f8e70d4886db",
       "status" : "passed",
       "statusDetails" : "XPASS",
@@ -179,15 +188,6 @@
         "stop" : 1704590727403,
         "duration" : 635
       }
-    }, {
-      "uid" : "33f356a925a7912",
-      "status" : "passed",
-      "statusDetails" : "XPASS",
-      "time" : {
-        "start" : 1704503910887,
-        "stop" : 1704503911528,
-        "duration" : 641
-      }
     } ]
   },
   "8258fdee58153c5b5e4927cdad00af1a" : {
@@ -195,11 +195,19 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 44,
+      "passed" : 45,
       "unknown" : 0,
-      "total" : 45
+      "total" : 46
     },
     "items" : [ {
+      "uid" : "595aa9946f69c8f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706231709324,
+        "stop" : 1706231713143,
+        "duration" : 3819
+      }
+    }, {
       "uid" : "5f5eb4689e2f2614",
       "status" : "passed",
       "time" : {
@@ -352,14 +360,6 @@
         "stop" : 1704590690231,
         "duration" : 3830
       }
-    }, {
-      "uid" : "7b35d0c65578ce9f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1704503867248,
-        "stop" : 1704503870843,
-        "duration" : 3595
-      }
     } ]
   },
   "9b714ca45645375fd8223c62615c0a31" : {
@@ -367,11 +367,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 53,
+      "passed" : 54,
       "unknown" : 0,
-      "total" : 53
+      "total" : 54
     },
     "items" : [ {
+      "uid" : "2959bd2778779f24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706231737137,
+        "stop" : 1706231737248,
+        "duration" : 111
+      }
+    }, {
       "uid" : "6625c1fb6123a02a",
       "status" : "passed",
       "time" : {
@@ -523,14 +531,6 @@
         "stop" : 1704590709937,
         "duration" : 116
       }
-    }, {
-      "uid" : "b997e8c3414040ac",
-      "status" : "passed",
-      "time" : {
-        "start" : 1704503891797,
-        "stop" : 1704503891917,
-        "duration" : 120
-      }
     } ]
   },
   "226c874842c4733da064a7b34924af4e" : {
@@ -538,11 +538,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 53,
+      "passed" : 54,
       "unknown" : 0,
-      "total" : 53
+      "total" : 54
     },
     "items" : [ {
+      "uid" : "dac1273eedd3e1e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706231755681,
+        "stop" : 1706231755821,
+        "duration" : 140
+      }
+    }, {
       "uid" : "cc618dbf390f4f15",
       "status" : "passed",
       "time" : {
@@ -694,26 +702,27 @@
         "stop" : 1704590723265,
         "duration" : 142
       }
-    }, {
-      "uid" : "79ec68d3b03e60fb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1704503906757,
-        "stop" : 1704503906902,
-        "duration" : 145
-      }
     } ]
   },
   "a5aee721d258482e20909245f826af9a" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 2,
-      "skipped" : 43,
+      "skipped" : 44,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 45
+      "total" : 46
     },
     "items" : [ {
+      "uid" : "5eea2db055ef5f36",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL Can't find element by locator ('xpath', '//a[@title='Речевые упражнения']')\n\nselenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//a[@title=\"Речевые упражнения\"]')\nStacktrace:\n#0 0x55a3316aff83 <unknown>\n#1 0x55a331368cf7 <unknown>\n#2 0x55a3313b899e <unknown>\n#3 0x55a3313b8aa1 <unknown>\n#4 0x55a331403d64 <unknown>\n#5 0x55a3313e20dd <unknown>\n#6 0x55a331401006 <unknown>\n#7 0x55a3313e1e53 <unknown>\n#8 0x55a3313a9dd4 <unknown>\n#9 0x55a3313ab1de <unknown>\n#10 0x55a331674531 <unknown>\n#11 0x55a331678455 <unknown>\n#12 0x55a331660f55 <unknown>\n#13 0x55a3316790ef <unknown>\n#14 0x55a33164499f <unknown>\n#15 0x55a33169d008 <unknown>\n#16 0x55a33169d1d7 <unknown>\n#17 0x55a3316af124 <unknown>\n#18 0x7fdadb894ac3 <unknown>",
+      "time" : {
+        "start" : 1706231718037,
+        "stop" : 1706231732043,
+        "duration" : 14006
+      }
+    }, {
       "uid" : "ee109b7f1a64dc13",
       "status" : "skipped",
       "statusDetails" : "XFAIL Can't find element by locator ('xpath', '//a[@title='Речевые упражнения']')\n\nselenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//a[@title=\"Речевые упражнения\"]')\nStacktrace:\n#0 0x55f41f07df83 <unknown>\n#1 0x55f41ed36cf7 <unknown>\n#2 0x55f41ed8699e <unknown>\n#3 0x55f41ed86aa1 <unknown>\n#4 0x55f41edd1d64 <unknown>\n#5 0x55f41edb00dd <unknown>\n#6 0x55f41edcf006 <unknown>\n#7 0x55f41edafe53 <unknown>\n#8 0x55f41ed77dd4 <unknown>\n#9 0x55f41ed791de <unknown>\n#10 0x55f41f042531 <unknown>\n#11 0x55f41f046455 <unknown>\n#12 0x55f41f02ef55 <unknown>\n#13 0x55f41f0470ef <unknown>\n#14 0x55f41f01299f <unknown>\n#15 0x55f41f06b008 <unknown>\n#16 0x55f41f06b1d7 <unknown>\n#17 0x55f41f07d124 <unknown>\n#18 0x7f2a94c94ac3 <unknown>",
@@ -884,15 +893,6 @@
         "stop" : 1704590706280,
         "duration" : 12496
       }
-    }, {
-      "uid" : "496d545e6b7bdf4a",
-      "status" : "skipped",
-      "statusDetails" : "XFAIL Can't find element by locator ('xpath', '//a[@title='Речевые упражнения']')\n\nselenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', '//a[@title=\"Речевые упражнения\"]')\nStacktrace:\n#0 0x5606e6dfcd33 <unknown>\n#1 0x5606e6ab9f87 <unknown>\n#2 0x5606e6b09c0e <unknown>\n#3 0x5606e6b09d11 <unknown>\n#4 0x5606e6b55004 <unknown>\n#5 0x5606e6b3336d <unknown>\n#6 0x5606e6b52297 <unknown>\n#7 0x5606e6b330e3 <unknown>\n#8 0x5606e6afb044 <unknown>\n#9 0x5606e6afc44e <unknown>\n#10 0x5606e6dc1861 <unknown>\n#11 0x5606e6dc5785 <unknown>\n#12 0x5606e6daf285 <unknown>\n#13 0x5606e6dc641f <unknown>\n#14 0x5606e6d9320f <unknown>\n#15 0x5606e6dea028 <unknown>\n#16 0x5606e6dea1f7 <unknown>\n#17 0x5606e6dfbed4 <unknown>\n#18 0x7fe513094ac3 <unknown>",
-      "time" : {
-        "start" : 1704503875053,
-        "stop" : 1704503887673,
-        "duration" : 12620
-      }
     } ]
   },
   "c4a3f1b8056e7b9c512fd0eaa956691d" : {
@@ -900,11 +900,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 53,
+      "passed" : 54,
       "unknown" : 0,
-      "total" : 53
+      "total" : 54
     },
     "items" : [ {
+      "uid" : "2c0138a9ca19a01e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706231748825,
+        "stop" : 1706231750659,
+        "duration" : 1834
+      }
+    }, {
       "uid" : "29bfe2518066a755",
       "status" : "passed",
       "time" : {
@@ -1056,14 +1064,6 @@
         "stop" : 1704590719415,
         "duration" : 1009
       }
-    }, {
-      "uid" : "78d4510c5bfe6cf2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1704503901488,
-        "stop" : 1704503902756,
-        "duration" : 1268
-      }
     } ]
   },
   "6215605f7f9a95b5329b94248980024e" : {
@@ -1071,11 +1071,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 53,
+      "passed" : 54,
       "unknown" : 0,
-      "total" : 53
+      "total" : 54
     },
     "items" : [ {
+      "uid" : "4832ff26a9350941",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706231766593,
+        "stop" : 1706231767920,
+        "duration" : 1327
+      }
+    }, {
       "uid" : "94963ff8018527c1",
       "status" : "passed",
       "time" : {
@@ -1227,26 +1235,27 @@
         "stop" : 1704590732093,
         "duration" : 1053
       }
-    }, {
-      "uid" : "cacbf0816209b240",
-      "status" : "passed",
-      "time" : {
-        "start" : 1704503915520,
-        "stop" : 1704503916609,
-        "duration" : 1089
-      }
     } ]
   },
   "43df35c0ef3ab6719310f8b9b9ee7530" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 8,
+      "broken" : 9,
       "skipped" : 0,
       "passed" : 45,
       "unknown" : 0,
-      "total" : 53
+      "total" : 54
     },
     "items" : [ {
+      "uid" : "677c32a0a1d5cc0a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', \"//div[@id='other-menu']//a[7]\")\nStacktrace:\n#0 0x5589ee482f83 <unknown>\n#1 0x5589ee13bcf7 <unknown>\n#2 0x5589ee18b99e <unknown>\n#3 0x5589ee18baa1 <unknown>\n#4 0x5589ee1d6d64 <unknown>\n#5 0x5589ee1b50dd <unknown>\n#6 0x5589ee1d4006 <unknown>\n#7 0x5589ee1b4e53 <unknown>\n#8 0x5589ee17cdd4 <unknown>\n#9 0x5589ee17e1de <unknown>\n#10 0x5589ee447531 <unknown>\n#11 0x5589ee44b455 <unknown>\n#12 0x5589ee433f55 <unknown>\n#13 0x5589ee44c0ef <unknown>\n#14 0x5589ee41799f <unknown>\n#15 0x5589ee470008 <unknown>\n#16 0x5589ee4701d7 <unknown>\n#17 0x5589ee482124 <unknown>\n#18 0x7f1b14894ac3 <unknown>",
+      "time" : {
+        "start" : 1706231787863,
+        "stop" : 1706231798114,
+        "duration" : 10251
+      }
+    }, {
       "uid" : "8a17697d485c8772",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', \"//div[@id='other-menu']//a[7]\")\nStacktrace:\n#0 0x55be89b7ef83 <unknown>\n#1 0x55be89837cf7 <unknown>\n#2 0x55be8988799e <unknown>\n#3 0x55be89887aa1 <unknown>\n#4 0x55be898d2d64 <unknown>\n#5 0x55be898b10dd <unknown>\n#6 0x55be898d0006 <unknown>\n#7 0x55be898b0e53 <unknown>\n#8 0x55be89878dd4 <unknown>\n#9 0x55be8987a1de <unknown>\n#10 0x55be89b43531 <unknown>\n#11 0x55be89b47455 <unknown>\n#12 0x55be89b2ff55 <unknown>\n#13 0x55be89b480ef <unknown>\n#14 0x55be89b1399f <unknown>\n#15 0x55be89b6c008 <unknown>\n#16 0x55be89b6c1d7 <unknown>\n#17 0x55be89b7e124 <unknown>\n#18 0x7eff69c94ac3 <unknown>",
@@ -1406,14 +1415,6 @@
         "stop" : 1704590740155,
         "duration" : 142
       }
-    }, {
-      "uid" : "e71e9d86cb70a026",
-      "status" : "passed",
-      "time" : {
-        "start" : 1704503925519,
-        "stop" : 1704503925660,
-        "duration" : 141
-      }
     } ]
   },
   "d786a1c87c257d847f81151257654bfc" : {
@@ -1421,11 +1422,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 53,
+      "passed" : 54,
       "unknown" : 0,
-      "total" : 53
+      "total" : 54
     },
     "items" : [ {
+      "uid" : "46e37eeb4ce953ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1706231742017,
+        "stop" : 1706231744083,
+        "duration" : 2066
+      }
+    }, {
       "uid" : "5e02156d404e9ec8",
       "status" : "passed",
       "time" : {
@@ -1577,26 +1586,27 @@
         "stop" : 1704590714830,
         "duration" : 1398
       }
-    }, {
-      "uid" : "2133186d6b555339",
-      "status" : "passed",
-      "time" : {
-        "start" : 1704503895911,
-        "stop" : 1704503897324,
-        "duration" : 1413
-      }
     } ]
   },
   "7f35157222d4ee10ae03453b93f8fb17" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 16,
+      "skipped" : 17,
       "passed" : 37,
       "unknown" : 0,
-      "total" : 53
+      "total" : 54
     },
     "items" : [ {
+      "uid" : "f55d9deafdea4800",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nselenium.common.exceptions.TimeoutException: Message: Can't find element by locator https://brainup.site/contributors",
+      "time" : {
+        "start" : 1706231772746,
+        "stop" : 1706231782942,
+        "duration" : 10196
+      }
+    }, {
       "uid" : "ebe1803f5411a0ad",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nselenium.common.exceptions.TimeoutException: Message: Can't find element by locator https://brainup.site/contributors",
@@ -1766,15 +1776,6 @@
         "start" : 1704590735636,
         "stop" : 1704590736272,
         "duration" : 636
-      }
-    }, {
-      "uid" : "3c696725f0a80d14",
-      "status" : "passed",
-      "statusDetails" : "XPASS",
-      "time" : {
-        "start" : 1704503920563,
-        "stop" : 1704503921204,
-        "duration" : 641
       }
     } ]
   }

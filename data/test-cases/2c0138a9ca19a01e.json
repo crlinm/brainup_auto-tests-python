@@ -1,22 +1,37 @@
 {
-  "uid" : "29bfe2518066a755",
+  "uid" : "2c0138a9ca19a01e",
   "name" : "verify redirection to donate page not authorized user",
   "fullName" : "tests.main_page_test.TestMainPage#test_mp_03_verify_redirection_to_donate_page",
   "historyId" : "c4a3f1b8056e7b9c512fd0eaa956691d",
   "time" : {
-    "start" : 1706145714564,
-    "stop" : 1706145716232,
-    "duration" : 1668
+    "start" : 1706231748825,
+    "stop" : 1706231750659,
+    "duration" : 1834
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "main_page_open",
+    "time" : {
+      "start" : 1706231745040,
+      "stop" : 1706231748825,
+      "duration" : 3785
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
     "name" : "driver",
     "time" : {
-      "start" : 1706145709951,
-      "stop" : 1706145710727,
-      "duration" : 776
+      "start" : 1706231744270,
+      "stop" : 1706231745040,
+      "duration" : 770
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,24 +44,9 @@
   }, {
     "name" : "clear_allure_results_folder",
     "time" : {
-      "start" : 1706145668063,
-      "stop" : 1706145668063,
+      "start" : 1706231703397,
+      "stop" : 1706231703397,
       "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "main_page_open",
-    "time" : {
-      "start" : 1706145710727,
-      "stop" : 1706145714564,
-      "duration" : 3837
     },
     "status" : "passed",
     "steps" : [ ],
@@ -62,33 +62,33 @@
     "steps" : [ {
       "name" : "Open donate page",
       "time" : {
-        "start" : 1706145714565,
-        "stop" : 1706145716231,
-        "duration" : 1666
+        "start" : 1706231748825,
+        "stop" : 1706231750658,
+        "duration" : 1833
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable: ('css selector', '#other-menu')",
         "time" : {
-          "start" : 1706145714565,
-          "stop" : 1706145714614,
-          "duration" : 49
+          "start" : 1706231748826,
+          "stop" : 1706231748862,
+          "duration" : 36
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1706145714586,
-            "stop" : 1706145714614,
-            "duration" : 28
+            "start" : 1706231748843,
+            "stop" : 1706231748862,
+            "duration" : 19
           },
           "status" : "passed",
           "steps" : [ {
             "name" : "Check elements are clickable: ('css selector', '#other-menu')",
             "time" : {
-              "start" : 1706145714586,
-              "stop" : 1706145714614,
-              "duration" : 28
+              "start" : 1706231748843,
+              "stop" : 1706231748862,
+              "duration" : 19
             },
             "status" : "passed",
             "steps" : [ ],
@@ -118,25 +118,25 @@
       }, {
         "name" : "Check element is visible and clickable: ('xpath', \"//div[@id='other-menu']//a[1]\")",
         "time" : {
-          "start" : 1706145714654,
-          "stop" : 1706145714704,
-          "duration" : 50
+          "start" : 1706231748891,
+          "stop" : 1706231748921,
+          "duration" : 30
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1706145714674,
-            "stop" : 1706145714704,
-            "duration" : 30
+            "start" : 1706231748906,
+            "stop" : 1706231748921,
+            "duration" : 15
           },
           "status" : "passed",
           "steps" : [ {
             "name" : "Check elements are clickable: ('xpath', \"//div[@id='other-menu']//a[1]\")",
             "time" : {
-              "start" : 1706145714674,
-              "stop" : 1706145714704,
-              "duration" : 30
+              "start" : 1706231748906,
+              "stop" : 1706231748921,
+              "duration" : 15
             },
             "status" : "passed",
             "steps" : [ ],
@@ -166,9 +166,9 @@
       }, {
         "name" : "Check url is presence: https://opencollective.com/brainup",
         "time" : {
-          "start" : 1706145715353,
-          "stop" : 1706145716220,
-          "duration" : 867
+          "start" : 1706231749711,
+          "stop" : 1706231750656,
+          "duration" : 945
         },
         "status" : "passed",
         "steps" : [ ],
@@ -196,16 +196,16 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1706145716233,
-      "stop" : 1706145716392,
-      "duration" : 159
+      "start" : 1706231750660,
+      "stop" : 1706231750824,
+      "duration" : 164
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "dd34cee4f0702d8e",
-      "name" : "Screenshot 2024-01-25 01:21:56.327065",
-      "source" : "dd34cee4f0702d8e.png",
+      "uid" : "952a452eb70d9d23",
+      "name" : "Screenshot 2024-01-26 01:15:50.763198",
+      "source" : "952a452eb70d9d23.png",
       "type" : "image/png",
       "size" : 119781
     } ],
@@ -229,10 +229,10 @@
     "value" : "TestMainPage"
   }, {
     "name" : "host",
-    "value" : "fv-az1493-99"
+    "value" : "fv-az979-741"
   }, {
     "name" : "thread",
-    "value" : "1888-MainThread"
+    "value" : "1852-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -259,11 +259,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 53,
+        "passed" : 54,
         "unknown" : 0,
-        "total" : 53
+        "total" : 54
       },
       "items" : [ {
+        "uid" : "29bfe2518066a755",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706145714564,
+          "stop" : 1706145716232,
+          "duration" : 1668
+        }
+      }, {
         "uid" : "b65377c4d8bb86dc",
         "status" : "passed",
         "time" : {
@@ -415,18 +423,10 @@
           "stop" : 1704503902756,
           "duration" : 1268
         }
-      }, {
-        "uid" : "1a650089f4efea33",
-        "status" : "passed",
-        "time" : {
-          "start" : 1704417536954,
-          "stop" : 1704417538627,
-          "duration" : 1673
-        }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "29bfe2518066a755.json",
+  "source" : "2c0138a9ca19a01e.json",
   "parameterValues" : [ ]
 }
