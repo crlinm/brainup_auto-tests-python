@@ -1,21 +1,36 @@
 {
-  "uid" : "4a19a34379cc1c0d",
+  "uid" : "2a837f35449e5f20",
   "name" : "verify redirection to github not authorized user",
   "fullName" : "tests.main_page_test.TestMainPage#test_mp_06_verify_redirection_to_github",
   "historyId" : "6215605f7f9a95b5329b94248980024e",
   "time" : {
-    "start" : 1706577285360,
-    "stop" : 1706577286798,
-    "duration" : 1438
+    "start" : 1706663707285,
+    "stop" : 1706663708453,
+    "duration" : 1168
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "main_page_open",
+    "time" : {
+      "start" : 1706663704128,
+      "stop" : 1706663707285,
+      "duration" : 3157
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
     "name" : "clear_allure_results_folder",
     "time" : {
-      "start" : 1706577215147,
-      "stop" : 1706577215147,
+      "start" : 1706663648048,
+      "stop" : 1706663648048,
       "duration" : 0
     },
     "status" : "passed",
@@ -24,13 +39,13 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
+    "stepsCount" : 0,
+    "hasContent" : false
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1706577280815,
-      "stop" : 1706577281583,
+      "start" : 1706663703360,
+      "stop" : 1706663704128,
       "duration" : 768
     },
     "status" : "passed",
@@ -39,55 +54,40 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
-  }, {
-    "name" : "main_page_open",
-    "time" : {
-      "start" : 1706577281583,
-      "stop" : 1706577285360,
-      "duration" : 3777
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "Open github page",
       "time" : {
-        "start" : 1706577285360,
-        "stop" : 1706577286798,
-        "duration" : 1438
+        "start" : 1706663707285,
+        "stop" : 1706663708453,
+        "duration" : 1168
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check element is visible and clickable: ('css selector', '#other-menu')",
         "time" : {
-          "start" : 1706577285360,
-          "stop" : 1706577285396,
-          "duration" : 36
+          "start" : 1706663707286,
+          "stop" : 1706663707320,
+          "duration" : 34
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1706577285378,
-            "stop" : 1706577285396,
+            "start" : 1706663707302,
+            "stop" : 1706663707320,
             "duration" : 18
           },
           "status" : "passed",
           "steps" : [ {
             "name" : "Check elements are clickable: ('css selector', '#other-menu')",
             "time" : {
-              "start" : 1706577285378,
-              "stop" : 1706577285396,
+              "start" : 1706663707302,
+              "stop" : 1706663707320,
               "duration" : 18
             },
             "status" : "passed",
@@ -96,8 +96,8 @@
             "parameters" : [ ],
             "attachmentsCount" : 0,
             "shouldDisplayMessage" : false,
-            "hasContent" : false,
-            "stepsCount" : 0
+            "stepsCount" : 0,
+            "hasContent" : false
           } ],
           "attachments" : [ ],
           "parameters" : [ {
@@ -106,36 +106,36 @@
           } ],
           "attachmentsCount" : 0,
           "shouldDisplayMessage" : false,
-          "hasContent" : true,
-          "stepsCount" : 1
+          "stepsCount" : 1,
+          "hasContent" : true
         } ],
         "attachments" : [ ],
         "parameters" : [ ],
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : true,
-        "stepsCount" : 2
+        "stepsCount" : 2,
+        "hasContent" : true
       }, {
         "name" : "Check element is visible and clickable: ('xpath', \"//div[@id='other-menu']//a[2]\")",
         "time" : {
-          "start" : 1706577285423,
-          "stop" : 1706577285453,
-          "duration" : 30
+          "start" : 1706663707348,
+          "stop" : 1706663707377,
+          "duration" : 29
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1706577285438,
-            "stop" : 1706577285453,
-            "duration" : 15
+            "start" : 1706663707363,
+            "stop" : 1706663707377,
+            "duration" : 14
           },
           "status" : "passed",
           "steps" : [ {
             "name" : "Check elements are clickable: ('xpath', \"//div[@id='other-menu']//a[2]\")",
             "time" : {
-              "start" : 1706577285439,
-              "stop" : 1706577285453,
+              "start" : 1706663707363,
+              "stop" : 1706663707377,
               "duration" : 14
             },
             "status" : "passed",
@@ -144,8 +144,8 @@
             "parameters" : [ ],
             "attachmentsCount" : 0,
             "shouldDisplayMessage" : false,
-            "hasContent" : false,
-            "stepsCount" : 0
+            "stepsCount" : 0,
+            "hasContent" : false
           } ],
           "attachments" : [ ],
           "parameters" : [ {
@@ -154,21 +154,21 @@
           } ],
           "attachmentsCount" : 0,
           "shouldDisplayMessage" : false,
-          "hasContent" : true,
-          "stepsCount" : 1
+          "stepsCount" : 1,
+          "hasContent" : true
         } ],
         "attachments" : [ ],
         "parameters" : [ ],
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : true,
-        "stepsCount" : 2
+        "stepsCount" : 2,
+        "hasContent" : true
       }, {
         "name" : "Check url is presence: https://github.com/Brain-up/brn",
         "time" : {
-          "start" : 1706577285954,
-          "stop" : 1706577286795,
-          "duration" : 841
+          "start" : 1706663707791,
+          "stop" : 1706663708418,
+          "duration" : 627
         },
         "status" : "passed",
         "steps" : [ ],
@@ -176,44 +176,44 @@
         "parameters" : [ ],
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "stepsCount" : 0,
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true,
-      "stepsCount" : 7
+      "stepsCount" : 7,
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 8
+    "stepsCount" : 8,
+    "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1706577286799,
-      "stop" : 1706577286918,
-      "duration" : 119
+      "start" : 1706663708454,
+      "stop" : 1706663708613,
+      "duration" : 159
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "8868da487f8b123f",
-      "name" : "Screenshot 2024-01-30 01:14:46.855616",
-      "source" : "8868da487f8b123f.png",
+      "uid" : "b88cb516c5a572b3",
+      "name" : "Screenshot 2024-01-31 01:15:08.549755",
+      "source" : "b88cb516c5a572b3.png",
       "type" : "image/png",
-      "size" : 111332
+      "size" : 89566
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 0
+    "stepsCount" : 0,
+    "hasContent" : true
   } ],
   "labels" : [ {
     "name" : "epic",
@@ -229,10 +229,10 @@
     "value" : "TestMainPage"
   }, {
     "name" : "host",
-    "value" : "fv-az802-90"
+    "value" : "fv-az883-318"
   }, {
     "name" : "thread",
-    "value" : "1795-MainThread"
+    "value" : "1780-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -259,11 +259,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 58,
+        "passed" : 59,
         "unknown" : 0,
-        "total" : 58
+        "total" : 59
       },
       "items" : [ {
+        "uid" : "4a19a34379cc1c0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706577285360,
+          "stop" : 1706577286798,
+          "duration" : 1438
+        }
+      }, {
         "uid" : "b29baecf45d6d69b",
         "status" : "passed",
         "time" : {
@@ -415,18 +423,10 @@
           "stop" : 1704936036396,
           "duration" : 1377
         }
-      }, {
-        "uid" : "b261bcbb9a7677a1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1704849637670,
-          "stop" : 1704849638997,
-          "duration" : 1327
-        }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "4a19a34379cc1c0d.json",
+  "source" : "2a837f35449e5f20.json",
   "parameterValues" : [ ]
 }
