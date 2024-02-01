@@ -1,191 +1,191 @@
 {
-  "uid" : "60b1e7012cf6cc4f",
+  "uid" : "96abfdca3c06e66",
   "name" : "verify redirection to used resources page not authorized user",
   "fullName" : "tests.main_page_test.TestMainPage#test_mp_08_verify_redirection_to_used_resources_page",
   "historyId" : "43df35c0ef3ab6719310f8b9b9ee7530",
   "time" : {
-    "start" : 1706663726789,
-    "stop" : 1706663737038,
-    "duration" : 10249
+    "start" : 1706750382568,
+    "stop" : 1706750392831,
+    "duration" : 10263
   },
   "status" : "broken",
-  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', \"//div[@id='other-menu']//a[7]\")\nStacktrace:\n#0 0x55b5f351ed93 <unknown>\n#1 0x55b5f3202337 <unknown>\n#2 0x55b5f324dd60 <unknown>\n#3 0x55b5f324de51 <unknown>\n#4 0x55b5f3291bc4 <unknown>\n#5 0x55b5f327046d <unknown>\n#6 0x55b5f328f12d <unknown>\n#7 0x55b5f32701e3 <unknown>\n#8 0x55b5f3240135 <unknown>\n#9 0x55b5f324113e <unknown>\n#10 0x55b5f34e2e4b <unknown>\n#11 0x55b5f34e6dfa <unknown>\n#12 0x55b5f34cf6d5 <unknown>\n#13 0x55b5f34e7a6f <unknown>\n#14 0x55b5f34b369f <unknown>\n#15 0x55b5f350c098 <unknown>\n#16 0x55b5f350c262 <unknown>\n#17 0x55b5f351df34 <unknown>\n#18 0x7fcc40494ac3 <unknown>",
-  "statusTrace" : "self = <tests.main_page_test.TestMainPage object at 0x7fdf7de925a0>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"d17a28dccb45bab9a3dd850abb4dd454\")>\nmain_page_open = None\n\n    @allure.title(\"verify redirection to used resources page not authorized user\")\n    def test_mp_08_verify_redirection_to_used_resources_page(self, driver, main_page_open):\n        page = MainPage(driver)\n>       resources_page_url = page.open_used_resources_page()\n\ntests/main_page_test.py:60: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/main_page.py:67: in open_used_resources_page\n    self.element_is_presence_and_clickable(self.locators.USED_RESOURCES_PAGE).click()\npages/base_page.py:29: in element_is_presence_and_clickable\n    return (Wait(self.driver, self.timeout).until(ec.visibility_of_element_located(locator),\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"d17a28dccb45bab9a3dd850abb4dd454\")>\nmethod = <function visibility_of_element_located.<locals>._predicate at 0x7fdf7dd19e40>\nmessage = 'Can\\'t find element by locator (\\'xpath\\', \"//div[@id=\\'other-menu\\']//a[7]\")'\n\n    def until(self, method, message: str = \"\"):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', \"//div[@id='other-menu']//a[7]\")\nE       Stacktrace:\nE       #0 0x55b5f351ed93 <unknown>\nE       #1 0x55b5f3202337 <unknown>\nE       #2 0x55b5f324dd60 <unknown>\nE       #3 0x55b5f324de51 <unknown>\nE       #4 0x55b5f3291bc4 <unknown>\nE       #5 0x55b5f327046d <unknown>\nE       #6 0x55b5f328f12d <unknown>\nE       #7 0x55b5f32701e3 <unknown>\nE       #8 0x55b5f3240135 <unknown>\nE       #9 0x55b5f324113e <unknown>\nE       #10 0x55b5f34e2e4b <unknown>\nE       #11 0x55b5f34e6dfa <unknown>\nE       #12 0x55b5f34cf6d5 <unknown>\nE       #13 0x55b5f34e7a6f <unknown>\nE       #14 0x55b5f34b369f <unknown>\nE       #15 0x55b5f350c098 <unknown>\nE       #16 0x55b5f350c262 <unknown>\nE       #17 0x55b5f351df34 <unknown>\nE       #18 0x7fcc40494ac3 <unknown>\n\n/opt/hostedtoolcache/Python/3.12.1/x64/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:95: TimeoutException",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', \"//div[@id='other-menu']//a[7]\")\nStacktrace:\n#0 0x559a09edfd93 <unknown>\n#1 0x559a09bc3337 <unknown>\n#2 0x559a09c0ed60 <unknown>\n#3 0x559a09c0ee51 <unknown>\n#4 0x559a09c52bc4 <unknown>\n#5 0x559a09c3146d <unknown>\n#6 0x559a09c5012d <unknown>\n#7 0x559a09c311e3 <unknown>\n#8 0x559a09c01135 <unknown>\n#9 0x559a09c0213e <unknown>\n#10 0x559a09ea3e4b <unknown>\n#11 0x559a09ea7dfa <unknown>\n#12 0x559a09e906d5 <unknown>\n#13 0x559a09ea8a6f <unknown>\n#14 0x559a09e7469f <unknown>\n#15 0x559a09ecd098 <unknown>\n#16 0x559a09ecd262 <unknown>\n#17 0x559a09edef34 <unknown>\n#18 0x7fb4dde94ac3 <unknown>",
+  "statusTrace" : "self = <tests.main_page_test.TestMainPage object at 0x7fb168bcf0e0>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"f827cb122442bdf39269d35f7fef894f\")>\nmain_page_open = None\n\n    @allure.title(\"verify redirection to used resources page not authorized user\")\n    def test_mp_08_verify_redirection_to_used_resources_page(self, driver, main_page_open):\n        page = MainPage(driver)\n>       resources_page_url = page.open_used_resources_page()\n\ntests/main_page_test.py:60: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/main_page.py:67: in open_used_resources_page\n    self.element_is_presence_and_clickable(self.locators.USED_RESOURCES_PAGE).click()\npages/base_page.py:29: in element_is_presence_and_clickable\n    return (Wait(self.driver, self.timeout).until(ec.visibility_of_element_located(locator),\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"f827cb122442bdf39269d35f7fef894f\")>\nmethod = <function visibility_of_element_located.<locals>._predicate at 0x7fb168ac1e40>\nmessage = 'Can\\'t find element by locator (\\'xpath\\', \"//div[@id=\\'other-menu\\']//a[7]\")'\n\n    def until(self, method, message: str = \"\"):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', \"//div[@id='other-menu']//a[7]\")\nE       Stacktrace:\nE       #0 0x559a09edfd93 <unknown>\nE       #1 0x559a09bc3337 <unknown>\nE       #2 0x559a09c0ed60 <unknown>\nE       #3 0x559a09c0ee51 <unknown>\nE       #4 0x559a09c52bc4 <unknown>\nE       #5 0x559a09c3146d <unknown>\nE       #6 0x559a09c5012d <unknown>\nE       #7 0x559a09c311e3 <unknown>\nE       #8 0x559a09c01135 <unknown>\nE       #9 0x559a09c0213e <unknown>\nE       #10 0x559a09ea3e4b <unknown>\nE       #11 0x559a09ea7dfa <unknown>\nE       #12 0x559a09e906d5 <unknown>\nE       #13 0x559a09ea8a6f <unknown>\nE       #14 0x559a09e7469f <unknown>\nE       #15 0x559a09ecd098 <unknown>\nE       #16 0x559a09ecd262 <unknown>\nE       #17 0x559a09edef34 <unknown>\nE       #18 0x7fb4dde94ac3 <unknown>\n\n/opt/hostedtoolcache/Python/3.12.1/x64/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:95: TimeoutException",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "main_page_open",
+    "time" : {
+      "start" : 1706750379841,
+      "stop" : 1706750382568,
+      "duration" : 2727
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
     "name" : "clear_allure_results_folder",
     "time" : {
-      "start" : 1706663648048,
-      "stop" : 1706663648048,
+      "start" : 1706750265394,
+      "stop" : 1706750265394,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1706663723032,
-      "stop" : 1706663723802,
-      "duration" : 770
+      "start" : 1706750379067,
+      "stop" : 1706750379840,
+      "duration" : 773
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "main_page_open",
-    "time" : {
-      "start" : 1706663723802,
-      "stop" : 1706663726788,
-      "duration" : 2986
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
+    "hasContent" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
+    "shouldDisplayMessage" : false
   } ],
   "testStage" : {
     "status" : "broken",
-    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', \"//div[@id='other-menu']//a[7]\")\nStacktrace:\n#0 0x55b5f351ed93 <unknown>\n#1 0x55b5f3202337 <unknown>\n#2 0x55b5f324dd60 <unknown>\n#3 0x55b5f324de51 <unknown>\n#4 0x55b5f3291bc4 <unknown>\n#5 0x55b5f327046d <unknown>\n#6 0x55b5f328f12d <unknown>\n#7 0x55b5f32701e3 <unknown>\n#8 0x55b5f3240135 <unknown>\n#9 0x55b5f324113e <unknown>\n#10 0x55b5f34e2e4b <unknown>\n#11 0x55b5f34e6dfa <unknown>\n#12 0x55b5f34cf6d5 <unknown>\n#13 0x55b5f34e7a6f <unknown>\n#14 0x55b5f34b369f <unknown>\n#15 0x55b5f350c098 <unknown>\n#16 0x55b5f350c262 <unknown>\n#17 0x55b5f351df34 <unknown>\n#18 0x7fcc40494ac3 <unknown>",
-    "statusTrace" : "self = <tests.main_page_test.TestMainPage object at 0x7fdf7de925a0>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"d17a28dccb45bab9a3dd850abb4dd454\")>\nmain_page_open = None\n\n    @allure.title(\"verify redirection to used resources page not authorized user\")\n    def test_mp_08_verify_redirection_to_used_resources_page(self, driver, main_page_open):\n        page = MainPage(driver)\n>       resources_page_url = page.open_used_resources_page()\n\ntests/main_page_test.py:60: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/main_page.py:67: in open_used_resources_page\n    self.element_is_presence_and_clickable(self.locators.USED_RESOURCES_PAGE).click()\npages/base_page.py:29: in element_is_presence_and_clickable\n    return (Wait(self.driver, self.timeout).until(ec.visibility_of_element_located(locator),\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"d17a28dccb45bab9a3dd850abb4dd454\")>\nmethod = <function visibility_of_element_located.<locals>._predicate at 0x7fdf7dd19e40>\nmessage = 'Can\\'t find element by locator (\\'xpath\\', \"//div[@id=\\'other-menu\\']//a[7]\")'\n\n    def until(self, method, message: str = \"\"):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', \"//div[@id='other-menu']//a[7]\")\nE       Stacktrace:\nE       #0 0x55b5f351ed93 <unknown>\nE       #1 0x55b5f3202337 <unknown>\nE       #2 0x55b5f324dd60 <unknown>\nE       #3 0x55b5f324de51 <unknown>\nE       #4 0x55b5f3291bc4 <unknown>\nE       #5 0x55b5f327046d <unknown>\nE       #6 0x55b5f328f12d <unknown>\nE       #7 0x55b5f32701e3 <unknown>\nE       #8 0x55b5f3240135 <unknown>\nE       #9 0x55b5f324113e <unknown>\nE       #10 0x55b5f34e2e4b <unknown>\nE       #11 0x55b5f34e6dfa <unknown>\nE       #12 0x55b5f34cf6d5 <unknown>\nE       #13 0x55b5f34e7a6f <unknown>\nE       #14 0x55b5f34b369f <unknown>\nE       #15 0x55b5f350c098 <unknown>\nE       #16 0x55b5f350c262 <unknown>\nE       #17 0x55b5f351df34 <unknown>\nE       #18 0x7fcc40494ac3 <unknown>\n\n/opt/hostedtoolcache/Python/3.12.1/x64/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:95: TimeoutException",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', \"//div[@id='other-menu']//a[7]\")\nStacktrace:\n#0 0x559a09edfd93 <unknown>\n#1 0x559a09bc3337 <unknown>\n#2 0x559a09c0ed60 <unknown>\n#3 0x559a09c0ee51 <unknown>\n#4 0x559a09c52bc4 <unknown>\n#5 0x559a09c3146d <unknown>\n#6 0x559a09c5012d <unknown>\n#7 0x559a09c311e3 <unknown>\n#8 0x559a09c01135 <unknown>\n#9 0x559a09c0213e <unknown>\n#10 0x559a09ea3e4b <unknown>\n#11 0x559a09ea7dfa <unknown>\n#12 0x559a09e906d5 <unknown>\n#13 0x559a09ea8a6f <unknown>\n#14 0x559a09e7469f <unknown>\n#15 0x559a09ecd098 <unknown>\n#16 0x559a09ecd262 <unknown>\n#17 0x559a09edef34 <unknown>\n#18 0x7fb4dde94ac3 <unknown>",
+    "statusTrace" : "self = <tests.main_page_test.TestMainPage object at 0x7fb168bcf0e0>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"f827cb122442bdf39269d35f7fef894f\")>\nmain_page_open = None\n\n    @allure.title(\"verify redirection to used resources page not authorized user\")\n    def test_mp_08_verify_redirection_to_used_resources_page(self, driver, main_page_open):\n        page = MainPage(driver)\n>       resources_page_url = page.open_used_resources_page()\n\ntests/main_page_test.py:60: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/main_page.py:67: in open_used_resources_page\n    self.element_is_presence_and_clickable(self.locators.USED_RESOURCES_PAGE).click()\npages/base_page.py:29: in element_is_presence_and_clickable\n    return (Wait(self.driver, self.timeout).until(ec.visibility_of_element_located(locator),\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"f827cb122442bdf39269d35f7fef894f\")>\nmethod = <function visibility_of_element_located.<locals>._predicate at 0x7fb168ac1e40>\nmessage = 'Can\\'t find element by locator (\\'xpath\\', \"//div[@id=\\'other-menu\\']//a[7]\")'\n\n    def until(self, method, message: str = \"\"):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', \"//div[@id='other-menu']//a[7]\")\nE       Stacktrace:\nE       #0 0x559a09edfd93 <unknown>\nE       #1 0x559a09bc3337 <unknown>\nE       #2 0x559a09c0ed60 <unknown>\nE       #3 0x559a09c0ee51 <unknown>\nE       #4 0x559a09c52bc4 <unknown>\nE       #5 0x559a09c3146d <unknown>\nE       #6 0x559a09c5012d <unknown>\nE       #7 0x559a09c311e3 <unknown>\nE       #8 0x559a09c01135 <unknown>\nE       #9 0x559a09c0213e <unknown>\nE       #10 0x559a09ea3e4b <unknown>\nE       #11 0x559a09ea7dfa <unknown>\nE       #12 0x559a09e906d5 <unknown>\nE       #13 0x559a09ea8a6f <unknown>\nE       #14 0x559a09e7469f <unknown>\nE       #15 0x559a09ecd098 <unknown>\nE       #16 0x559a09ecd262 <unknown>\nE       #17 0x559a09edef34 <unknown>\nE       #18 0x7fb4dde94ac3 <unknown>\n\n/opt/hostedtoolcache/Python/3.12.1/x64/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:95: TimeoutException",
     "steps" : [ {
       "name" : "Open used resources page",
       "time" : {
-        "start" : 1706663726789,
-        "stop" : 1706663737038,
-        "duration" : 10249
+        "start" : 1706750382569,
+        "stop" : 1706750392831,
+        "duration" : 10262
       },
       "status" : "broken",
-      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', \"//div[@id='other-menu']//a[7]\")\nStacktrace:\n#0 0x55b5f351ed93 <unknown>\n#1 0x55b5f3202337 <unknown>\n#2 0x55b5f324dd60 <unknown>\n#3 0x55b5f324de51 <unknown>\n#4 0x55b5f3291bc4 <unknown>\n#5 0x55b5f327046d <unknown>\n#6 0x55b5f328f12d <unknown>\n#7 0x55b5f32701e3 <unknown>\n#8 0x55b5f3240135 <unknown>\n#9 0x55b5f324113e <unknown>\n#10 0x55b5f34e2e4b <unknown>\n#11 0x55b5f34e6dfa <unknown>\n#12 0x55b5f34cf6d5 <unknown>\n#13 0x55b5f34e7a6f <unknown>\n#14 0x55b5f34b369f <unknown>\n#15 0x55b5f350c098 <unknown>\n#16 0x55b5f350c262 <unknown>\n#17 0x55b5f351df34 <unknown>\n#18 0x7fcc40494ac3 <unknown>\n\n",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', \"//div[@id='other-menu']//a[7]\")\nStacktrace:\n#0 0x559a09edfd93 <unknown>\n#1 0x559a09bc3337 <unknown>\n#2 0x559a09c0ed60 <unknown>\n#3 0x559a09c0ee51 <unknown>\n#4 0x559a09c52bc4 <unknown>\n#5 0x559a09c3146d <unknown>\n#6 0x559a09c5012d <unknown>\n#7 0x559a09c311e3 <unknown>\n#8 0x559a09c01135 <unknown>\n#9 0x559a09c0213e <unknown>\n#10 0x559a09ea3e4b <unknown>\n#11 0x559a09ea7dfa <unknown>\n#12 0x559a09e906d5 <unknown>\n#13 0x559a09ea8a6f <unknown>\n#14 0x559a09e7469f <unknown>\n#15 0x559a09ecd098 <unknown>\n#16 0x559a09ecd262 <unknown>\n#17 0x559a09edef34 <unknown>\n#18 0x7fb4dde94ac3 <unknown>\n\n",
       "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.12.1/x64/lib/python3.12/site-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n           ^^^^^^^^^^^^^^\n  File \"/home/runner/work/brainup_auto-tests-python/brainup_auto-tests-python/pages/main_page.py\", line 67, in open_used_resources_page\n    self.element_is_presence_and_clickable(self.locators.USED_RESOURCES_PAGE).click()\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/brainup_auto-tests-python/brainup_auto-tests-python/pages/base_page.py\", line 29, in element_is_presence_and_clickable\n    return (Wait(self.driver, self.timeout).until(ec.visibility_of_element_located(locator),\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.1/x64/lib/python3.12/site-packages/selenium/webdriver/support/wait.py\", line 95, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
       "steps" : [ {
         "name" : "Check element is visible and clickable: ('css selector', '#other-menu')",
         "time" : {
-          "start" : 1706663726789,
-          "stop" : 1706663726824,
-          "duration" : 35
+          "start" : 1706750382569,
+          "stop" : 1706750382607,
+          "duration" : 38
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check element is clickable",
           "time" : {
-            "start" : 1706663726806,
-            "stop" : 1706663726824,
-            "duration" : 18
+            "start" : 1706750382587,
+            "stop" : 1706750382607,
+            "duration" : 20
           },
           "status" : "passed",
           "steps" : [ {
             "name" : "Check elements are clickable: ('css selector', '#other-menu')",
             "time" : {
-              "start" : 1706663726806,
-              "stop" : 1706663726824,
-              "duration" : 18
+              "start" : 1706750382587,
+              "stop" : 1706750382607,
+              "duration" : 20
             },
             "status" : "passed",
             "steps" : [ ],
             "attachments" : [ ],
             "parameters" : [ ],
-            "attachmentsCount" : 0,
-            "shouldDisplayMessage" : false,
             "stepsCount" : 0,
-            "hasContent" : false
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
           } ],
           "attachments" : [ ],
           "parameters" : [ {
             "name" : "locator",
             "value" : "('css selector', '#other-menu')"
           } ],
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false,
           "stepsCount" : 1,
-          "hasContent" : true
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
         } ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 2,
-        "hasContent" : true
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Check element is visible and clickable: ('xpath', \"//div[@id='other-menu']//a[7]\")",
         "time" : {
-          "start" : 1706663726853,
-          "stop" : 1706663737037,
-          "duration" : 10184
+          "start" : 1706750382637,
+          "stop" : 1706750392830,
+          "duration" : 10193
         },
         "status" : "broken",
-        "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', \"//div[@id='other-menu']//a[7]\")\nStacktrace:\n#0 0x55b5f351ed93 <unknown>\n#1 0x55b5f3202337 <unknown>\n#2 0x55b5f324dd60 <unknown>\n#3 0x55b5f324de51 <unknown>\n#4 0x55b5f3291bc4 <unknown>\n#5 0x55b5f327046d <unknown>\n#6 0x55b5f328f12d <unknown>\n#7 0x55b5f32701e3 <unknown>\n#8 0x55b5f3240135 <unknown>\n#9 0x55b5f324113e <unknown>\n#10 0x55b5f34e2e4b <unknown>\n#11 0x55b5f34e6dfa <unknown>\n#12 0x55b5f34cf6d5 <unknown>\n#13 0x55b5f34e7a6f <unknown>\n#14 0x55b5f34b369f <unknown>\n#15 0x55b5f350c098 <unknown>\n#16 0x55b5f350c262 <unknown>\n#17 0x55b5f351df34 <unknown>\n#18 0x7fcc40494ac3 <unknown>\n\n",
+        "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', \"//div[@id='other-menu']//a[7]\")\nStacktrace:\n#0 0x559a09edfd93 <unknown>\n#1 0x559a09bc3337 <unknown>\n#2 0x559a09c0ed60 <unknown>\n#3 0x559a09c0ee51 <unknown>\n#4 0x559a09c52bc4 <unknown>\n#5 0x559a09c3146d <unknown>\n#6 0x559a09c5012d <unknown>\n#7 0x559a09c311e3 <unknown>\n#8 0x559a09c01135 <unknown>\n#9 0x559a09c0213e <unknown>\n#10 0x559a09ea3e4b <unknown>\n#11 0x559a09ea7dfa <unknown>\n#12 0x559a09e906d5 <unknown>\n#13 0x559a09ea8a6f <unknown>\n#14 0x559a09e7469f <unknown>\n#15 0x559a09ecd098 <unknown>\n#16 0x559a09ecd262 <unknown>\n#17 0x559a09edef34 <unknown>\n#18 0x7fb4dde94ac3 <unknown>\n\n",
         "statusTrace" : "  File \"/home/runner/work/brainup_auto-tests-python/brainup_auto-tests-python/pages/base_page.py\", line 29, in element_is_presence_and_clickable\n    return (Wait(self.driver, self.timeout).until(ec.visibility_of_element_located(locator),\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.1/x64/lib/python3.12/site-packages/selenium/webdriver/support/wait.py\", line 95, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : true,
         "stepsCount" : 0,
-        "hasContent" : true
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 4,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ {
-      "uid" : "8292500b5afb745",
+      "uid" : "cda2e234f7f48290",
       "name" : "Screenshot",
-      "source" : "8292500b5afb745.png",
+      "source" : "cda2e234f7f48290.png",
       "type" : "image/png",
       "size" : 213737
     }, {
-      "uid" : "b83418aa1dbec38",
+      "uid" : "41334007fdbefc15",
       "name" : "HTML source",
-      "source" : "b83418aa1dbec38.html",
+      "source" : "41334007fdbefc15.html",
       "type" : "text/html",
       "size" : 167765
     } ],
     "parameters" : [ ],
-    "attachmentsCount" : 2,
-    "shouldDisplayMessage" : true,
     "stepsCount" : 5,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1706663737222,
-      "stop" : 1706663737442,
-      "duration" : 220
+      "start" : 1706750393015,
+      "stop" : 1706750393237,
+      "duration" : 222
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "8d052657f9896f9f",
-      "name" : "Screenshot 2024-01-31 01:15:37.383097",
-      "source" : "8d052657f9896f9f.png",
+      "uid" : "4acc6dfcf331092",
+      "name" : "Screenshot 2024-02-01 01:19:53.176074",
+      "source" : "4acc6dfcf331092.png",
       "type" : "image/png",
       "size" : 213737
     } ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "epic",
@@ -201,10 +201,10 @@
     "value" : "TestMainPage"
   }, {
     "name" : "host",
-    "value" : "fv-az883-318"
+    "value" : "fv-az1215-353"
   }, {
     "name" : "thread",
-    "value" : "1780-MainThread"
+    "value" : "1895-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -233,13 +233,22 @@
     "history" : {
       "statistic" : {
         "failed" : 0,
-        "broken" : 14,
+        "broken" : 15,
         "skipped" : 0,
         "passed" : 45,
         "unknown" : 0,
-        "total" : 59
+        "total" : 60
       },
       "items" : [ {
+        "uid" : "60b1e7012cf6cc4f",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', \"//div[@id='other-menu']//a[7]\")\nStacktrace:\n#0 0x55b5f351ed93 <unknown>\n#1 0x55b5f3202337 <unknown>\n#2 0x55b5f324dd60 <unknown>\n#3 0x55b5f324de51 <unknown>\n#4 0x55b5f3291bc4 <unknown>\n#5 0x55b5f327046d <unknown>\n#6 0x55b5f328f12d <unknown>\n#7 0x55b5f32701e3 <unknown>\n#8 0x55b5f3240135 <unknown>\n#9 0x55b5f324113e <unknown>\n#10 0x55b5f34e2e4b <unknown>\n#11 0x55b5f34e6dfa <unknown>\n#12 0x55b5f34cf6d5 <unknown>\n#13 0x55b5f34e7a6f <unknown>\n#14 0x55b5f34b369f <unknown>\n#15 0x55b5f350c098 <unknown>\n#16 0x55b5f350c262 <unknown>\n#17 0x55b5f351df34 <unknown>\n#18 0x7fcc40494ac3 <unknown>",
+        "time" : {
+          "start" : 1706663726789,
+          "stop" : 1706663737038,
+          "duration" : 10249
+        }
+      }, {
         "uid" : "24e2e49aa37da669",
         "status" : "broken",
         "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: Can't find element by locator ('xpath', \"//div[@id='other-menu']//a[7]\")\nStacktrace:\n#0 0x55bdf79def83 <unknown>\n#1 0x55bdf7697cf7 <unknown>\n#2 0x55bdf76e799e <unknown>\n#3 0x55bdf76e7aa1 <unknown>\n#4 0x55bdf7732d64 <unknown>\n#5 0x55bdf77110dd <unknown>\n#6 0x55bdf7730006 <unknown>\n#7 0x55bdf7710e53 <unknown>\n#8 0x55bdf76d8dd4 <unknown>\n#9 0x55bdf76da1de <unknown>\n#10 0x55bdf79a3531 <unknown>\n#11 0x55bdf79a7455 <unknown>\n#12 0x55bdf798ff55 <unknown>\n#13 0x55bdf79a80ef <unknown>\n#14 0x55bdf797399f <unknown>\n#15 0x55bdf79cc008 <unknown>\n#16 0x55bdf79cc1d7 <unknown>\n#17 0x55bdf79de124 <unknown>\n#18 0x7f0a6c094ac3 <unknown>",
@@ -404,18 +413,10 @@
           "stop" : 1705022471095,
           "duration" : 136
         }
-      }, {
-        "uid" : "89f5934bb4d0e82",
-        "status" : "passed",
-        "time" : {
-          "start" : 1704936044128,
-          "stop" : 1704936044264,
-          "duration" : 136
-        }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "60b1e7012cf6cc4f.json",
+  "source" : "96abfdca3c06e66.json",
   "parameterValues" : [ ]
 }
